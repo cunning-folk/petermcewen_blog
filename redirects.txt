@@ -1,0 +1,27 @@
+# Redirects are not automagically added to S3, but this file serves as a structure example and should be updated as redirects are implemented.
+
+<RoutingRules>
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>old-example</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <Protocol>https</Protocol>
+      <HostName>yassss.dev</HostName>
+      <ReplaceKeyPrefixWith>new-example</ReplaceKeyPrefixWith>
+      <HttpRedirectCode>301</HttpRedirectCode>
+    </Redirect>
+  </RoutingRule>
+  
+  <RoutingRule>
+    <Condition>
+      <KeyPrefixEquals>old-example</KeyPrefixEquals>
+    </Condition>
+    <Redirect>
+      <Protocol>https</Protocol>
+      <HostName>subdomain.yassss.dev</HostName>
+      <ReplaceKeyPrefixWith>new-example</ReplaceKeyPrefixWith>
+      <HttpRedirectCode>301</HttpRedirectCode>
+    </Redirect>
+  </RoutingRule>
+</RoutingRules>

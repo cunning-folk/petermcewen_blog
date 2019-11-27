@@ -1,0 +1,14 @@
+<form id="contact_form" action="https://formcarry.com/s/{{ site.formcarry_form_id }}" method="POST">
+  <input type="hidden" name="_subject" value="A lovely email from your website!" />
+  <input type="text" name="_gotcha" style="display:none" />
+  <p class="clear">
+    <label for="reply_email">Your email:</label>
+    <input id="reply_email" type="email" placeholder="Your email address" name="email" data-validates="presence email" />
+  </p>
+  <p class="clear">
+    <label for="message">Message:</label>
+    <textarea id="message" placeholder="Your message" name="message" data-validates="presence"></textarea>
+    <a href="#send" class="button reverse submit contact-submit">Send message</a>
+  </p>
+  <input type="submit" value="Send" style="display:none">
+</form>

@@ -1,0 +1,18 @@
+<div class="sign-up-holder holder{% unless page.css_hook == 'sign-up' %} hidden{% endunless %}">
+  <header class="header">
+    <h1>About {{ site.title }}</h1>
+  </header>
+
+  <div class="content">
+
+    <div class="form-holder">
+      {% include sign_up_form.html %}
+    </div>
+
+    <div class="message" style="display:none">
+      <p>Thank you!</p>
+      <p>We have added your email address to our infrequent mailing list. You may unsubscribe at any time.</p>
+    </div>
+
+  </div>
+</div>

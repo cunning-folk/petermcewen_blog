@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  {% include head.html %}
+  <body{% if page.css_hook %} class="{{ page.css_hook }}"{% endif %} data-base-site-title="{{ site.title }}{% if site.subtitle %} | {{ site.subtitle }}{% endif %}">
+
+    {% include navigation.html %}
+
+    <div id="content_container">
+
+      <div id="main_content" class="{% unless page.css_hook == 'index' %}open {% endunless %}clear">
+
+        {% include about.html %}
+        {% include contact.html %}
+        {% include sign_up.html %}
+
+      </div>
+
+    </div>
+
+    {% include bottom.html %}
+  </body>
+</html>
