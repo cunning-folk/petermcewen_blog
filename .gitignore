@@ -1,6 +1,7 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-node_modules
+*.log
+_config.yml
+_site/
+.jekyll-cache/
+log/
+.bundle/
+node_modules/
