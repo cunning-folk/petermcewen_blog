@@ -13,8 +13,8 @@ jobs:
           JEKYLL_ENV: production
 
     environment:
-      URL_PROD: yassss.demo
-      URL_STAGING: staging.yassss.demo
+      URL_PROD: blog.petermcewen.com
+      URL_STAGING: blog.petermcewen.com
 
     steps:
       - checkout
@@ -90,10 +90,10 @@ jobs:
       - image: circleci/python:3.6.3
 
     environment:
-      S3_BUCKET_NAME_PROD: yassss.demo
-      S3_BUCKET_NAME_STAGING: yassss.demo
-      URL_PROD: yassss.demo
-      URL_STAGING: staging.yassss.demo
+      S3_BUCKET_NAME_PROD: petermcewen.com-static
+      S3_BUCKET_NAME_STAGING: petermcewen.com-static
+      URL_PROD: blog.petermcewen.com
+      URL_STAGING: blog.petermcewen.com
 
     steps:
       - attach_workspace:
@@ -106,7 +106,7 @@ jobs:
       - run:
           name: Deploy to production/staging
           command: |
-            if [ "${CIRCLE_BRANCH}" == "production" ]; then
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
                 ~/.local/bin/aws s3 sync ./_site s3://$S3_BUCKET_NAME_PROD/ --delete --acl public-read
             elif [ "${CIRCLE_BRANCH}" == "staging" ]; then
                 ~/.local/bin/aws s3 sync ./_site s3://$S3_BUCKET_NAME_STAGING/ --delete --acl public-read
@@ -126,4 +126,3 @@ workflows:
                 - production
                 - staging
                 - master
-
