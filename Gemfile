@@ -12,6 +12,7 @@ gem "sprockets", "~> 3.7"
 
 # other plugins
 gem 'jekyll-sitemap'
+gem 'jekyll-feed'
 
 # testing
 gem 'html-proofer'
