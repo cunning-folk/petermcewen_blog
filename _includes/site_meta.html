@@ -3,7 +3,8 @@
 <meta content="website" property="og:type">
 <meta content="{{ site.url }}{% asset fb-image.png @path %}" property="og:image">
 <meta content="{{ page.url | replace:'index.html','' | prepend: site.url }}" property="og:url">
-<meta content="{{ site.meta_description }}" property="og:description">
+<meta content="{{ site.description }}" property="og:description">
 {% if site.fb_app_id %}<meta content="{{ site.fb_app_id }}" property="fb:app_id">{% endif %}
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}" data-proofer-ignore />
 {% if page.sitemap == false or page.index == false or site.block_indexing == true %}<meta name="robots" content="noindex, nofollow">{% endif %}
+{% feed_meta %}

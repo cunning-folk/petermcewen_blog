@@ -81,7 +81,7 @@ body {
 }
 
 a {
-  @include link-handler($black, $offBlack, null, true, null, false);
+  @include link-handler($black, $black, null, true, null, false);
 }
 
 h1 {

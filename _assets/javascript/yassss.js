@@ -1,4 +1,3 @@
-//= require ./vendor/gb-validations
 //= require ./shared
 //= require ./sections
 

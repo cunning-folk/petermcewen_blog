@@ -1,5 +1,5 @@
-# Info about {{ site.title }}
+# Contact for {{ site.title }}
 
-I am About content.
+Don’t contact me.
 
 You can **use [Markdown](https://daringfireball.net/projects/markdown/syntax)** here.
