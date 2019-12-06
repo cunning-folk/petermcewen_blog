@@ -6,15 +6,12 @@
 // ============================================================================================
 
 // Import webfonts
-
 // Import vendor styles/helpers
 @import "vendor/bourbon/bourbon";
 @import "vendor/normalize";
-
 // Import the shared styles
 @import "shared/mixins";
 @import "shared/colors";
 @import "shared/typography";
-
 // Import the section styles
 @import "sections/contact";
