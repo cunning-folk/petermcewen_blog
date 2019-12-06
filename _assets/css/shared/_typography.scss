@@ -88,6 +88,7 @@ a {
 
 h1 {
   @include type-big(true);
+  font-family: $font-stack-garamond;
   font-weight: 700;
 }
 
