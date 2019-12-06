@@ -76,6 +76,7 @@ $body: $font-stack-peter;
 body {
   color: $black;
   font-family: $font-stack-peter;
+  letter-spacing: 0.05rem;
   font-weight: 400;
   @include type-normal;
 }
