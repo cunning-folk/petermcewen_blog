@@ -10,6 +10,22 @@ $body: $font-stack-peter;
   margin: auto;
 }
 
+.outer-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .content-container {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+
+    .article {
+      background-color: $white;
+    }
+  }
+}
+
 @mixin type-size(
   $size: 12,
   $lineHeight: 1.27,
