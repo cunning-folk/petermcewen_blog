@@ -6,9 +6,16 @@
 }
 
 @font-face {
+  font-family: "Geograph-bold";
+  src: asset_url("geograph-bold.woff") format("woff");
+}
+
+@font-face {
   font-family: "FoundersGrotText-Regular";
   src: asset_url("FoundersGrotText-Regular.woff") format("woff");
 }
+
+
 
 /// A variable that outputs a Peter font stack.
 ///
