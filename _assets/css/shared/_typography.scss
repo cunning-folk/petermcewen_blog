@@ -99,13 +99,14 @@ h1 {
 
 h2 {
   @include type-medium;
-  font-family: geograph-medium, sans-serif;
+  font-family: GT-America-Extended-Medium, sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
 h4 {
-  @include type-medium;
-  font-family: geograph-medium, sans-serif;
+  @include type-normal;
+  font-family: GT-America-Extended-Medium, sans-serif;
+  color: rgba(255, 72, 72, 0.87);
   -webkit-font-smoothing: subpixel-antialiased;
 }
 

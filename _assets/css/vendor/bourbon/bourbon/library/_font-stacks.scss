@@ -6,6 +6,11 @@
 }
 
 @font-face {
+  font-family: "GT-America-Extended-Medium";
+  src: asset_url("GT-America-Extended-Medium.WOFF") format("woff");
+}
+
+@font-face {
   font-family: "Geograph-bold";
   src: asset_url("geograph-bold.woff") format("woff");
 }
@@ -24,6 +29,8 @@
   font-family: "Pitch-Regular";
   src: asset_url("Pitch-Regular.woff") format("woff");
 }
+
+
 
 /// A variable that outputs a Peter font stack.
 ///
