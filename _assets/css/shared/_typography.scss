@@ -5,9 +5,13 @@ $body: $font-stack-peter;
 * Regular (400)
 * Bold (700)
 ------------------- */
+.index {
+  max-width: 1500px;
+  margin: auto;
+}
 
 @mixin type-size(
-  $size: 14,
+  $size: 12,
   $lineHeight: 1.5,
   $margin: false
 ) {
