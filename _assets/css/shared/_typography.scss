@@ -92,13 +92,13 @@ a {
 
 h1 {
   @include type-big(true);
-  font-family: geograph-bold, sans-serif;
+  font-family: geograph-medium, sans-serif;
   font-weight: 700;
 }
 
 h2 {
   @include type-medium;
-  font-family: geograph-bold, sans-serif;
+  font-family: geograph-medium, sans-serif;
 }
 
 p {
