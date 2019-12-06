@@ -120,6 +120,7 @@ p {
   em, i {
     font-style: italic;
     letter-spacing: -0.04em;
+    -webkit-font-smoothing: subpixel-antialiased;
   }
 }
 
