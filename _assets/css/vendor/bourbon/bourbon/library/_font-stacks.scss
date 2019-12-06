@@ -1,5 +1,27 @@
 @charset "UTF-8";
 
+/// A variable that outputs a Peter font stack.
+///
+/// @link
+//
+/// @type list
+///
+/// @example scss
+///   .element {
+///     font-family: $font-stack-peter;
+///   }
+///
+///   // CSS Output
+///   .element {
+///     font-family: "GT-Walsheim-Pro-Light, sans-serif;
+///   }
+
+$font-stack-peter: (
+  "GT-Walsheim-Pro-Light",
+  sans-serif,
+);
+
+
 /// A variable that outputs a Helvetica font stack.
 ///
 /// @link https://goo.gl/uSJvZe
@@ -22,6 +44,7 @@ $font-stack-helvetica: (
   "Arial",
   sans-serif,
 );
+
 
 /// A variable that outputs a Lucida Grande font stack.
 ///
@@ -84,6 +107,7 @@ $font-stack-verdana: (
 ///   }
 
 $font-stack-system: (
+  GT-Walsheim-Pro-Light,
   system-ui,
   -apple-system,
   BlinkMacSystemFont,
