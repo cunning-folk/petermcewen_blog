@@ -62,7 +62,7 @@ $body: $font-stack-peter;
 
 // specific type styles
 @mixin type-big($margin: false) {
-  @include type-size(42, 1.25, $margin);
+  @include type-size(30, 1.25, $margin);
 }
 
 @mixin type-normal($margin: false) {
