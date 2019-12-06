@@ -1,13 +1,28 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "GT-Walsheim-Pro-Light";
-  src: asset_url("GT-Walsheim-Pro-Light.woff") format("woff");
+  font-family: "Pitch-Light";
+  src: asset_url("Pitch-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geograph-bold";
+  src: asset_url("geograph-bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Geograph-medium";
+  src: asset_url("geograph-medium.woff") format("woff");
 }
 
 @font-face {
   font-family: "FoundersGrotText-Regular";
   src: asset_url("FoundersGrotText-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Pitch-Regular";
+  src: asset_url("Pitch-Regular.woff") format("woff");
 }
 
 /// A variable that outputs a Peter font stack.
@@ -23,10 +38,11 @@
 ///
 ///   // CSS Output
 ///   .element {
-///     font-family: "FoundersGrotText-Regular", sans-serif;
+///     font-family: "Pitch-Regular", "FoundersGrotText-Regular", sans-serif;
 ///   }
 
 $font-stack-peter: (
+  "Pitch-Regular",
   "FoundersGrotText-Regular",
   sans-serif,
 );
