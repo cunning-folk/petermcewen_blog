@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: "GT-Walsheim-Pro-Light";
+  src: asset_url("GT-Walsheim-Pro-Light.woff") format("woff");
+}
+
 /// A variable that outputs a Peter font stack.
 ///
 /// @link
@@ -13,7 +18,7 @@
 ///
 ///   // CSS Output
 ///   .element {
-///     font-family: "GT-Walsheim-Pro-Light, sans-serif;
+///     font-family: "GT-Walsheim-Pro-Light", sans-serif;
 ///   }
 
 $font-stack-peter: (
