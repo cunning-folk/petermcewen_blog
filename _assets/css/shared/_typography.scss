@@ -22,7 +22,7 @@ $body: $font-stack-peter;
   .content-container {
     display: block;
     width: 100%;
-    max-width: 700px;
+    max-width: 600px;
 
     .article {
       background-color: $white;
@@ -32,7 +32,7 @@ $body: $font-stack-peter;
 
 @mixin type-size(
   $size: 12,
-  $lineHeight: 1.27,
+  $lineHeight: 1.1,
   $margin: false
 ) {
   @if $margin {
