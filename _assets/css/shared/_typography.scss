@@ -1,15 +1,13 @@
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ typography defaults
-$body: $font-stack-system;
+$body: $font-stack-peter;
 
 /* Typography Bible -------------------
-
 * Regular (400)
 * Bold (700)
-
 ------------------- */
 
 @mixin type-size(
-  $size: 16,
+  $size: 14,
   $lineHeight: 1.5,
   $margin: false
 ) {
@@ -69,7 +67,7 @@ $body: $font-stack-system;
 
 body {
   color: $black;
-  font-family: $body;
+  font-family: $font-stack-peter;
   font-weight: 400;
   @include type-normal;
 }
