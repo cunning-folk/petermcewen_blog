@@ -103,6 +103,12 @@ h2 {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
+h4 {
+  @include type-medium;
+  font-family: geograph-medium, sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
 p {
   @include type-normal(true);
 
