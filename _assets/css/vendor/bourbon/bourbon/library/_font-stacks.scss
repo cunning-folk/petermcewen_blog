@@ -20,6 +20,11 @@
   src: asset_url("FoundersGrotText-Regular.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Pitch-Regular";
+  src: asset_url("Pitch-Regular.woff") format("woff");
+}
+
 /// A variable that outputs a Peter font stack.
 ///
 /// @link
@@ -33,11 +38,11 @@
 ///
 ///   // CSS Output
 ///   .element {
-///     font-family: "Pitch-Light", "FoundersGrotText-Regular", sans-serif;
+///     font-family: "Pitch-Regular", "FoundersGrotText-Regular", sans-serif;
 ///   }
 
 $font-stack-peter: (
-  "Pitch-Light",
+  "Pitch-Regular",
   "FoundersGrotText-Regular",
   "GT-Walsheim-Pro-Light",
   sans-serif,
