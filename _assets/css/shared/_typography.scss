@@ -62,11 +62,15 @@ $body: $font-stack-peter;
 
 // specific type styles
 @mixin type-big($margin: false) {
-  @include type-size(42, 1.25, $margin);
+  @include type-size(30, 1.25, $margin);
+}
+
+@mixin type-medium($margin: false) {
+  @include type-size(20, 1.25, $margin);
 }
 
 @mixin type-normal($margin: false) {
-  @include type-size(24, 1.25, $margin);
+  @include type-size(16, 1.25, $margin);
 }
 
 body {
@@ -88,11 +92,12 @@ a {
 
 h1 {
   @include type-big(true);
+  font-family: FoundersGrotText-Regular, sans-serif;
   font-weight: 700;
 }
 
 h2 {
-  @include type-big;
+  @include type-medium;
 }
 
 p {
