@@ -66,11 +66,11 @@ $body: $font-stack-peter;
 }
 
 @mixin type-medium($margin: false) {
-  @include type-size(20, 1.25, $margin);
+  @include type-size(18, 1.25, $margin);
 }
 
 @mixin type-normal($margin: false) {
-  @include type-size(16, 1.25, $margin);
+  @include type-size(14, 1.25, $margin);
 }
 
 body {
@@ -100,13 +100,14 @@ h1 {
 h2 {
   @include type-medium;
   font-family: GT-America-Extended-Medium, sans-serif;
+  color: $red;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
 h4 {
   @include type-normal;
   font-family: GT-America-Extended-Medium, sans-serif;
-  color: rgba(255, 72, 72, 0.87);
+  color: $red;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
