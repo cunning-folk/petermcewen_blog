@@ -6,11 +6,6 @@
 }
 
 @font-face {
-  font-family: "GT-Walsheim-Pro-Light";
-  src: asset_url("GT-Walsheim-Pro-Light.woff") format("woff");
-}
-
-@font-face {
   font-family: "FoundersGrotText-Regular";
   src: asset_url("FoundersGrotText-Regular.woff") format("woff");
 }
@@ -28,7 +23,7 @@
 ///
 ///   // CSS Output
 ///   .element {
-///     font-family: "Pitch-Light", "FoundersGrotText-Regular","GT-Walsheim-Pro-Light", sans-serif;
+///     font-family: "Pitch-Light", "FoundersGrotText-Regular", sans-serif;
 ///   }
 
 $font-stack-peter: (
