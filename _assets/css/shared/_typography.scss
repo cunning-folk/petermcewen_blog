@@ -62,7 +62,7 @@ $body: $font-stack-peter;
 
 // specific type styles
 @mixin type-big($margin: false) {
-  @include type-size(30, 1.25, $margin);
+  @include type-size(32, 1.25, $margin);
 }
 
 @mixin type-medium($margin: false) {
@@ -93,8 +93,8 @@ a {
 
 h1 {
   @include type-big(true);
-  font-family: geograph-medium, sans-serif;
-  font-weight: 700;
+  font-family: Geograph-medium, sans-serif;
+  font-weight: 400;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -109,6 +109,7 @@ h4 {
   @include type-normal;
   font-family: GT-America-Extended-Medium, sans-serif;
   color: $red;
+  letter-spacing: 0.04rem;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
