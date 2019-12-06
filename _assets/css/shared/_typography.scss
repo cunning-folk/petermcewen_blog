@@ -106,6 +106,7 @@ p {
 
   &:last-child {
     margin-bottom: 0;
+    -webkit-font-smoothing: subpixel-antialiased;
   }
 
   em, i {
