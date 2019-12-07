@@ -10,6 +10,7 @@ $body: $font-stack-peter;
   max-width: 1500px;
   margin: auto;
   padding: 20px;
+  background-color: $grey;
 }
 
 /* Container CSS from GB -------------------
@@ -20,12 +21,12 @@ $body: $font-stack-peter;
   display: flex;
   justify-content: center;
   width: 100%;
-  color: $grey;
 
   .content-container {
     display: block;
     width: 100%;
     max-width: 600px;
+    background-color: $white;
 
     .article {
       background-color: $white;
