@@ -5,6 +5,7 @@ $body: $font-stack-peter;
 * Regular (400)
 * Bold (700)
 ------------------- */
+
 .index {
   max-width: 1500px;
   margin: auto;
@@ -19,6 +20,7 @@ $body: $font-stack-peter;
   display: flex;
   justify-content: center;
   width: 100%;
+  color: $grey;
 
   .content-container {
     display: block;
