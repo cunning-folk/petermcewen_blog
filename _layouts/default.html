@@ -2,14 +2,18 @@
 <html lang='en'>
 
   {% include head.html %}
-  
+
  <div class="outer-container">
    <div class="content-container">
-      <body{% if page.css_hook %} class="{{ page.css_hook }}"{% endif %}>
-      {% include navigation.html %}
-       <hr>
-      {{ content }}
-      {% include bottom.html %}
+        <body{% if page.css_hook %} class="{{ page.css_hook }}"{% endif %}>
+        {% include navigation.html %}
+         <hr>
+         <div class="header">
+           
+         </div>
+         {{ content }}
+         {% include bottom.html %}
+
       </body>
    </div
  </div>

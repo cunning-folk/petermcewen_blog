@@ -6,37 +6,6 @@ $body: $font-stack-peter;
 * Bold (700)
 ------------------- */
 
-.index {
-  max-width: 1500px;
-  margin: auto;
-  padding: 20px;
-  background-color: $grey;
-}
-
-/* Container CSS from GB -------------------
-
-------------------- */
-
-.outer-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-
-  .content-container {
-    display: block;
-    width: 100%;
-    max-width: 600px;
-    max-height: inherit;
-    background-color: $white;
-    padding: 25px 10px 25px 10px;
-    height: 100vh;
-
-    .article {
-      background-color: $white;
-    }
-  }
-}
-
 @mixin type-size(
   $size: 12,
   $lineHeight: 1.1,
@@ -98,6 +67,43 @@ $body: $font-stack-peter;
 
 @mixin type-normal($margin: false) {
   @include type-size(14, 1.25, $margin);
+}
+
+.index {
+  max-width: 1500px;
+  margin: auto;
+  padding: 20px;
+  background-color: $grey;
+}
+
+/* Container CSS from GB -------------------
+------------------- */
+
+.outer-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .content-container {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    max-height: inherit;
+    background-color: $white;
+    padding: 25px 10px 25px 10px;
+    height: 100vh;
+
+    .header {
+      display: block;
+      background-color: $red;
+      height: 50px;
+      margin-bottom: 10px;
+
+      .article {
+        background-color: $white;
+      }
+    }
+  }
 }
 
 body {
