@@ -25,8 +25,6 @@
   src: asset_url("geograph-regular.woff") format("woff");
 }
 
-
-
 @font-face {
   font-family: "FoundersGrotText-Regular";
   src: asset_url("FoundersGrotText-Regular.woff") format("woff");
@@ -37,7 +35,10 @@
   src: asset_url("Pitch-Regular.woff") format("woff");
 }
 
-
+@font-face {
+  font-family: "GT-America-Regular";
+  src: asset_url("GT-America-Regular.WOFF") format("woff");
+}
 
 /// A variable that outputs a Peter font stack.
 ///
@@ -56,11 +57,10 @@
 ///   }
 
 $font-stack-peter: (
-  "Pitch-Regular",
+  "GT-America-Regular",
   "FoundersGrotText-Regular",
   sans-serif,
 );
-
 
 /// A variable that outputs a Helvetica font stack.
 ///
@@ -82,53 +82,6 @@ $font-stack-helvetica: (
   "Helvetica Neue",
   "Helvetica",
   "Arial",
-  sans-serif,
-);
-
-
-/// A variable that outputs a Lucida Grande font stack.
-///
-/// @link https://goo.gl/R5UyYE
-///
-/// @type list
-///
-/// @example scss
-///   .element {
-///     font-family: $font-stack-lucida-grande;
-///   }
-///
-///   // CSS Output
-///   .element {
-///     font-family: "Lucida Grande", "Lucida Sans Unicode", "Geneva", "Verdana", sans-serif;
-///   }
-
-$font-stack-lucida-grande: (
-  "Lucida Grande",
-  "Lucida Sans Unicode",
-  "Geneva",
-  "Verdana",
-  sans-serif,
-);
-
-/// A variable that outputs a Verdana font stack.
-///
-/// @link https://goo.gl/yGXWSS
-///
-/// @type list
-///
-/// @example scss
-///   .element {
-///     font-family: $font-stack-verdana;
-///   }
-///
-///   // CSS Output
-///   .element {
-///     font-family: "Verdana", "Geneva", sans-serif;
-///   }
-
-$font-stack-verdana: (
-  "Verdana",
-  "Geneva",
   sans-serif,
 );
 
@@ -169,53 +122,6 @@ $font-stack-system: (
   sans-serif,
 );
 
-/// A variable that outputs a Garamond font stack.
-///
-/// @link https://goo.gl/QQFEkV
-///
-/// @type list
-///
-/// @example scss
-///   .element {
-///     font-family: $font-stack-garamond;
-///   }
-///
-///   // CSS Output
-///   .element {
-///     font-family: "Garamond", "Baskerville", "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
-///   }
-
-$font-stack-garamond: (
-  "Garamond",
-  "Baskerville",
-  "Baskerville Old Face",
-  "Hoefler Text",
-  "Times New Roman",
-  serif,
-);
-
-/// A variable that outputs a Georgia font stack.
-///
-/// @link https://goo.gl/wtzVPy
-///
-/// @type list
-///
-/// @example scss
-///   .element {
-///     font-family: $font-stack-georgia;
-///   }
-///
-///   // CSS Output
-///   .element {
-///     font-family: "Georgia", "Times", "Times New Roman", serif;
-///   }
-
-$font-stack-georgia: (
-  "Georgia",
-  "Times",
-  "Times New Roman",
-  serif,
-);
 
 /// A variable that outputs a Hoefler Text font stack.
 ///
