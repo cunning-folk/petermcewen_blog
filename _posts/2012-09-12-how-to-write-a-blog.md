@@ -1,6 +1,6 @@
-
 ---
-permalink: /Recognize/
+layout: post
+title:  "Welcome to Jekyll!"
 ---
 #### Recognize!
 

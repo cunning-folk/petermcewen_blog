@@ -69,6 +69,8 @@ $body: $font-stack-peter;
   @include type-size(14, 1.25, $margin);
 }
 
+/* Container CSS from GB ------------ */
+
 .index {
   max-width: 1500px;
   margin: auto;
@@ -80,9 +82,6 @@ img, svg {
   display: block;
   width: 100%;
 }
-
-/* Container CSS from GB -------------------
-------------------- */
 
 .outer-container {
   display: flex;

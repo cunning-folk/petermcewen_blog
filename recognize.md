@@ -1,6 +1,6 @@
 
 ---
-permalink: /Recognize/
+permalink: /recognize/
 ---
 #### Recognize!
 
