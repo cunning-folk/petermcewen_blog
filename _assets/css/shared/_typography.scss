@@ -76,6 +76,11 @@ $body: $font-stack-peter;
   background-color: $grey;
 }
 
+img, svg {
+  display: block;
+  width: 100%;
+}
+
 /* Container CSS from GB -------------------
 ------------------- */
 
@@ -93,15 +98,8 @@ $body: $font-stack-peter;
     padding: 25px 10px 25px 10px;
     height: 100vh;
 
-    .header {
-      display: block;
-      background-color: $red;
-      height: 50px;
-      margin-bottom: 10px;
-
-      .article {
-        background-color: $white;
-      }
+    .article {
+      background-color: $white;
     }
   }
 }
