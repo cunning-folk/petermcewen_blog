@@ -1,0 +1,21 @@
+
+.outer-container {
+  .content-container {
+    .header {
+      display: block;
+      width: 6%;
+      margin-bottom: 10px;
+      margin-top: 10px;
+
+      svg {
+        path {
+          fill: $black;
+
+          &.cls-1 {
+            fill: $white;
+          }
+        }
+      }
+    }
+  }
+}
