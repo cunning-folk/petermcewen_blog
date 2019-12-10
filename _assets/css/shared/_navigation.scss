@@ -1,4 +1,44 @@
-nav {
+.nav {
   display: block;
   float: left;
+  outline-color: $red;
+}
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  line-height: 40px;
+  height: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: $red;
+  display: block;
+  transition: 0.3s background-color;
+}
+
+.nav a:hover {
+  background-color: $white;
+}
+
+.nav a.active {
+  color: $black;
+  cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 30px;
+    line-height: 50px;
+    display: inline-block;
+    margin-right: -4px;
+  }
 }

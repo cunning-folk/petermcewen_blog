@@ -6,17 +6,14 @@
  <div class="outer-container">
    <div class="content-container">
         <body{% if page.css_hook %} class="{{ page.css_hook }}"{% endif %}>
-
-
           <div class="header">
-           {% include svg/rabbit.svg %}
+          <a href="/">{% include svg/rabbit.svg %}</a>
           </div>
           {{ content }}
           <hr>
           {% include navigation.html %}
           {% include bottom.html %}
-
-      </body>
-   </div
+        </body>
+   </div>
  </div>
 </html>
