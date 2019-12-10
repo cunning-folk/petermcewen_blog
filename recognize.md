@@ -1,8 +1,9 @@
-
 ---
+layout: default
 permalink: /recognize/
 ---
-#### Recognize!
+
+Recognize!
 
 Thinking is not ‘me’. Thinking thinks to thinking.
 
