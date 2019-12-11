@@ -1,0 +1,41 @@
+/* Container CSS from GB ------------ */
+
+body {
+  color: $black;
+  background-color: $grey;
+  font-family: $font-stack-peter;
+  letter-spacing: 0.03rem;
+  font-weight: 400;
+  @include type-normal;
+}
+
+.index {
+  max-width: 1500px;
+  margin: auto;
+  padding: 20px;
+}
+
+img, svg {
+  display: block;
+  width: 100%;
+}
+
+.outer-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .content-container {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    max-height: inherit;
+    background-color: none;
+    padding: 25px 10px 25px 10px;
+    height: 100vh;
+
+    .article {
+      background-color: $white;
+    }
+  }
+}

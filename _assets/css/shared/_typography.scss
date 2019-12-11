@@ -1,11 +1,6 @@
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ typography defaults
 $body: $font-stack-peter;
 
-/* Typography Bible -------------------
-* Regular (400)
-* Bold (700)
-------------------- */
-
 @mixin type-size(
   $size: 12,
   $lineHeight: 1.1,
@@ -69,48 +64,6 @@ $body: $font-stack-peter;
   @include type-size(15, 1.45, $margin);
 }
 
-/* Container CSS from GB ------------ */
-
-body {
-  color: $black;
-  background-color: $grey;
-  font-family: $font-stack-peter;
-  letter-spacing: 0.03rem;
-  font-weight: 400;
-  @include type-normal;
-}
-
-.index {
-  max-width: 1500px;
-  margin: auto;
-  padding: 20px;
-}
-
-img, svg {
-  display: block;
-  width: 100%;
-}
-
-.outer-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-
-  .content-container {
-    display: block;
-    width: 100%;
-    max-width: 600px;
-    max-height: inherit;
-    background-color: none;
-    padding: 25px 10px 25px 10px;
-    height: 100vh;
-
-    .article {
-      background-color: $white;
-    }
-  }
-}
-
 ::selection { // Webkit
   color: $white;
   background: $red;
@@ -126,6 +79,7 @@ h1 {
   font-family: Geograph-medium, sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h2 {
@@ -133,6 +87,7 @@ h2 {
   font-family: GT-America-Extended-Medium, sans-serif;
   color: $black;
   -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ul {
@@ -145,20 +100,26 @@ h4 {
   color: $blue;
   letter-spacing: 0.04rem;
   -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 p {
   @include type-normal(true);
+  max-width: 33em;
+  color: $black;
+  line-height: 1.5;
 
   &:last-child {
     margin-bottom: 0;
     -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   em, i {
     font-style: italic;
     letter-spacing: -0.04em;
     -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 }
 
