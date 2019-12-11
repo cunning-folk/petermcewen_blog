@@ -61,7 +61,7 @@ $body: $font-stack-peter;
 }
 
 @mixin type-normal($margin: false) {
-  @include type-size(15, 1.45, $margin);
+  @include type-size(16, 1.25, $margin);
 }
 
 ::selection { // Webkit
