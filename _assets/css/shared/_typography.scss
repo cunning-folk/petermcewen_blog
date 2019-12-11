@@ -69,11 +69,21 @@ $body: $font-stack-peter;
   @include type-size(14, 1.25, $margin);
 }
 
+/* Container CSS from GB ------------ */
+
+body {
+  color: $black;
+  background-color: $grey;
+  font-family: $font-stack-peter;
+  letter-spacing: 0.03rem;
+  font-weight: 400;
+  @include type-normal;
+}
+
 .index {
   max-width: 1500px;
   margin: auto;
   padding: 20px;
-  background-color: $grey;
 }
 
 img, svg {
@@ -81,8 +91,13 @@ img, svg {
   width: 100%;
 }
 
-/* Container CSS from GB -------------------
-------------------- */
+svg a {
+  fill: $red;
+}
+
+svg a:hover {
+  fill: $red;
+}
 
 .outer-container {
   display: flex;
@@ -102,14 +117,6 @@ img, svg {
       background-color: $white;
     }
   }
-}
-
-body {
-  color: $black;
-  font-family: $font-stack-peter;
-  letter-spacing: 0.03rem;
-  font-weight: 400;
-  @include type-normal;
 }
 
 ::selection { // Webkit
