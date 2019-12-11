@@ -71,7 +71,7 @@ $body: $font-stack-peter;
 }
 
 a {
-  @include link-handler($baseColor, $hoverColor, null, false, null, false);
+  @include link-handler($baseColor, $hoverColor, $activeColor, false, null, false);
 }
 
 h1 {
@@ -79,7 +79,6 @@ h1 {
   font-family: Geograph-medium, sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: subpixel-antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 h2 {
@@ -95,12 +94,18 @@ ul {
 }
 
 h4 {
-  @include type-normal;
+  @include type-medium;
   font-family: FoundersGrotText-Regular, sans-serif;
-  color: $blue;
+  color: $black;
   letter-spacing: 0.04rem;
+  margin: 0;
+  padding: 0;
   -webkit-font-smoothing: subpixel-antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+  & a {
+    color: $black;
+    font-style: italic;
+  }
 }
 
 p {
@@ -112,14 +117,12 @@ p {
   &:last-child {
     margin-bottom: 0;
     -webkit-font-smoothing: subpixel-antialiased;
-    -moz-osx-font-smoothing: grayscale;
   }
 
   em, i {
     font-style: italic;
     letter-spacing: -0.04em;
     -webkit-font-smoothing: subpixel-antialiased;
-    -moz-osx-font-smoothing: grayscale;
   }
 }
 

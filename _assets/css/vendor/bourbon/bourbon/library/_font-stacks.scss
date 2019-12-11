@@ -6,6 +6,11 @@
 }
 
 @font-face {
+  font-family: "tiempos-text-regular";
+  src: asset_url("tiempos-text-regular.woff") format("woff");
+}
+
+@font-face {
   font-family: "Geograph-medium";
   src: asset_url("geograph-medium.woff") format("woff");
 }
