@@ -1,7 +1,6 @@
 .nav {
   display: block;
   float: left;
-  outline-color: $red;
 }
 
 .nav ul {
@@ -18,13 +17,14 @@
 
 .nav a {
   text-decoration: none;
-  color: $red;
+  color: $baseColor;
   display: block;
-  transition: 0.3s background-color;
+  transition: 1.2s background-color;
 }
 
 .nav a:hover {
-  background-color: $white;
+  background-color: $hoverColor;
+  color: $baseLine;
 }
 
 .nav a.active {

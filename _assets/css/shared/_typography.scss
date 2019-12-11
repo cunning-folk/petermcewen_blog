@@ -71,16 +71,32 @@ $body: $font-stack-peter;
 
 /* Container CSS from GB ------------ */
 
+body {
+  color: $black;
+  background-color: $grey;
+  font-family: $font-stack-peter;
+  letter-spacing: 0.03rem;
+  font-weight: 400;
+  @include type-normal;
+}
+
 .index {
   max-width: 1500px;
   margin: auto;
   padding: 20px;
-  background-color: $grey;
 }
 
 img, svg {
   display: block;
   width: 100%;
+}
+
+svg a {
+  fill: $red;
+}
+
+svg a:hover {
+  fill: $red;
 }
 
 .outer-container {
@@ -101,14 +117,6 @@ img, svg {
       background-color: $white;
     }
   }
-}
-
-body {
-  color: $black;
-  font-family: $font-stack-peter;
-  letter-spacing: 0.03rem;
-  font-weight: 400;
-  @include type-normal;
 }
 
 ::selection { // Webkit
