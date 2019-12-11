@@ -1,6 +1,5 @@
 .nav {
   display: block;
-  float: left;
 }
 
 .nav ul {
@@ -24,7 +23,7 @@
 
 .nav a:hover {
   background-color: $hoverColor;
-  color: $baseLine;
+  color: $baseColor;
 }
 
 .nav a.active {
@@ -39,6 +38,5 @@
     height: 30px;
     line-height: 50px;
     display: inline-block;
-    margin-right: -4px;
   }
 }
