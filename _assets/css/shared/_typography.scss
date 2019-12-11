@@ -91,14 +91,6 @@ img, svg {
   width: 100%;
 }
 
-svg a {
-  fill: $red;
-}
-
-svg a:hover {
-  fill: $red;
-}
-
 .outer-container {
   display: flex;
   justify-content: center;
@@ -141,6 +133,10 @@ h2 {
   font-family: GT-America-Extended-Medium, sans-serif;
   color: $black;
   -webkit-font-smoothing: subpixel-antialiased;
+}
+
+ul {
+  list-style: none;
 }
 
 h4 {

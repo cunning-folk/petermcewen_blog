@@ -2,8 +2,8 @@ encoding: utf-8
 # Site settings +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ## title & header
-title: Yassss - Yet another simple static site starter
-subtitle: A bold and beautiful start to a static website
+title: Yassss
+subtitle: Static Cling
 
 ## meta tag content (also affects facebook og: tags)
 description: > # this means to ignore newlines
@@ -14,7 +14,7 @@ meta_site_name: Yassss
 fb_app_id: XXXXXXXXXXXX
 
 ## google analytics id (leave blank if you do not want to use Google Analytics)
-ga_id: 
+ga_id:
 
 ## DO NOT CHANGE THINGS BELOW THIS LINE ---------------------------------------------------------------------
 
@@ -31,7 +31,7 @@ plugins:
   - jekyll-feed
 
 ## feed setup
-feed: # see https://github.com/jekyll/jekyll-feed for defaults/options 
+feed: # see https://github.com/jekyll/jekyll-feed for defaults/options
 
 ## assets setup
 # remember to set `JEKYLL_ENV=production` for all of the asset goodies
