@@ -22,6 +22,7 @@
 
 svg:hover {
   filter: invert(0.4) sepia(1) saturate(20) hue-rotate(234deg) brightness(0.71);
+  transition: 1.2s;
 
   &.cls-1 {
     filter: sepia(10%) grayscale(10%) brightness(0.01);
