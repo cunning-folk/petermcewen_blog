@@ -95,9 +95,10 @@ ul {
 
 h4 {
   @include type-medium;
-  font-family: FoundersGrotText-Regular, sans-serif;
+  font-family: FoundersGrot-Medium, sans-serif;
   color: $black;
   letter-spacing: 0.04rem;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: subpixel-antialiased;
