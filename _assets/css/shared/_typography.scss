@@ -119,9 +119,9 @@ h4 {
   -webkit-font-smoothing: subpixel-antialiased;
 
   & a {
-    color: $black;
+    color: $blue;
     transition: 1.2s;
-    border-bottom: 0.18rem solid;
+    border-bottom: 0.18rem solid $blue;
     padding-bottom: 6px;
     //font-style: italic;
     //text-decoration: underline;
