@@ -91,27 +91,47 @@ h2 {
 
 ul {
   list-style: none;
+  padding-left: 0;
+  margin-bottom: 55px;
 }
+
+li {
+  padding-left: 0;
+}
+
+/*
+  .post-list li::before {
+    content: "→";
+    position: relative;
+    left: -20px;
+    color: $black;
+  }
+*/
 
 h4 {
   @include type-normal;
   font-family: FoundersGrotText-Regular, sans-serif;
   color: $black;
-  letter-spacing: 0.04rem;
+  letter-spacing: 0.02rem;
+  display: inline;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: subpixel-antialiased;
 
   & a {
-    color: $blue;
+    color: $black;
     transition: 1.2s;
-    border-bottom: 2px solid;
+    border-bottom: 0.18rem solid;
     padding-bottom: 6px;
     //font-style: italic;
     //text-decoration: underline;
     //text-decoration-style: wavy;
     //text-decoration-color: $blue;
   }
+}
+
+.line {
+  border-top: 1px solid $black;
 }
 
 p {
