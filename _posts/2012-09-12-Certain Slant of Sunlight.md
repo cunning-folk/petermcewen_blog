@@ -1,6 +1,7 @@
 ---
 layout: post
 author: peter
+css_hook: post
 ---
 
 Recognize! Thinking is not ‘me’. Thinking thinks to thinking.
