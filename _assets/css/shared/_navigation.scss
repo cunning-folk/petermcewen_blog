@@ -1,31 +1,40 @@
 .nav {
-  display: block;
-  float: left;
+  display: flex;
 }
 
 .nav ul {
   list-style: none;
-  text-align: center;
   padding: 0;
   margin: 0;
+  text-align: left;
+  font-family: FoundersGrotText-Regular, sans-serif;
   //text-align: justify;
 }
 
 .nav li {
   line-height: 40px;
   height: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav a {
+  font-size: 0.95rem;
   text-decoration: none;
-  color: $baseColor;
+  color: $black;
   display: block;
-  transition: 1.2s background-color;
+  transition: 1.2s;
+  //border-bottom: 0.18rem solid;
+  //padding-bottom: 3px;
+  //transition: 1.2s background-color;
+  //color: $blue;
+  //text-decoration-style: wavy;
 }
 
 .nav a:hover {
-  background-color: $hoverColor;
-  color: $baseColor;
+  //background-color: $hoverColor;
+  color: $red;
+  //border-bottom: 0.3rem solid;
 }
 
 .nav a.active {
@@ -35,9 +44,10 @@
 
 @media screen and (min-width: 600px) {
   .nav li {
-    width: 120px;
+    //width: 90px;
     border-bottom: none;
-    height: 30px;
+    height: 40px;
+    margin-right: 20px;
     line-height: 40px;
     display: inline-block;
   }
