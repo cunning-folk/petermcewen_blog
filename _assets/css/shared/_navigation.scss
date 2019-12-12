@@ -1,5 +1,6 @@
 .nav {
   display: block;
+  float: left;
 }
 
 .nav ul {
@@ -12,6 +13,7 @@
 .nav li {
   line-height: 40px;
   height: 40px;
+  padding-right: 10px;
 }
 
 .nav a {
@@ -33,10 +35,10 @@
 
 @media screen and (min-width: 600px) {
   .nav li {
-    width: 124px;
+    width: 100px;
     border-bottom: none;
     height: 30px;
-    line-height: 50px;
+    line-height: 40px;
     display: inline-block;
   }
 }
