@@ -22,3 +22,7 @@ Design Tooling
 Education and Process
 
 # Fun Facts
+
+# Blog Ideas
+
+Why is design contemporary, intriguing, and aesthetically pleasing while the self-help and meditation industry languishes in new age and vacuous visual trends? 
