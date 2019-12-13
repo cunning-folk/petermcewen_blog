@@ -14,7 +14,7 @@ We can feel that the support of gravity working well. Autumn has spontaneously a
 
 You don’t have to do anything to deserve any of that support. It’s already present. Relax into the reality that you’re already being supported. Feeling supported opens up an opportunity to notice freshness.
 
-Freshness — I think, what we are looking for in our lives. And by freshness, I mean the direct experience of our life energy.
+**_Freshness_** — I think, what we are looking for in our lives. And by freshness, I mean the direct experience of our life energy.
 
 Compared to promises that pop culture meditation makes, just the simple practice of being aware, discomfort and all, is a hard sell.
 

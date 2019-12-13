@@ -35,6 +35,21 @@
   src: asset_url("GT-America-Regular.WOFF") format("woff");
 }
 
+@font-face {
+  font-family: "TiemposText-RegularItalic";
+  src: asset_url("TiemposText-RegularItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "TiemposText-Semibold";
+  src: asset_url("TiemposText-Semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "TiemposText-SemiboldItalic";
+  src: asset_url("TiemposText-SemiboldItalic.woff") format("woff");
+}
+
 /// A variable that outputs a Peter font stack.
 ///
 /// @link

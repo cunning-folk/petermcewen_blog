@@ -23,3 +23,22 @@
     -webkit-font-smoothing: subpixel-antialiased;
   }
 }
+
+.post b {
+  font-family: TiemposText-Semibold, serif;
+  font-weight: 400;
+  letter-spacing: 0.9rem;
+}
+
+.post b i {
+  font-family: TiemposText-SemiboldItalic, serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  letter-spacing: 0.9rem;
+}
+
+.post h1 {
+  @include type-big(true);
+  font-family: FoundersGrot-Medium, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
