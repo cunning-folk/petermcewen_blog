@@ -153,11 +153,20 @@ p {
 }
 
 strong, b {
-  font-family: FoundersGrot-Medium, sans-serif;
-  font-weight: 700;
+  // font-family: FoundersGrot-Medium, sans-serif;
+  font-family: $font-stack-serif-bold;
+  font-weight: 600;
   letter-spacing: 0.05rem;
 }
 
 em, i {
+  font-family: $font-stack-serif-italic;
   font-style: normal;
+  font-weight: 400;
+}
+
+strong em, b i, em strong, i b {
+  font-family: $font-stack-serif-italic-bold;
+  font-style: normal;
+  font-weight: 600;
 }
