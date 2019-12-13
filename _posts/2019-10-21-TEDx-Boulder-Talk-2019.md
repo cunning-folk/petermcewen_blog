@@ -6,7 +6,7 @@ css_hook: post
 
 Ok. This really is a talk about uncomfortable silences. I’ve been subjecting myself to these silences for over 20 years; you could say I am a connoisseur of silences.
 
-Sitting without idly consuming is a creative moment. It is a moment I take a break from other people’s noise - a space where I can hear my own voice and fulfill my human capacities.
+Sitting without idly consuming is a creative moment. It is a moment I take a break from other people’s noise - a space where I can hear my own voice and yield to the fulfillment my human capacities.
 
 Meditation isn’t just a series of uncomfortable silences that later yield to excitement. Meditation is an attention on that which supports us.
 

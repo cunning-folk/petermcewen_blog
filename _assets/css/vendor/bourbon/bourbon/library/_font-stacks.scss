@@ -60,6 +60,31 @@ $font-stack-peter: (
   sans-serif,
 );
 
+/// A variable that outputs a Hoefler Text font stack.
+///
+/// @link https://goo.gl/n7U7zx
+///
+/// @type list
+///
+/// @example scss
+///   .element {
+///     font-family: $font-stack-serif;
+///   }
+///
+///   // CSS Output
+///   .element {
+///     font-family: "Hoefler Text", "Baskerville Old Face", "Garamond", "Times New Roman", serif;
+///   }
+
+$font-stack-serif: (
+  "tiempos-text-regular",
+  "Hoefler Text",
+  "Baskerville Old Face",
+  "Garamond",
+  "Times New Roman",
+  serif,
+);
+
 /// A variable that outputs a Helvetica font stack.
 ///
 /// @link https://goo.gl/uSJvZe
@@ -118,98 +143,4 @@ $font-stack-system: (
   "Century Gothic",
   "Liberation Sans",
   sans-serif,
-);
-
-
-/// A variable that outputs a Hoefler Text font stack.
-///
-/// @link https://goo.gl/n7U7zx
-///
-/// @type list
-///
-/// @example scss
-///   .element {
-///     font-family: $font-stack-hoefler-text;
-///   }
-///
-///   // CSS Output
-///   .element {
-///     font-family: "Hoefler Text", "Baskerville Old Face", "Garamond", "Times New Roman", serif;
-///   }
-
-$font-stack-hoefler-text: (
-  "Hoefler Text",
-  "Baskerville Old Face",
-  "Garamond",
-  "Times New Roman",
-  serif,
-);
-
-/// A variable that outputs a Consolas font stack.
-///
-/// @link https://goo.gl/iKrtqv
-///
-/// @type list
-///
-/// @example scss
-///   .element {
-///     font-family: $font-stack-consolas;
-///   }
-///
-///   // CSS Output
-///   .element {
-///     font-family: "Consolas", "monaco", monospace;
-///   }
-
-$font-stack-consolas: (
-  "Consolas",
-  "monaco",
-  monospace,
-);
-
-/// A variable that outputs a Courier New font stack.
-///
-/// @link https://goo.gl/bHfWMP
-///
-/// @type list
-///
-/// @example scss
-///   .element {
-///     font-family: $font-stack-courier-new;
-///   }
-///
-///   // CSS Output
-///   .element {
-///     font-family: "Courier New", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-///   }
-
-$font-stack-courier-new: (
-  "Courier New",
-  "Courier",
-  "Lucida Sans Typewriter",
-  "Lucida Typewriter",
-  monospace,
-);
-
-/// A variable that outputs a Monaco font stack.
-///
-/// @link https://goo.gl/9PgKDO
-///
-/// @type list
-///
-/// @example scss
-///   .element {
-///     font-family: $font-stack-monaco;
-///   }
-///
-///   // CSS Output
-///   .element {
-///     font-family: "Monaco", "Consolas", "Lucida Console", monospace;
-///   }
-
-$font-stack-monaco: (
-  "Monaco",
-  "Consolas",
-  "Lucida Console",
-  monospace,
 );
