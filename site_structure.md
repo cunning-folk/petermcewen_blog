@@ -20,9 +20,14 @@ Consulting teams to ship lovable MVP
 Product Leadership
 Design Tooling
 Education and Process
+Art Direction
+UI/UX Design
+Design Systems
+Brand Identity
+Photography
 
 # Fun Facts
 
 # Blog Ideas
 
-Why is design contemporary, intriguing, and aesthetically pleasing while the self-help and meditation industry languishes in new age and vacuous visual trends? 
+Why is design contemporary, intriguing, and aesthetically pleasing while the self-help and meditation industry languishes in new age and vacuous visual trends?
