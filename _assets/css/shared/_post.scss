@@ -71,19 +71,19 @@
       // font-family: FoundersGrot-Medium, sans-serif;
       font-family: $font-stack-serif-bold;
       font-weight: 600;
-      letter-spacing: 0.9rem;
+      letter-spacing: 0.04rem;
     }
 
     em, i {
       font-family: $font-stack-serif-italic;
       font-style: normal;
-      letter-spacing: 0.9rem;
+      letter-spacing: 0.03rem;
     }
 
     strong em, b i, em strong, i b {
       font-family: $font-stack-serif-italic-bold;
       font-style: normal;
-      letter-spacing: 0.9rem;
+      letter-spacing: 0.04rem;
     }
   }
 }
