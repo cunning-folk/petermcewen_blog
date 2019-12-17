@@ -49,6 +49,11 @@
   padding-bottom: 10px;
 }
 
+.post-list-header {
+  border-top: 5px solid $red;
+  height: 0;
+}
+
 .post {
   max-width: 1500px;
   margin: auto;
