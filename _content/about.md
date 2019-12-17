@@ -1,6 +1,6 @@
 ## Get to know me
 
-![Image of Peter](/assets/Guitar.jpg)
+![Image of Peter](/assets/guitar.jpg)
 
 Peter is a design director and editorial photographer who constructs design systems and brand identity work. Peter also teaches Product Design and Brand Design at the ATLAS Institute at the University of Colorado Boulder.
 
