@@ -76,7 +76,7 @@ a {
 
 h1 {
   @include type-big(true);
-  font-family: Geograph-medium, sans-serif;
+  font-family: TiemposText-Semibold, sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: subpixel-antialiased;
 }
@@ -109,8 +109,8 @@ li {
 */
 
 h4 {
-  @include type-normal;
-  font-family: FoundersGrotText-Regular, sans-serif;
+  @include type-big;
+  font-family: TiemposText-Semibold, sans-serif;
   color: $black;
   letter-spacing: 0.02rem;
   display: inline;
@@ -119,10 +119,10 @@ h4 {
   -webkit-font-smoothing: subpixel-antialiased;
 
   & a {
-    color: $blue;
+    color: $black;
     transition: 1.2s;
-    border-bottom: 0.18rem solid;
-    padding-bottom: 6px;
+    //border-bottom: 0.18rem solid;
+    //padding-bottom: 6px;
     //font-style: italic;
     //text-decoration: underline;
     //text-decoration-style: wavy;
@@ -136,7 +136,8 @@ h4 {
 
 p {
   @include type-normal(true);
-  max-width: 33em;
+  font-family: tiempos-text-regular, $font-stack-serif, serif;
+  max-width: 38em;
   color: $black;
   line-height: 1.5;
 
