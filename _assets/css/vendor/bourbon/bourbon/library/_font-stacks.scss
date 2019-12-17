@@ -1,15 +1,5 @@
 @charset "UTF-8";
 
-@font-face {
-  font-family: "Geograph-medium";
-  src: asset_url("geograph-medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Geograph-regular";
-  src: asset_url("geograph-regular.woff") format("woff");
-}
-
 /// FOUNDERS
 @font-face {
   font-family: "FoundersGrotText-Regular";
@@ -17,28 +7,24 @@
 }
 
 @font-face {
+  font-family: "FoundersGrotText-RegularItalic";
+  src: asset_url("FoundersGrotText-RegularItalic.woff") format("woff");
+}
+
+@font-face {
   font-family: "FoundersGrot-Medium";
-  src: asset_url("FoundersGrot-Medium.woff") format("woff");
+  src: asset_url("FoundersGrotText-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FoundersGrot-MediumItalic";
+  src: asset_url("FoundersGrotText-MediumItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: "FoundersGrotMono-Medium";
   src: asset_url("FoundersGrotMono-Medium.woff") format("woff");
 }
-
-/// GT-AMERICA
-
-@font-face {
-  font-family: "GT-America-Regular";
-  src: asset_url("GT-America-Regular.WOFF") format("woff");
-}
-
-@font-face {
-  font-family: "GT-America-Extended-Medium";
-  src: asset_url("GT-America-Extended-Medium.WOFF") format("woff");
-}
-
-
 
 /// TIEMPOS
 
@@ -77,8 +63,6 @@
   font-weight: 600;
 }
 
-
-
 /// A variable that outputs a Peter font stack.
 ///
 /// @link
@@ -97,13 +81,20 @@
 
 $font-stack-peter: (
   "FoundersGrotText-Regular",
-  "GT-America-Extended-Medium",
-  "Geograph-medium",
   "Helvetica Neue",
   "Helvetica",
   sans-serif,
 );
 
+$font-stack-peter-italic: (
+  "FoundersGrotText-RegularItalic",
+  sans-serif,
+);
+
+$font-stack-peter-italic-bold: (
+  "FoundersGrotText-MediumItalic",
+  sans-serif,
+);
 
 /// A variable that outputs a Hoefler Text font stack.
 ///
@@ -143,64 +134,4 @@ $font-stack-serif-italic-bold: (
 $font-stack-serif-bold: (
   "TiemposText-Semibold",
   serif,
-);
-
-/// A variable that outputs a Helvetica font stack.
-///
-/// @link https://goo.gl/uSJvZe
-///
-/// @type list
-///
-/// @example scss
-///   .element {
-///     font-family: $font-stack-helvetica;
-///   }
-///
-///   // CSS Output
-///   .element {
-///     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-///   }
-
-$font-stack-helvetica: (
-  "Helvetica Neue",
-  "Helvetica",
-  "Arial",
-  sans-serif,
-);
-
-/// A variable that outputs a system font stack.
-///
-/// @type list
-///
-/// @example scss
-///   .element {
-///     font-family: $font-stack-system;
-///   }
-///
-///   // CSS Output
-///   .element {
-///     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-///   }
-
-$font-stack-system: (
-  system-ui,
-  -apple-system,
-  BlinkMacSystemFont,
-  "Avenir Next",
-  "Avenir",
-  "Segoe UI",
-  "Lucida Grande",
-  "Helvetica Neue",
-  "Helvetica",
-  "Fira Sans",
-  "Roboto",
-  "Noto",
-  "Droid Sans",
-  "Cantarell",
-  "Oxygen",
-  "Ubuntu",
-  "Franklin Gothic Medium",
-  "Century Gothic",
-  "Liberation Sans",
-  sans-serif,
 );
