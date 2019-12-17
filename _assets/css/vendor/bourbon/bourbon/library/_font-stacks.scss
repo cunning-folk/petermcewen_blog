@@ -1,16 +1,6 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "GT-America-Extended-Medium";
-  src: asset_url("GT-America-Extended-Medium.WOFF") format("woff");
-}
-
-@font-face {
-  font-family: "tiempos-text-regular";
-  src: asset_url("tiempos-text-regular.woff") format("woff");
-}
-
-@font-face {
   font-family: "Geograph-medium";
   src: asset_url("geograph-medium.woff") format("woff");
 }
@@ -20,6 +10,7 @@
   src: asset_url("geograph-regular.woff") format("woff");
 }
 
+/// FOUNDERS
 @font-face {
   font-family: "FoundersGrotText-Regular";
   src: asset_url("FoundersGrotText-Regular.woff") format("woff");
@@ -31,8 +22,29 @@
 }
 
 @font-face {
+  font-family: "FoundersGrotMono-Medium";
+  src: asset_url("FoundersGrotMono-Medium.woff") format("woff");
+}
+
+/// GT-AMERICA
+
+@font-face {
   font-family: "GT-America-Regular";
   src: asset_url("GT-America-Regular.WOFF") format("woff");
+}
+
+@font-face {
+  font-family: "GT-America-Extended-Medium";
+  src: asset_url("GT-America-Extended-Medium.WOFF") format("woff");
+}
+
+
+
+/// TIEMPOS
+
+@font-face {
+  font-family: "tiempos-text-regular";
+  src: asset_url("tiempos-text-regular.woff") format("woff");
 }
 
 @font-face {
@@ -52,6 +64,20 @@
   src: asset_url("TiemposText-SemiboldItalic.woff") format("woff");
   font-weight: 600;
 }
+
+@font-face {
+  font-family: "TiemposText-Semibold";
+  src: asset_url("TiemposText-Semibold.woff") format("woff");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "TiemposHeadline-Bold";
+  src: asset_url("TiemposHeadline-Bold.woff") format("woff");
+  font-weight: 600;
+}
+
+
 
 /// A variable that outputs a Peter font stack.
 ///

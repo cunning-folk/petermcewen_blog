@@ -76,17 +76,26 @@ a {
 
 h1 {
   @include type-big(true);
-  font-family: TiemposText-Semibold, sans-serif;
+  font-family: TiemposText-Semibold, serif;
   font-weight: 400;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
 h2 {
   @include type-medium;
-  font-family: geograph-medium, sans-serif;
+  font-family: FoundersGrotMono-Medium, sans-serif;
   color: $black;
   -webkit-font-smoothing: subpixel-antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.03rem;
+}
+
+h3 {
+  @include type-medium;
+  font-size: 0.8rem;
+  font-family: FoundersGrotMono-Medium, sans-serif;
+  color: $blue;
+  -webkit-font-smoothing: subpixel-antialiased;
+  letter-spacing: 0.03rem;
 }
 
 ul {
@@ -136,8 +145,9 @@ h4 {
 
 p {
   @include type-normal(true);
-  font-family: tiempos-text-regular, $font-stack-serif, serif;
+  font-family: $font-stack-peter, serif;
   max-width: 38em;
+  letter-spacing: 0.02rem;
   color: $black;
   line-height: 1.5;
 

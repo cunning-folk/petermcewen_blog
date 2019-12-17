@@ -61,14 +61,14 @@
 
   h1 {
     @include type-big(true);
-    font-family: TiemposText-Semibold, sans-serif;
+    font-family: TiemposHeadline-Bold, serif;
     font-weight: 400;
     -webkit-font-smoothing: subpixel-antialiased;
   }
 
   p {
     @include type-normal(true);
-    font-family: $font-stack-serif;
+    font-family: tiempos-text-regular, serif;
     color: $black;
     line-height: 1.5;
     letter-spacing: 0.03rem;
