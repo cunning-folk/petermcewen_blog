@@ -71,7 +71,7 @@ $body: $font-stack-peter;
 }
 
 a {
-  @include link-handler($black, $hoverColor, $black, false, false, null);
+  @include link-handler($black, $red, $black, false, false, null);
 
   & strong em, b i, em strong, i b {
     font-family: $font-stack-peter-italic-bold, sans-serif;

@@ -1,5 +1,6 @@
 ## Get to know me
 
+![Wedding Singer]({% asset Guitar.jpg @path %})
 
 Peter is a design director and [editorial photographer](https://petermcewen.photos) who constructs design systems and brand identity work. Peter also teaches Product Design and Brand Design** at the ATLAS Institute at the University of Colorado Boulder.
 
