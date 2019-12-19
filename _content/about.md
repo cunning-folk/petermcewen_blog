@@ -1,7 +1,5 @@
----
-layout: default
-permalink: /about/
----
+
+## The Earthling
 
 ![Wedding Singer]({% asset guitar.jpg @path %})
 
