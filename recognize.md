@@ -2,8 +2,9 @@
 layout: default
 permalink: /recognize/
 ---
+![Wedding Singer]({% asset guitar.jpg @path %})
 
-Recognize!
+**Recognize!**
 
 Thinking is not ‘me’. Thinking thinks to thinking.
 
