@@ -8,6 +8,16 @@
         <body{% if page.css_hook %} class="{{ page.css_hook }}"{% endif %}>
           <div class="header">
             <a class="bunny" href="/">{% include svg/rabbit_1.svg %}</a>
+            <nav class="nav_top">
+              <ul>
+                <li>
+                  <a href="/about">/about</a>
+                </li>
+                <li>
+                  <a href="https://petermcewen.photos">/photo</a>
+                </li>
+              </ul>
+            </nav>
           </div>
           {{ content }}
           <hr class="line">

@@ -1,6 +1,19 @@
 @charset "UTF-8";
 
+/// FOUNDERS MONO
+
+@font-face {
+  font-family: "FoundersGrotMono-Medium";
+  src: asset_url("FoundersGrotMono-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FoundersGrotMono-Bold";
+  src: asset_url("FoundersGrotMono-Bold.woff") format("woff");
+}
+
 /// FOUNDERS
+
 @font-face {
   font-family: "FoundersGrotText-Regular";
   src: asset_url("FoundersGrotText-Regular.woff") format("woff");
@@ -22,9 +35,10 @@
 }
 
 @font-face {
-  font-family: "FoundersGrotMono-Medium";
-  src: asset_url("FoundersGrotMono-Medium.woff") format("woff");
+  font-family: "FoundersGrotCond-Medium";
+  src: asset_url("FoundersGrotCond-Medium.woff") format("woff");
 }
+
 
 /// TIEMPOS
 
@@ -48,12 +62,6 @@
 @font-face {
   font-family: "TiemposText-SemiboldItalic";
   src: asset_url("TiemposText-SemiboldItalic.woff") format("woff");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "TiemposText-Semibold";
-  src: asset_url("TiemposText-Semibold.woff") format("woff");
   font-weight: 600;
 }
 
