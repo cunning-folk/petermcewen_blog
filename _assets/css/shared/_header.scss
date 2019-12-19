@@ -35,19 +35,18 @@ svg:hover {
 
 .nav_top {
   display: flex;
-  justify-content: flex-end;
   flex-direction: row;
+  justify-content: flex-end;
   flex-wrap: wrap;
-  align-items: center;
   align-content: space-around;
 }
 
 .nav_top ul {
   list-style: none;
-  padding-left: 40px;
+  padding-left: 50px;
   padding-top: 10px;
   margin: 0;
-  font-family: FoundersGrotMono-Medium, sans-serif;
+  font-family: FoundersGrotMono-Regular, sans-serif;
 }
 
 .nav_top li {
@@ -58,7 +57,7 @@ svg:hover {
 }
 
 .nav_top a {
-  font-size: 1.2rem;
+  font-size: 0.95rem;
   text-decoration: none;
   color: $black;
   display: block;
