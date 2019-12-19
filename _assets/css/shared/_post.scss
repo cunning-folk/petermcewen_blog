@@ -27,7 +27,7 @@
     font-family: tiempos-text-regular, serif;
     color: $black;
     line-height: 1.5;
-    letter-spacing: 0.03rem;
+    letter-spacing: 0.01rem;
 
     &:last-child {
       margin-bottom: 0;
@@ -35,22 +35,21 @@
     }
 
     strong, b {
-      // font-family: FoundersGrot-Medium, sans-serif;
       font-family: $font-stack-serif-bold;
       font-weight: 600;
-      letter-spacing: 0.03rem;
+      letter-spacing: 0.02rem;
     }
 
     em, i {
       font-family: $font-stack-serif-italic;
       font-style: normal;
-      letter-spacing: 0.03rem;
+      letter-spacing: 0.02rem;
     }
 
     strong em, b i, em strong, i b {
       font-family: $font-stack-serif-italic-bold;
       font-style: normal;
-      letter-spacing: 0.03rem;
+      letter-spacing: 0.02rem;
     }
   }
 }
