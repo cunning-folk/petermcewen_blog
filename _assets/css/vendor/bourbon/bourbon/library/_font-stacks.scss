@@ -2,6 +2,12 @@
 
 /// FOUNDERS MONO
 
+
+@font-face {
+  font-family: "FoundersGrotMono-Regular";
+  src: asset_url("FoundersGrotMono-Regular.woff") format("woff");
+}
+
 @font-face {
   font-family: "FoundersGrotMono-Medium";
   src: asset_url("FoundersGrotMono-Medium.woff") format("woff");

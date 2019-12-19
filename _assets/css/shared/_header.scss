@@ -32,3 +32,56 @@ svg:hover {
 .bunny {
   width: 8%;
 }
+
+.nav_top {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+}
+
+.nav_top ul {
+  list-style: none;
+  padding-left: 40px;
+  padding-top: 10px;
+  margin: 0;
+  font-family: FoundersGrotMono-Medium, sans-serif;
+}
+
+.nav_top li {
+  line-height: 40px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav_top a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: $black;
+  display: block;
+  transition: 1.2s;
+}
+
+.nav_top a:hover {
+  background-color: $grey;
+  color: $red;
+}
+
+.nav_top a.active {
+  color: $black;
+  cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+  .nav_top li {
+    //width: 90px;
+    border-bottom: none;
+    height: 40px;
+    margin-right: 20px;
+    line-height: 40px;
+    display: inline-block;
+  }
+}
