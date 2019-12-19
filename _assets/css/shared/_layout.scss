@@ -2,7 +2,7 @@
 
 body {
   color: $black;
-  background-color: $white;
+  background-color: $grey;
   font-family: $font-stack-peter;
   letter-spacing: 0.03rem;
   font-weight: 400;
@@ -16,6 +16,12 @@ body {
 }
 
 .about {
+  max-width: 1500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.contact {
   max-width: 1500px;
   margin: auto;
   padding: 20px;
