@@ -4,7 +4,7 @@
   "description": "A Jekyll starter",
   "license": "MIT",
   "engines": {
-    "node": "12.13.1"
+    "node": "12.14.0"
   },
   "scripts": {
     "prebuild": "npm run clean",
