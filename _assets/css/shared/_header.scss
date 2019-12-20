@@ -32,7 +32,7 @@ svg:hover {
 .nav_top {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: flex-start;
   align-content: space-around;
   align-items: center;
