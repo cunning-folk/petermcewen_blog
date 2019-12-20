@@ -1,3 +1,1 @@
-# Contact for {{ site.title }}
-
-Don’t contact me.
+Contact for {{ site.title }}
