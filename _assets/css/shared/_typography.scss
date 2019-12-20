@@ -82,8 +82,9 @@ a {
 
 h1 {
   @include type-big(true);
-  font-family: TiemposText-Semibold, serif;
+  font-family: HeldaneDisplay-Bold, serif;
   font-weight: 400;
+  letter-spacing: 1rem;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -125,9 +126,11 @@ li {
 
 h4 {
   @include type-big;
-  font-family: TiemposText-Semibold, sans-serif;
+  font-size: 2.4rem;
+  font-family: HeldaneDisplay-Bold, serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
   color: $black;
-  letter-spacing: 0.02rem;
   display: inline;
   margin: 0;
   padding: 0;
@@ -151,9 +154,9 @@ h4 {
 
 p {
   @include type-normal(true);
-  font-family: $font-stack-peter, serif;
+  font-family: HeldaneText-Regular, $font-stack-peter, serif;
   max-width: 38em;
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.03rem;
   color: $black;
   line-height: 1.5;
 
