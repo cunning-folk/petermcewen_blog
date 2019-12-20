@@ -16,9 +16,11 @@
   padding: 20px;
 
   h1 {
-    @include type-big(true);
-    font-family: TiemposHeadline-Bold, serif;
+    //@include type-big(true);
+    font-size: 2.4rem;
+    font-family: HeldaneDisplay-Bold, serif;
     font-weight: 400;
+    letter-spacing: 0.1rem;
     -webkit-font-smoothing: subpixel-antialiased;
   }
 

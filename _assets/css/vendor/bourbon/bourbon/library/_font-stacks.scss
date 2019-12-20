@@ -1,7 +1,14 @@
 @charset "UTF-8";
 
-/// FOUNDERS MONO
+///Heldane
 
+@font-face {
+  font-family: "HeldaneDisplay-Bold";
+  src: asset_url("HeldaneDisplay-Bold.woff") format("woff");
+}
+
+
+/// FOUNDERS MONO
 
 @font-face {
   font-family: "FoundersGrotMono-Regular";
