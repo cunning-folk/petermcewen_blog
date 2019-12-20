@@ -1,5 +1,7 @@
 .nav {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .nav ul {
@@ -23,11 +25,6 @@
   color: $black;
   display: block;
   transition: 1.2s;
-  //border-bottom: 0.18rem solid;
-  //padding-bottom: 3px;
-  //transition: 1.2s background-color;
-  //color: $blue;
-  //text-decoration-style: wavy;
 }
 
 .nav a:hover {
