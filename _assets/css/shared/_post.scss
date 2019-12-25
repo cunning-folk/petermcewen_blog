@@ -25,10 +25,10 @@
 
   p {
     @include type-normal(true);
-    font-family: HeldaneText-Regular, tiempos-text-regular, serif;
+    font-family: UntitledSerif-Regular, HeldaneText-Regular, tiempos-text-regular, serif;
     color: $black;
     line-height: 1.5;
-    letter-spacing: 0.01rem;
+    //letter-spacing: 0.01rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
