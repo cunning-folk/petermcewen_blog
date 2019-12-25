@@ -1,119 +1,106 @@
-@charset "UTF-8";
-
-//Untitled
+@charset "UTF-8"; //Untitled//
 @font-face {
   font-family: "UntitledSerif-Regular";
   src: asset_url("UntitledSerif-Regular.woff") format("woff");
 }
-
+@font-face {
+  font-family: "UntitledSerif-RegularItalic";
+  src: asset_url("UntitledSerif-RegularItalic.woff") format("woff");
+}
+@font-face {
+  font-family: "UntitledSerif-Bold";
+  src: asset_url("UntitledSerif-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "UntitledSerif-BoldItalic";
+  src: asset_url("UntitledSerif-BoldItalic.woff") format("woff");
+}
 //Sohn
-
 @font-face {
   font-family: "soehne--fett";
   src: asset_url("soehne--fett.woff") format("woff");
 }
-
 @font-face {
   font-family: "soehne--halbfett";
   src: asset_url("soehne--halbfett.woff") format("woff");
 }
-
-
-
 ///Heldane
-
 @font-face {
   font-family: "HeldaneDisplay-Bold";
   src: asset_url("HeldaneDisplay-Bold.woff") format("woff");
 }
-
 @font-face {
   font-family: "HeldaneText-Regular";
   src: asset_url("HeldaneText-Regular.woff") format("woff");
 }
-
 /// FOUNDERS MONO
-
 @font-face {
   font-family: "FoundersGrotMono-Regular";
   src: asset_url("FoundersGrotMono-Regular.woff") format("woff");
 }
-
 @font-face {
   font-family: "FoundersGrotMono-Medium";
   src: asset_url("FoundersGrotMono-Medium.woff") format("woff");
 }
-
 @font-face {
   font-family: "FoundersGrotMono-Bold";
   src: asset_url("FoundersGrotMono-Bold.woff") format("woff");
 }
-
 /// FOUNDERS
-
 @font-face {
   font-family: "FoundersGrotText-Regular";
   src: asset_url("FoundersGrotText-Regular.woff") format("woff");
 }
-
 @font-face {
   font-family: "FoundersGrotText-RegularItalic";
   src: asset_url("FoundersGrotText-RegularItalic.woff") format("woff");
 }
-
 @font-face {
   font-family: "FoundersGrot-Medium";
   src: asset_url("FoundersGrotText-Medium.woff") format("woff");
 }
-
 @font-face {
   font-family: "FoundersGrot-MediumItalic";
   src: asset_url("FoundersGrotText-MediumItalic.woff") format("woff");
 }
-
+@font-face {
+  font-family: "FoundersGrot-Bold";
+  src: asset_url("FoundersGrot-Bold.woff") format("woff");
+}
 //// Founders Condensed
-
 @font-face {
   font-family: "FoundersGrotCond-Medium";
   src: asset_url("FoundersGrotCond-Medium.woff") format("woff");
 }
-
 @font-face {
   font-family: "FoundersGrotXCond-Regular";
   src: asset_url("FoundersGrotXCond-Regular.woff") format("woff");
 }
-
 /// TIEMPOS
-
 @font-face {
   font-family: "tiempos-text-regular";
   src: asset_url("tiempos-text-regular.woff") format("woff");
 }
-
 @font-face {
   font-family: "TiemposText-RegularItalic";
   src: asset_url("TiemposText-RegularItalic.woff") format("woff");
   font-weight: 400;
 }
-
 @font-face {
   font-family: "TiemposText-Semibold";
   src: asset_url("TiemposText-Semibold.woff") format("woff");
   font-weight: 600;
 }
-
 @font-face {
   font-family: "TiemposText-SemiboldItalic";
   src: asset_url("TiemposText-SemiboldItalic.woff") format("woff");
   font-weight: 600;
 }
-
 @font-face {
   font-family: "TiemposHeadline-Bold";
   src: asset_url("TiemposHeadline-Bold.woff") format("woff");
   font-weight: 600;
 }
-
 /// A variable that outputs a Peter font stack.
 ///
 /// @link
@@ -129,25 +116,20 @@
 ///   .element {
 ///     font-family: "Pitch-Regular", "FoundersGrotText-Regular", sans-serif;
 ///   }
-
 $font-stack-peter: (
   "FoundersGrotText-Regular",
   "Helvetica Neue",
   "Helvetica",
   sans-serif,
 );
-
 $font-stack-peter-italic: (
   "FoundersGrotText-RegularItalic",
   sans-serif,
 );
-
 $font-stack-peter-italic-bold: (
   "FoundersGrotText-MediumItalic",
   sans-serif,
-);
-
-/// A variable that outputs a Hoefler Text font stack.
+); /// A variable that outputs a Hoefler Text font stack.
 ///
 /// @link https://goo.gl/n7U7zx
 ///
@@ -162,7 +144,6 @@ $font-stack-peter-italic-bold: (
 ///   .element {
 ///     font-family: "Hoefler Text", "Baskerville Old Face", "Garamond", "Times New Roman", serif;
 ///   }
-
 $font-stack-serif: (
   "tiempos-text-regular",
   "Hoefler Text",
@@ -171,18 +152,15 @@ $font-stack-serif: (
   "Times New Roman",
   serif,
 );
-
 $font-stack-serif-italic: (
-  "TiemposText-RegularItalic",
+  "UntitledSerif-RegularItalic" "TiemposText-RegularItalic",
   serif,
 );
-
 $font-stack-serif-italic-bold: (
-  "TiemposText-SemiboldItalic",
+  "UntitledSerif-BoldItalic" "TiemposText-SemiboldItalic",
   serif,
 );
-
 $font-stack-serif-bold: (
-  "TiemposText-Semibold",
+  "UntitledSerif-Bold" "TiemposText-Semibold",
   serif,
 );
