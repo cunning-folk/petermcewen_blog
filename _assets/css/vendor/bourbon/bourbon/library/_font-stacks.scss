@@ -74,35 +74,35 @@
   src: asset_url("FoundersGrotXCond-Regular.woff") format("woff");
 }
 
-/// TIEMPOS
-@font-face {
-  font-family: tiempos-text-regular;
-  src: asset_url("tiempos-text-regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: TiemposText-RegularItalic;
-  src: asset_url("TiemposText-RegularItalic.woff") format("woff");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: TiemposText-Semibold;
-  src: asset_url("TiemposText-Semibold.woff") format("woff");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: TiemposText-SemiboldItalic;
-  src: asset_url("TiemposText-SemiboldItalic.woff") format("woff");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: TiemposHeadline-Bold;
-  src: asset_url("TiemposHeadline-Bold.woff") format("woff");
-  font-weight: 600;
-}
+// /// TIEMPOS
+// @font-face {
+//   font-family: tiempos-text-regular;
+//   src: asset_url("tiempos-text-regular.woff") format("woff");
+// }
+//
+// @font-face {
+//   font-family: TiemposText-RegularItalic;
+//   src: asset_url("TiemposText-RegularItalic.woff") format("woff");
+//   font-weight: 400;
+// }
+//
+// @font-face {
+//   font-family: TiemposText-Semibold;
+//   src: asset_url("TiemposText-Semibold.woff") format("woff");
+//   font-weight: 600;
+// }
+//
+// @font-face {
+//   font-family: TiemposText-SemiboldItalic;
+//   src: asset_url("TiemposText-SemiboldItalic.woff") format("woff");
+//   font-weight: 600;
+// }
+//
+// @font-face {
+//   font-family: TiemposHeadline-Bold;
+//   src: asset_url("TiemposHeadline-Bold.woff") format("woff");
+//   font-weight: 600;
+// }
 
 $font-stack-peter: (
   "FoundersGrotText-Regular",
