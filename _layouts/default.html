@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang='en'>
 
-  {% include head.html %}
+{% include head.html %}
 
- <div class="outer-container">
-   <div class="content-container">
-        <body{% if page.css_hook %} class="{{ page.css_hook }}"{% endif %}>
-          <div class="header">
-            <nav class="nav_top">
-              <a class="bunny" href="/">{% include svg/rabbit_1.svg %}</a>
-              <ul>
-                <li>
-                  <a href="/about">/about</a>
-                </li>
-                <li>
-                  <a href="https://petermcewen.photos">/photo</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          {{ content }}
-          <hr class="line">
-          {% include navigation.html %}
-          {% include bottom.html %}
-        </body>
-   </div>
- </div>
+<div class="outer-container">
+  <div class="content-container">
+    <body{% if page.css_hook %} class="{{ page.css_hook }}" {% endif %}>
+      <div class="header">
+        <nav class="nav_top">
+          <a class="bunny" href="/">{% include svg/rabbit_1.svg %}</a>
+          <ul>
+            <li>
+              <a href="/about">/about</a>
+            </li>
+            <li>
+              <a href="https://petermcewen.photos">/photo</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      {{ content }}
+      <hr class="line">
+      {% include navigation.html %}
+      {% include bottom.html %}
+      </body>
+  </div>
+</div>
+
 </html>
