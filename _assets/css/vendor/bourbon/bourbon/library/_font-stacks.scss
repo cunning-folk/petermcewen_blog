@@ -131,32 +131,30 @@ $font-stack-peter: (
   "Helvetica",
   sans-serif,
 );
+
 $font-stack-peter-italic: (
   "FoundersGrotText-RegularItalic",
   sans-serif,
 );
+
 $font-stack-peter-italic-bold: (
   "FoundersGrotText-MediumItalic",
   sans-serif,
 );
 
-$font-stack-serif: (
-  "tiempos-text-regular",
-  "Hoefler Text",
-  "Baskerville Old Face",
-  "Garamond",
-  "Times New Roman",
-  serif,
-);
+//////Serif Font Stacks
+
 $font-stack-serif-italic: (
-  "UntitledSerif-RegularItalic" "TiemposText-RegularItalic",
+  "UntitledSerif-RegularItalic",
   serif,
 );
-$font-stack-serif-italic-bold: (
-  "UntitledSerif-BoldItalic" "TiemposText-SemiboldItalic",
-  serif,
-);
+
 $font-stack-serif-bold: (
-  "UntitledSerif-Bold" "TiemposText-Semibold",
+  "UntitledSerif-Bold",
+  serif,
+);
+
+$font-stack-serif-italic-bold: (
+  "UntitledSerif-BoldItalic",
   serif,
 );
