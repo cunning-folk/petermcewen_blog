@@ -160,9 +160,14 @@ p {
   color: $black;
   line-height: 1.5;
 
-  &:last-child {
-    margin-bottom: 0;
-    -webkit-font-smoothing: subpixel-antialiased;
+  @media screen and (min-width: 600px) {
+    font-size: 18px;
+    line-height: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+      -webkit-font-smoothing: subpixel-antialiased;
+    }
   }
 
   em, i {
