@@ -1,11 +1,6 @@
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ typography defaults
 $body: $font-stack-peter;
-
-@mixin type-size(
-  $size: 12,
-  $lineHeight: 1.1,
-  $margin: false
-) {
+@mixin type-size($size: 12, $lineHeight: 1.1, $margin: false) {
   @if $margin {
     margin-top: 0;
     margin-bottom: em($size);
@@ -13,26 +8,19 @@ $body: $font-stack-peter;
   font-size: em($size);
   line-height: $lineHeight;
 }
-
-@mixin link-handler(
-  $baseColor: null,
-  $hoverColor: null,
-  $activeColor: null,
-  $baseLine: null,
-  $hoverLine: null,
-  $activeLine: null
-) {
-  @if $baseColor { color: $baseColor; }
-
+@mixin link-handler($baseColor: null, $hoverColor: null, $activeColor: null, $baseLine: null, $hoverLine: null, $activeLine: null) {
+  @if $baseColor {
+    color: $baseColor;
+  }
   @if $baseLine == true {
     text-decoration: underline;
   } @else if $baseLine == false {
     text-decoration: none;
   }
-
   @include hover {
-    @if $hoverColor { color: $hoverColor; }
-
+    @if $hoverColor {
+      color: $hoverColor;
+    }
     @if $hoverLine == true {
       text-decoration: underline;
     } @else if $hoverLine == false {
@@ -41,8 +29,9 @@ $body: $font-stack-peter;
   }
 
   &:active {
-    @if $activeColor { color: $activeColor; }
-
+    @if $activeColor {
+      color: $activeColor;
+    }
     @if $activeLine == true {
       text-decoration: underline;
     } @else if $activeLine == false {
@@ -50,21 +39,19 @@ $body: $font-stack-peter;
     }
   }
 }
-
 // specific type styles
 @mixin type-big($margin: false) {
   @include type-size(32, 1.25, $margin);
 }
-
 @mixin type-medium($margin: false) {
   @include type-size(18, 1.25, $margin);
 }
-
 @mixin type-normal($margin: false) {
   @include type-size(16, 1.25, $margin);
 }
 
-::selection { // Webkit
+::selection {
+  // Webkit
   color: $white;
   background: $red;
   text-shadow: none;
@@ -73,7 +60,10 @@ $body: $font-stack-peter;
 a {
   @include link-handler($black, $red, $black, false, false, null);
 
-  & strong em, b i, em strong, i b {
+  & strong em,
+  b i,
+  em strong,
+  i b {
     font-family: $font-stack-peter-italic-bold, sans-serif;
     font-style: normal;
     letter-spacing: 0.03rem;
@@ -126,10 +116,10 @@ li {
 
 h4 {
   @include type-big;
-  font-size: 2.4rem;
-  font-family: soehne--halbfett, HeldaneDisplay-Bold, serif;
+  font-size: 2.1rem;
+  font-family: FoundersGrot-Bold, HeldaneDisplay-Bold, serif;
   font-weight: 400;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
   color: $black;
   display: inline;
   margin: 0;
@@ -154,15 +144,14 @@ h4 {
 
 p {
   @include type-normal(true);
-  font-family: HeldaneText-Regular, $font-stack-peter, serif;
+  font-family: UntitledSerif-Regular, HeldaneText-Regular, $font-stack-peter, serif;
   max-width: 38em;
-  letter-spacing: 0.03rem;
   color: $black;
-  line-height: 1.5;
+  line-height: 1em;
 
   @media screen and (min-width: 600px) {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 17px;
+    line-height: 1.6em;
 
     &:last-child {
       margin-bottom: 0;
@@ -170,7 +159,8 @@ p {
     }
   }
 
-  em, i {
+  em,
+  i {
     font-style: italic;
     font-family: $font-stack-peter-italic, sans-serif;
     letter-spacing: -0.04em;
@@ -178,12 +168,14 @@ p {
   }
 }
 
-strong, b {
-  font-family: FoundersGrot-Medium, sans-serif;
+b,
+strong {
+  font-family: soehne--halbfett, FoundersGrot-Medium, sans-serif;
   font-weight: 700;
   letter-spacing: 0.05rem;
 }
 
-em, i {
+em,
+i {
   font-style: normal;
 }
