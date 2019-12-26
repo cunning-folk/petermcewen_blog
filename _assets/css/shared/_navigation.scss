@@ -1,8 +1,7 @@
 .nav_top {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: flex-start;
-  align-content: space-around;
   align-items: center;
   width: 100%;
 
@@ -12,7 +11,7 @@
 }
 
 .nav_top ul {
-  font-family: FoundersGrotText-Regular, $font-stack-peter, sans-serif;
+  font-family: FoundersGrotMono-Regular, $font-stack-peter, sans-serif;
   padding: 8px 0 0;
   margin: 0 0 0 60px;
   list-style: none;
@@ -21,7 +20,8 @@
 .nav_top li {
   line-height: 40px;
   height: 40px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  align-items: stretch;
   margin-left: auto;
   margin-right: auto;
 }
@@ -59,7 +59,7 @@
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   margin-bottom: 50px;
 }
 
@@ -105,4 +105,3 @@
     display: inline-block;
   }
 }
-///////////
