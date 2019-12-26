@@ -15,6 +15,9 @@
   padding: 8px 0 0;
   margin: 0 0 0 60px;
   list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .nav_top li {
@@ -22,7 +25,6 @@
   height: 40px;
   flex-wrap: nowrap;
   align-items: stretch;
-  margin-left: auto;
   margin-right: auto;
 }
 
