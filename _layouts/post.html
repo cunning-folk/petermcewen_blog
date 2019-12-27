@@ -4,6 +4,8 @@ title: Home
 ---
 
 <h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<p>{{ page.date | date: "%Y-%m-%d" }}</p>
+<p>{{ page.author }}</p>
+<p class="tags">{{ page.tags }}</p>
 
 {{ content }}

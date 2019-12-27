@@ -2,6 +2,7 @@
 layout: post
 author: Peter McEwen
 css_hook: post
+tags: [Meditation]
 ---
 
 Ok. This really is a talk about uncomfortable silences. I’ve been subjecting myself to these silences for over 20 years; you could say I am a connoisseur of silences.
