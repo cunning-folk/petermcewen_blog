@@ -11,11 +11,13 @@
 }
 
 .nav_top ul {
-  font-family: FoundersGrotMono-Regular, $font-stack-peter, sans-serif;
+  font-family: FoundersGrot-Regular, $font-stack-peter, sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
   padding: 8px 0 0;
   margin: 0 0 0 65px;
   list-style: none;
   display: flex;
+  letter-spacing: 0.5;
   justify-content: flex-end;
   width: 100%;
 }
@@ -29,7 +31,7 @@
 }
 
 .nav_top a {
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-decoration: none;
   color: $black;
   display: flex;
@@ -56,6 +58,7 @@
     display: inline-block;
   }
 }
+
 ////FOOTER NAVIGATION
 
 .nav {

@@ -1,6 +1,43 @@
 @charset "UTF-8";
 
-//Condensed
+/// FOUNDERS MONO
+@font-face {
+  font-family: FoundersGrotMono-Regular;
+  src: asset_url("FoundersGrotMono-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: FoundersGrotMono-Medium;
+  src: asset_url("FoundersGrotMono-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: FoundersGrotMono-Bold;
+  src: asset_url("FoundersGrotMono-Bold.woff") format("woff");
+}
+
+////Founders
+@font-face {
+  font-family: FoundersGrot-Regular;
+  src: asset_url("FoundersGrot-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: FoundersGrot-Medium;
+  src: asset_url("FoundersGrotText-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: FoundersGrot-MediumItalic;
+  src: asset_url("FoundersGrotText-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: FoundersGrot-Bold;
+  src: asset_url("FoundersGrot-Bold.woff") format("woff");
+}
+
+//Founders Condensed
 @font-face {
   font-family: FoundersGrotCond-Medium;
   src: asset_url("FoundersGrotCond-Medium.woff") format("woff");
@@ -17,6 +54,7 @@
 }
 
 //Untitled//
+
 @font-face {
   font-family: UntitledSerif-Regular;
   src: asset_url("UntitledSerif-Regular.woff") format("woff");
@@ -35,48 +73,6 @@
 @font-face {
   font-family: UntitledSerif-BoldItalic;
   src: asset_url("UntitledSerif-BoldItalic.woff") format("woff");
-}
-
-/// FOUNDERS MONO
-@font-face {
-  font-family: FoundersGrotMono-Regular;
-  src: asset_url("FoundersGrotMono-Regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: FoundersGrotMono-Medium;
-  src: asset_url("FoundersGrotMono-Medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: FoundersGrotMono-Bold;
-  src: asset_url("FoundersGrotMono-Bold.woff") format("woff");
-}
-
-/// FOUNDERS
-@font-face {
-  font-family: FoundersGrotText-Regular;
-  src: asset_url("FoundersGrotText-Regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: FoundersGrotText-RegularItalic;
-  src: asset_url("FoundersGrotText-RegularItalic.woff") format("woff");
-}
-
-@font-face {
-  font-family: FoundersGrot-Medium;
-  src: asset_url("FoundersGrotText-Medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: FoundersGrot-MediumItalic;
-  src: asset_url("FoundersGrotText-MediumItalic.woff") format("woff");
-}
-
-@font-face {
-  font-family: FoundersGrot-Bold;
-  src: asset_url("FoundersGrot-Bold.woff") format("woff");
 }
 
 $font-stack-peter: (
