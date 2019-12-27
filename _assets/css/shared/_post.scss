@@ -4,13 +4,29 @@
   padding-bottom: 10px;
 }
 
+.post_line {
+  border-top: 3px solid $black;
+  margin: 10px 0 10px 0;
+}
+
 .post_title {
   display: flex;
+  align-items: baseline;
 }
 
 .post-list-header {
   border-top: 5px solid $red;
   height: 0;
+}
+
+.author {
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+  //justify-content: flex-end;
+  font-family: FoundersGrotMono-regular, $font-stack-serif-italic, sans-serif;
+  font-size: 0.8rem;
+  margin: 5px 0 15px 0;
 }
 
 .post {
@@ -21,29 +37,28 @@
   h1 {
     @include type-big(true);
     font-size: 2.4rem;
-    font-family: FoundersGrot-Bold, HeldaneDisplay-Bold, serif;
+    font-family: FoundersGrot-Bold, $font-stack-peter, sans-serif;
     font-weight: 400;
     letter-spacing: 0.1rem;
+    margin: 10px 0 15px 0;
     -webkit-font-smoothing: subpixel-antialiased;
   }
 
   .tags {
     font-family: FoundersGrotCond-Medium, $font-stack-peter, sans-serif;
-    color: $blue;
-    letter-spacing: 0.07rem;
+    font-size: 1rem;
+    color: $black;
+    margin: 0;
+    letter-spacing: 0.2rem;
     text-transform: uppercase;
   }
 
   .date {
     font-family: $font-stack-serif, serif;
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     letter-spacing: 0.09rem;
     margin-left: 5px;
     text-transform: uppercase;
-  }
-
-  .author {
-    font-family: $font-stack-serif-italic;
   }
 
   p {

@@ -2,13 +2,16 @@
 layout: default
 title: Home
 ---
+<hr class="post_line">
+</hr>
 <div class="post_title">
   <p class="tags">{{ page.tags }} | </p>
-  <p class="date">{{ page.date | date: "%Y-%m-%d" }}</p>
+  <p class="date">{{ page.date | date: '%B %d, %Y' }}</p>
 </div>
 
 <h1>{{ page.title }}</h1>
-<p class="author"> by: {{ page.author }}</p>
+
+  <span class="author"> by: {{ page.author }}</span>
 
 
-{{ content }}
+    {{ content }}
