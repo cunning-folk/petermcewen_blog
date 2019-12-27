@@ -86,6 +86,20 @@ h2 {
   letter-spacing: 0.03rem;
 }
 
+.arrow {
+  letter-spacing: 0.02rem;
+  font-family: FoundersGrotMono-regular, sans-serif;
+  color: $blue;
+  margin-left: -14px;
+}
+
+h2:before {
+  content: "→";
+  position: relative;
+  left: -10px;
+  color: $blue;
+}
+
 h3 {
   @include type-medium;
   font-size: 0.8rem;
@@ -104,15 +118,6 @@ ul {
 li {
   padding-left: 0;
 }
-
-/*
-  .post-list li::before {
-    content: "→";
-    position: relative;
-    left: -20px;
-    color: $black;
-  }
-*/
 
 h4 {
   @include type-big;
