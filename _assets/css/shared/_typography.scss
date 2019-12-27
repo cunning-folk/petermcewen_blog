@@ -76,6 +76,7 @@ h1 {
   font-weight: 400;
   letter-spacing: 1rem;
   -webkit-font-smoothing: subpixel-antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 h2 {
@@ -83,6 +84,7 @@ h2 {
   font-family: FoundersGrotMono-Medium, sans-serif;
   color: $black;
   -webkit-font-smoothing: subpixel-antialiased;
+  text-rendering: optimizeLegibility;
   letter-spacing: 0.03rem;
 }
 
@@ -107,6 +109,7 @@ h3 {
   color: $blue;
   -webkit-font-smoothing: subpixel-antialiased;
   letter-spacing: 0.03rem;
+  text-rendering: optimizeLegibility;
 }
 
 ul {
@@ -130,6 +133,7 @@ h4 {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: subpixel-antialiased;
+  text-rendering: optimizeLegibility;
 
   & a {
     color: $black;
@@ -161,6 +165,7 @@ p {
     &:last-child {
       margin-bottom: 0;
       -webkit-font-smoothing: subpixel-antialiased;
+      text-rendering: optimizeLegibility;
     }
   }
 
@@ -175,7 +180,7 @@ p {
 
 b,
 strong {
-  font-family: soehne--halbfett, FoundersGrot-Medium, sans-serif;
+  font-family: FoundersGrot-Medium, sans-serif;
   font-weight: 700;
   letter-spacing: 0.05rem;
 }

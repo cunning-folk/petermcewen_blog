@@ -40,6 +40,7 @@
     font-family: FoundersGrot-Bold, $font-stack-peter, sans-serif;
     font-weight: 400;
     letter-spacing: 0.1rem;
+    text-rendering: optimizeLegibility;
     margin: 10px 0 15px 0;
     -webkit-font-smoothing: subpixel-antialiased;
   }
@@ -65,8 +66,8 @@
     @include type-normal(true);
     font-family: UntitledSerif-Regular, $font-stack-serif, serif;
     color: $black;
+    text-rendering: optimizeLegibility;
     line-height: 1.5rem;
-    letter-spacing: 0.01rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
