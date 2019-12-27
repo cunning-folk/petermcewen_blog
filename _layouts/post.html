@@ -2,10 +2,13 @@
 layout: default
 title: Home
 ---
+<div class="post_title">
+  <p class="tags">{{ page.tags }} | </p>
+  <p class="date">{{ page.date | date: "%Y-%m-%d" }}</p>
+</div>
 
 <h1>{{ page.title }}</h1>
-<p>{{ page.date | date: "%Y-%m-%d" }}</p>
-<p>{{ page.author }}</p>
-<p class="tags">{{ page.tags }}</p>
+<p class="author"> by: {{ page.author }}</p>
+
 
 {{ content }}
