@@ -44,7 +44,7 @@ $body: $font-stack-peter;
   @include type-size(32, 1.25, $margin);
 }
 @mixin type-medium($margin: false) {
-  @include type-size(18, 1.25, $margin);
+  @include type-size(14, 1.25, $margin);
 }
 @mixin type-normal($margin: false) {
   @include type-size(16, 1.25, $margin);
@@ -93,7 +93,7 @@ h2 {
 .arrow {
   letter-spacing: 0.02rem;
   font-family: FoundersGrotMono-regular, sans-serif;
-  color: $blue;
+  color: $baseColor;
   margin-left: -14px;
 }
 
@@ -101,7 +101,7 @@ h2:before {
   content: "→";
   position: relative;
   left: -10px;
-  color: $blue;
+  color: $hoverColor;
 }
 
 h3 {
@@ -126,7 +126,7 @@ li {
 
 h4 {
   @include type-big;
-  font-size: 2.1rem;
+  font-size: 2rem;
   font-family: FoundersGrot-Bold, $font-stack-peter, sans-serif;
   font-weight: 400;
   letter-spacing: 0.2rem;
