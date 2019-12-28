@@ -58,7 +58,9 @@ $body: $font-stack-peter;
 }
 
 a {
-  @include link-handler($black, $red, $black, false, false, null);
+  @include link-handler($blue, $red, $black, false, false, null);
+  border-bottom: 2px solid;
+  transition: 1.2s;
 
   & strong em,
   b i,
@@ -138,6 +140,7 @@ h4 {
   & a {
     color: $black;
     transition: 1.2s;
+    border-bottom: none;
     //border-bottom: 0.18rem solid;
     //padding-bottom: 6px;
     //font-style: italic;

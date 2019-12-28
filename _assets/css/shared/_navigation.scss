@@ -33,6 +33,7 @@
 .nav_top a {
   font-size: 1rem;
   text-decoration: none;
+  border: none;
   color: $black;
   display: flex;
   transition: 1.2s;
@@ -86,6 +87,7 @@
 .nav a {
   font-size: 0.95rem;
   text-decoration: none;
+  border: none;
   color: $black;
   display: block;
   transition: 1.2s;
