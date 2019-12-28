@@ -1,22 +1,23 @@
 .nav_top {
   display: flex;
+  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
+  align-content: stretch;
   width: 100%;
 
   .bunny {
     width: 6%;
 
-    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
-      width: 15%;
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: portrait) {
+      width: 14%;
     }
   }
 }
 
 .nav_top ul {
   font-family: FoundersGrot-Regular, $font-stack-peter, sans-serif;
-  -webkit-font-smoothing: subpixel-antialiased;
   padding: 8px 0 0;
   margin: 0 0 0 65px;
   list-style: none;
@@ -24,14 +25,16 @@
   letter-spacing: 0.5;
   justify-content: flex-end;
   width: 100%;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .nav_top li {
   line-height: 40px;
   height: 40px;
   flex-wrap: nowrap;
+  align-content: center;
   align-items: stretch;
-  margin-right: auto;
+  margin: 0 10px 0 35px;
 }
 
 .nav_top a {
@@ -53,13 +56,13 @@
   cursor: default;
 }
 
-@media screen and (min-width: 600px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: portrait) {
   .nav_top li {
-    width: 80px;
-    border-bottom: none;
+    width: 50px;
     height: 40px;
     margin-right: 10px;
     line-height: 40px;
+    border-bottom: none;
     display: inline-block;
   }
 }
