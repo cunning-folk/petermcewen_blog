@@ -68,8 +68,9 @@
 }
 
 ////FOOTER NAVIGATION
-.nav_container {
+.footer {
   flex-shrink: 0;
+  padding: 0 5px 15px 5px;
 }
 
 .nav {
@@ -115,7 +116,7 @@
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: portrait) {
-  .nav_container {
+  .footer {
     min-height: calc(30% - 20px);
   }
 
