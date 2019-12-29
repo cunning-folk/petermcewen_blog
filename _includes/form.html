@@ -1,0 +1,19 @@
+{% comment %}
+use this include for subscirption form
+{% endcomment %}
+
+<form
+  action="https://buttondown.email/api/emails/embed-subscribe/petermcewen"
+  method="post"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/petermcewen', 'popupwindow')"
+  class="embeddable-buttondown-form"
+>
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email">
+  <input type="hidden" value="1" name="embed"></input>
+  <input type="submit" value="Subscribe"></input>
+  <p>
+    <a href="https://buttondown.email" target="_blank">Powered by Buttondown.</a>
+  </p>
+</form>
