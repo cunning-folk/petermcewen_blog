@@ -1,6 +1,19 @@
-.subscribe-form {
-  margin-top: 50px;
-  margin-bottom: 50px;
+.form-wrapper {
+  display: block;
+  width: 500px;
+  margin: auto;
+  padding: 4rem 10px 4rem 10px;
+}
+
+.form-wrapper h3 {
+  text-align: center;
+}
+
+.form-wrapper form {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .form-wrapper form .input-wrapper {
