@@ -2,3 +2,49 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+.form-wrapper form .input-wrapper {
+  position: relative;
+}
+
+.form-wrapper form input[type=email] {
+  font-size: 2rem;
+  padding: 2rem 4rem 2rem 2rem;
+  width: 100%;
+}
+
+input:required {
+  box-shadow: none;
+}
+
+.form-wrapper form input {
+  border: 0;
+  border-radius: 0;
+  width: 100%;
+  font-weight: 300;
+}
+
+.form-wrapper form .submit-wrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding: 0.5rem;
+}
+
+.form-wrapper form input[type=submit] {
+  color: #ff5a46;
+  border-radius: 5px;
+  padding: 0 2rem;
+  height: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  display: block;
+  background-color: #fff;
+  transition: 0.18s ease-in-out;
+}
+
+input[type=submit] {
+  appearance: button;
+  cursor: pointer;
+}

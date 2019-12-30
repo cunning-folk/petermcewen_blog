@@ -2,18 +2,24 @@
 use this include for subscirption form
 {% endcomment %}
 
-<form
-  action="https://buttondown.email/api/emails/embed-subscribe/petermcewen"
-  method="post"
-  target="popupwindow"
-  onsubmit="window.open('https://buttondown.email/petermcewen', 'popupwindow')"
-  class="embeddable-buttondown-form"
->
-  <label for="bd-email">Enter your email</label>
-  <input type="email" name="email" id="bd-email">
-  <input type="hidden" value="1" name="embed"></input>
-  <input type="submit" value="Subscribe"></input>
-  <p>
-    <a href="https://buttondown.email" target="_blank">Running on Cunning</a>
-  </p>
-</form>
+<div class="form-wrapper">
+  <h3 class="form-wrapper">Subscribe to the weekly newsletter</h3>
+
+  <form id="emailForm" action="https://buttondown.email/api/emails/embed-subscribe/petermcewen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/petermcewen', 'popupwindow')" class="embeddable-buttondown-form">
+
+    <div class="input-wrapper">
+
+      <input type="email" name="email" id="bd-email" placeholder="Email Address" required>
+
+    </div>
+
+    <input type="hidden" value="1" name="embed"></input>
+
+    <div class="submit-wrapper">
+      <input type="submit" value="Subscribe"></input>
+    </div>
+
+<p class="form-message" id="formMessage"></p>
+
+  </form>
+</div>
