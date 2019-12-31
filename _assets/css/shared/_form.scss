@@ -21,11 +21,14 @@
   }
 }
 
+.form-wrapper {
+  display: block;
+  padding: 4rem 10px 4rem 10px;
+}
+
 .form-wrapper form {
-  //position: relative;
   display: grid;
   grid-template-columns: 3fr 1fr;
-  //margin: 20px 0 20px 0;
   width: 650px;
   margin: 0 auto;
   max-width: 100%;
@@ -59,7 +62,6 @@ button, input {
   width: 100%;
   padding: 10px;
   cursor: pointer;
-  transition: background 250ms ease-in-out, transform 150ms ease;
 }
 
 input[type=submit] {
@@ -67,41 +69,10 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/////Huge Form
-.form-wrapper {
-  display: block;
-  padding: 4rem 10px 4rem 10px;
-}
-
-.form-wrapper h3 {
-  text-align: center;
-  padding: 5px 10px 10px 5px;
-  margin: 5px 10px 10px 5px;
-}
-
-.form-wrapper form input {
-  border: 1px;
-  border-radius: 0;
-  width: 100%;
-  font-weight: 300;
-}
-
-.form-wrapper form input[type=email] {
+form input[type=email] {
   font-size: 2rem;
   padding: 2rem 2rem 2rem 2rem;
   width: 100%;
-}
-
-input:required {
-  box-shadow: none;
-}
-
-.form-wrapper form .submit-wrapper {
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 80%;
-  padding: 0.5rem;
 }
 
 .form-wrapper form input[type=submit] {
@@ -114,4 +85,21 @@ input:required {
   display: block;
   background-color: #fff;
   transition: 0.18s ease-in-out;
+}
+
+.form-wrapper h3 {
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
+}
+
+.form-wrapper form input {
+  border: 1px;
+  border-radius: 0;
+  width: 100%;
+  font-weight: 300;
+}
+
+input:required {
+  box-shadow: none;
 }
