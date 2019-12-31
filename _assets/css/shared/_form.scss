@@ -21,6 +21,8 @@
   }
 }
 
+/////////////
+
 .form-wrapper {
   display: block;
   padding: 4rem 10px 4rem 10px;
@@ -29,9 +31,7 @@
 .form-wrapper form {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  width: 650px;
-  margin: 0 auto;
-  max-width: 100%;
+  margin: calc(var(--p) * 3) 0;
 }
 
 .cursor {
@@ -51,16 +51,21 @@
   opacity: 1;
 }
 
-form button {
-  background-color: $red;
-  color: $white;
-  transition: background 250ms ease-in-out, transform 150ms ease;
+button {
+  background: $red;
+  color: var(--l);
+  transition: background var(--x);
+  border: 0;
+}
+
+button:hover {
+  background: var(--h);
 }
 
 button, input {
-  background: $white;
+  background: var(--w);
   width: 100%;
-  padding: 10px;
+  padding: calc(var(--p)) calc(var(--p) * 2);
   cursor: pointer;
 }
 
