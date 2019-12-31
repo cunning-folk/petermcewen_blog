@@ -3,23 +3,22 @@ use this include for subscirption form
 {% endcomment %}
 
 <div class="form-wrapper">
-  <h3 class="form-wrapper">Subscribe to the weekly newsletter</h3>
 
-  <form id="emailForm" action="https://buttondown.email/api/emails/embed-subscribe/petermcewen" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/petermcewen', 'popupwindow')" class="embeddable-buttondown-form">
+  <h3>I write a weekly newsletter called the Sunday Dispatches where I share articles about working and living online with 35k subscribers&mdash;</h3>
 
-    <div class="input-wrapper">
+  <form action="https://buttondown.email/api/emails/embed-subscribe/petermcewen" method="post" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/petermcewen', 'popupwindow')" class="embeddable-buttondown-form">
 
-      <input type="email" name="email" id="bd-email" placeholder="Email Address" required>
+    <div class="cursor">
+
+      <input type="email" name="email" id="mce-EMAIL" placeholder="Your email..." class="required email">
+
+      <i></i>
 
     </div>
 
-    <input type="hidden" value="1" name="embed"></input>
-
-    <div class="submit-wrapper">
-      <input type="submit" value="Subscribe"></input>
-    </div>
-
-<p class="form-message" id="formMessage"></p>
+    <button type="submit">Join now</button>
 
   </form>
+
+
 </div>

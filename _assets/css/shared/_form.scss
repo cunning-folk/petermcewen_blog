@@ -1,3 +1,73 @@
+////Jarvis style
+
+:root {
+  --w: #fff;
+  --l: #f5f5f5;
+  --m: #949494;
+  --d: #111;
+  --h: #f9415d;
+  --p: 10px;
+  --x: ease 0.4s;
+}
+
+@keyframes blinky {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+.form-wrapper form {
+  //position: relative;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  //margin: 20px 0 20px 0;
+  width: 650px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.cursor {
+  position: relative;
+}
+
+.cursor i {
+  position: absolute;
+  width: 2px;
+  height: calc(var(--p) * 3);
+  background: var(--m);
+  left: var(--p);
+  top: var(--p);
+  animation-name: blinky;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  opacity: 1;
+}
+
+form button {
+  background-color: $red;
+  color: $white;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+}
+
+button, input {
+  background: $white;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+}
+
+input[type=submit] {
+  appearance: button;
+  cursor: pointer;
+}
+
+/////Huge Form
 .form-wrapper {
   display: block;
   padding: 4rem 10px 4rem 10px;
@@ -7,17 +77,6 @@
   text-align: center;
   padding: 5px 10px 10px 5px;
   margin: 5px 10px 10px 5px;
-}
-
-.form-wrapper form {
-  position: relative;
-  width: 700px;
-  margin: 0 auto;
-  max-width: 100%;
-}
-
-.form-wrapper form .input-wrapper {
-  position: relative;
 }
 
 .form-wrapper form input {
@@ -43,11 +102,6 @@ input:required {
   top: 0;
   height: 80%;
   padding: 0.5rem;
-}
-
-input[type=submit] {
-  appearance: button;
-  cursor: pointer;
 }
 
 .form-wrapper form input[type=submit] {
