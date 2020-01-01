@@ -28,6 +28,13 @@
   padding: 10px 10px 10px 10px;
 }
 
+.form-wrapper p {
+  font-family: FoundersGrotMono-regular, sans-serif;
+  font-size: 0.8rem;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+
 .form-wrapper form {
   display: grid;
   grid-template-columns: 3fr 1fr;
