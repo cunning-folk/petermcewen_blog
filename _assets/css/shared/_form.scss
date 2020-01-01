@@ -40,11 +40,11 @@
 
 .cursor i {
   position: absolute;
-  width: 2px;
+  width: 4px;
   height: calc(var(--p) * 3);
   background: var(--m);
-  left: var(--p);
-  top: var(--p);
+  left: 10px;
+  top: 10px;
   animation-name: blinky;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -75,8 +75,8 @@ input[type=submit] {
 }
 
 form input[type=email] {
-  font-size: 2rem;
-  padding: 2rem 2rem 2rem 2rem;
+  font-size: 1rem;
+  padding: 1rem 1rem 1rem 1rem;
   width: 100%;
 }
 
