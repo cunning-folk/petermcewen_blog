@@ -93,7 +93,7 @@ h2 {
 .arrow {
   letter-spacing: 0.02rem;
   font-family: FoundersGrotMono-regular, sans-serif;
-  color: $baseColor;
+  color: $darkgreen;
   margin: 0 0 0 -10px;
 }
 
@@ -101,7 +101,7 @@ h2:before {
   content: "→";
   position: relative;
   left: -10px;
-  color: $hoverColor;
+  color: $green;
 }
 
 h3 {
