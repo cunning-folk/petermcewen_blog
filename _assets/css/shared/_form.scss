@@ -62,7 +62,7 @@ button {
   font-family: FoundersGrotMono-Regular, sans-serif;
   font-size: 1rem;
   background: rgba(118, 237, 55, 0.85);
-  color: var(--l);
+  color: rgba(64, 128, 30, 0.65);
   transition: background var(--x);
   width: 100%;
   padding: 10px 10px 10px 10px;
@@ -71,6 +71,7 @@ button {
 
 input {
   background: var(--w);
+  border: 0;
   width: 100%;
   font-family: FoundersGrotMono-Regular, sans-serif;
   padding: 10px 10px 10px 10px;
@@ -83,14 +84,16 @@ button:active {
 
 button:hover {
   background: $red;
+  color: $grey;
 }
 
 form input[type=email] {
   font-size: 1rem;
   padding: 1rem 1rem 1rem 1rem;
-  width: 92%;
+  width: 93%;
 }
 
-input:required {
+input:focus {
+  outline: none;
   box-shadow: none;
 }
