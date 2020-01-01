@@ -60,6 +60,7 @@
 button {
   border: 0;
   font-family: FoundersGrotMono-Regular, sans-serif;
+  font-size: 1rem;
   background: var(--d);
   color: var(--l);
   transition: background var(--x);
@@ -85,7 +86,7 @@ button:hover {
 }
 
 form input[type=email] {
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding: 1rem 1rem 1rem 1rem;
   width: 92%;
 }
