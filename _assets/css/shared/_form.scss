@@ -4,8 +4,8 @@
   --w: #fff;
   --l: #f5f5f5;
   --m: #949494;
-  --d: #111;
-  --h: #f9415d;
+  --d: rgba(46, 46, 46, 0.9);
+  --h: rgba(255, 72, 72, 0.87);
   --p: 10px;
   --x: ease 0.4s;
 }
@@ -31,7 +31,13 @@
 .form-wrapper form {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  margin: calc(var(--p) * 3) 0;
+  margin: 30px 0;
+}
+
+.form-wrapper h3 {
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
 }
 
 .cursor {
@@ -42,7 +48,7 @@
   position: absolute;
   width: 4px;
   height: calc(var(--p) * 3);
-  background: var(--m);
+  background: #949494;
   left: 10px;
   top: 10px;
   animation-name: blinky;
@@ -52,57 +58,36 @@
 }
 
 button {
-  //background: $red;
-  color: var(--l);
-  transition: background var(--m);
   border: 0;
+  font-family: FoundersGrotMono-Regular, sans-serif;
+  background: var(--d);
+  color: var(--l);
+  transition: background var(--x);
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
 }
 
-button, input {
+input {
   background: var(--w);
   width: 100%;
-  padding: calc(var(--p)) calc(var(--p) * 2);
+  font-family: FoundersGrotMono-Regular, sans-serif;
+  padding: 10px 10px 10px 10px;
   cursor: pointer;
+}
+
+button:active {
+  background: var(--m);
 }
 
 button:hover {
-  background: var(--h);
-}
-
-input[type=submit] {
-  appearance: button;
-  cursor: pointer;
+  background: $red;
 }
 
 form input[type=email] {
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 1rem 1rem 1rem 1rem;
-  width: 100%;
-}
-
-.form-wrapper form input[type=submit] {
-  color: $red;
-  border-radius: 5px;
-  padding: 0 1rem;
-  height: 100%;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  display: block;
-  background-color: #fff;
-  transition: 0.18s ease-in-out;
-}
-
-.form-wrapper h3 {
-  text-align: center;
-  padding: 5px 5px 5px 5px;
-  margin: 10px 10px 10px 10px;
-}
-
-.form-wrapper form input {
-  border: 1px;
-  border-radius: 0;
-  width: 100%;
-  font-weight: 300;
+  width: 92%;
 }
 
 input:required {
