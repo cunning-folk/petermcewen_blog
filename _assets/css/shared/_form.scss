@@ -78,7 +78,7 @@
 
 button {
   border: 0;
-  font-family: FoundersGrotMono-Regular, sans-serif;
+  font-family: FoundersGrotMono-Medium, sans-serif;
   font-size: 1rem;
   background: rgba(118, 237, 55, 0.85);
   color: rgba(64, 128, 30, 0.65);
@@ -88,7 +88,7 @@ button {
   cursor: pointer;
 
   @media screen and (max-width: 620px) {
-    width: 104%;
+    width: 100%;
     margin-top: 5px;
   }
 }
@@ -98,6 +98,7 @@ input {
   border: 0;
   width: 100%;
   font-family: FoundersGrotMono-Regular, sans-serif;
+  font-size: 1rem;
   padding: 10px 10px 10px 10px;
   cursor: pointer;
 }

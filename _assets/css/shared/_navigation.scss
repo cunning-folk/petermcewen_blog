@@ -47,7 +47,7 @@
 }
 
 .nav_top a:hover {
-  color: $red;
+  color: $green;
 }
 
 .nav_top a.active {
@@ -102,7 +102,7 @@
 }
 
 .nav a:hover {
-  color: $red;
+  color: $green;
 }
 
 .nav a.active {
@@ -149,7 +149,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #00beff;
+  background: $green;
   height: 4px;
   transform: translateY(4px);
   transition-property: transform;
