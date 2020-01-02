@@ -47,7 +47,6 @@
 }
 
 .nav_top a:hover {
-  //background-color: $grey;
   color: $red;
 }
 
@@ -130,4 +129,34 @@
     height: 30px;
     line-height: 40px;
   }
+}
+
+/* Underline Reveal */
+
+.underline-reveal {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.underline-reveal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #00beff;
+  height: 4px;
+  transform: translateY(4px);
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.underline-reveal:hover:before, .hvr-underline-reveal:focus:before, .hvr-underline-reveal:active:before {
+  transform: translateY(0);
 }
