@@ -115,14 +115,14 @@ h2:before {
 }
 
 .post_list-title {
-  font-family: FoundersGrotMono-Medium, sans-serif;
+  font-family: FoundersGrotMono-regular, sans-serif;
   font-size: 1em;
-  color: $green;
+  color: $sky;
   background: $grey;
   display: table;
   position: relative;
   padding: 0 1em;
-  left: -10px;
+  left: -12px;
   top: -0.9em;
   margin: 0 auto;
   margin-left: 0;
@@ -130,7 +130,7 @@ h2:before {
 
   &:before {
     content: ""→"";
-    color: $green;
+    color: $sky;
     margin-right: 0.2em;
   }
 }
