@@ -157,27 +157,16 @@ li {
 
 h4 {
   @include type-big;
-  font-size: 2rem;
-  font-family: FoundersGrot-Bold, $font-stack-peter, sans-serif;
+  font-size: 1.6rem;
+  font-family: FoundersGrot-Medium, $font-stack-peter, sans-serif;
   font-weight: 400;
-  letter-spacing: 0.2rem;
+  //letter-spacing: 0.1rem;
   color: $black;
   display: inline;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: subpixel-antialiased;
   text-rendering: optimizeLegibility;
-
-  & a {
-    //color: $black;
-    //transition: 1.2s;
-    //border-bottom: none;
-    //box-shadow: none;
-  }
-
-  & a:hover {
-    box-shadow: none;
-  }
 }
 
 .line {
