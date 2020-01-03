@@ -46,6 +46,10 @@ ul.post-list {
     text-rendering: optimizeLegibility;
     margin: 10px 0 15px 0;
     -webkit-font-smoothing: subpixel-antialiased;
+
+    a {
+      box-shadow: none;
+    }
   }
 
   .tags {
