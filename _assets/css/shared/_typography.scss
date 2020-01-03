@@ -78,7 +78,7 @@ a:hover {
 
 h1 {
   @include type-big(true);
-  font-family: HeldaneDisplay-Bold, serif;
+  font-family: UntitledSerif-Bold, serif;
   font-weight: 400;
   letter-spacing: 1rem;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -88,7 +88,6 @@ h1 {
 h2 {
   @include type-medium;
   font-family: FoundersGrotMono-Medium, sans-serif;
-  //color: $black;
   -webkit-font-smoothing: subpixel-antialiased;
   text-rendering: optimizeLegibility;
   letter-spacing: 0.03rem;
@@ -117,7 +116,7 @@ h2:before {
 .post_list-title {
   font-family: FoundersGrotMono-regular, sans-serif;
   font-size: 1em;
-  color: $sky;
+  color: $green;
   background: $grey;
   display: table;
   position: relative;
@@ -126,12 +125,13 @@ h2:before {
   top: -0.9em;
   margin: 0 auto;
   margin-left: 0;
-  padding-left: 0;
 
   &:before {
     content: ""→"";
-    color: $sky;
+    color: $green;
     margin-right: 0.2em;
+    position: relative;
+    left: -10px;
   }
 }
 
