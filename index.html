@@ -5,14 +5,16 @@ css_hook: index
 ---
 
 {% content home.md %}
-<h2 class="arrow">Featured Posts:</h2>
-
+<!--<h2 class="arrow">Featured Posts:</h2>-->
+<header class="post_list-header">
+  <h2 class="post_list-title">Recent Posts</h2>
+</header>
 <ul class="post-list">
   {% for post in site.posts %}
-    <li class="post-list-item">
-      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-      <p>{{ post.excerpt }}</p>
-    </li>
+  <li class="post-list-item">
+    <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+    <p>{{ post.excerpt }}</p>
+  </li>
   {% endfor %}
 </ul>
-    {% include form.html %}
+{% include form.html %}
