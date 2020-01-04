@@ -1,5 +1,5 @@
 
-## The Earthling
+**The Earthling**
 
 ![Wedding Singer]({% asset guitar.jpg @path %})
 
