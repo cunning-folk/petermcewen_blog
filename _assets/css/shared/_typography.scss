@@ -107,6 +107,11 @@ h2:before {
   color: $green;
 }
 
+.line {
+  margin: 10px 0 15px 0;
+  border-top: 1px solid $darkgrey;
+}
+
 .post_list-header {
   border-top: 5px solid $darkgrey;
   height: 0;
@@ -115,13 +120,13 @@ h2:before {
 
 .post_list-title {
   font-family: FoundersGrotMono-regular, sans-serif;
-  font-size: 1em;
+  font-size: 1.1em;
   color: $green;
   background: $grey;
   display: table;
   position: relative;
   padding: 0 1em;
-  left: -12px;
+  left: -9px;
   top: -0.9em;
   margin: 0 auto;
   margin-left: 0;
@@ -158,7 +163,7 @@ li {
 h4 {
   @include type-big;
   font-size: 1.6rem;
-  font-family: FoundersGrot-Medium, $font-stack-peter, sans-serif;
+  font-family: FoundersGrotMono-Medium, $font-stack-peter, sans-serif;
   font-weight: 400;
   color: $black;
   display: inline;
@@ -166,11 +171,6 @@ h4 {
   padding: 0;
   -webkit-font-smoothing: subpixel-antialiased;
   text-rendering: optimizeLegibility;
-}
-
-.line {
-  margin: 10px 0 15px 0;
-  border-top: 1px solid $darkgrey;
 }
 
 p {

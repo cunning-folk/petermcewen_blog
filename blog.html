@@ -3,14 +3,15 @@ layout: default
 title: Blog
 css_hook: post
 ---
-<h2 class="arrow">Enjoy!</h2>
-
+<header class="post_list-header">
+  <h2 class="post_list-title">Enjoy!</h2>
+</header>
 <ul class="post-list">
   {% for post in site.posts %}
-    <li class="post-list-item">
-      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-      <p>{{ post.excerpt }}</p>
-    </li>
+  <li class="post-list-item">
+    <h4><a class="underline-reveal" href="{{ post.url }}">{{ post.title }}</a></h4>
+    <p>{{ post.excerpt }}</p>
+  </li>
   {% endfor %}
 </ul>
 
