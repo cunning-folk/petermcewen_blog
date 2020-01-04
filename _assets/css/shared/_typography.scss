@@ -173,6 +173,11 @@ h4 {
   text-rendering: optimizeLegibility;
 }
 
+h4 a {
+  box-shadow: none;
+  transition: none;
+}
+
 p {
   @include type-normal(true);
   font-family: UntitledSerif-Regular, $font-stack-peter, serif;
