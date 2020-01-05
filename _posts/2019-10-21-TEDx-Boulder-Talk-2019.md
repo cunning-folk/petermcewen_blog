@@ -3,6 +3,7 @@ layout: post
 author: Peter McEwen
 css_hook: post
 tags: [Meditation]
+excerpt_separator: <!--more-->
 ---
 
 Ok. This really is a talk about uncomfortable silences. I’ve been subjecting myself to these silences for over 20 years; you could say I am a connoisseur of silences.
@@ -11,19 +12,20 @@ Sitting without idly consuming is a creative moment. It is a moment I take a bre
 
 Meditation isn’t just a series of uncomfortable silences that later yield to excitement. Meditation is an attention on that which supports us.
 
-We can feel that the support of gravity working well. Autumn has spontaneously arrived. Plenty of oxygen to breathe.
+We can feel that the support of gravity working well. Autumn has spontaneously arrived. Plenty of oxygen to breathe. You don’t have to do anything to deserve any of that support. It’s already present. Relax into the reality that you’re already being supported. Feeling supported opens up an opportunity to notice freshness.
 
-You don’t have to do anything to deserve any of that support. It’s already present. Relax into the reality that you’re already being supported. Feeling supported opens up an opportunity to notice freshness.
-
-**_Freshness_** — I think, what we are looking for in our lives. And by freshness, I mean the direct experience of our life energy.
+<!--more--> **_Freshness_** — I think, what we are looking for in our lives. And by freshness, I mean the direct experience of our life energy.
 
 Compared to promises that pop culture meditation makes, just the simple practice of being aware, discomfort and all, is a hard sell.
 
 People spend a lot of time and money to dissociate, and for good reason. Historically speaking, life on this planet has been a disturbing trial for most organisms.
 
 When we look, we find that making the world non-threatening is not a sustainable strategy. Working with our mind is the more sustainable option. The relationship we have with our mind is challenging one. But it is the relationship.
-Meditators sometimes rely on artificial credentials that communicate that enlightenment will provide instantaneous omnipotence, or a sudden ability to transcend the messiness of their lives.  
-Many people already have their minds made up that something is inherently missing and needs fixing. This is a formula supported by marketing spin. There is something wrong with us, we can fix it, and then we will have a special credential.
+
+>Meditators sometimes rely on artificial credentials that communicate that enlightenment will provide instantaneous omnipotence, or a sudden ability to transcend the messiness of their lives.  
+Many people already have their minds made up that something is inherently missing and needs fixing.
+
+This is a formula supported by marketing spin. There is something wrong with us, we can fix it, and then we will have a special credential.
 
 This formula results in the adoption of a fantasy of invulnerability.
 
