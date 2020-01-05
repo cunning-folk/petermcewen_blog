@@ -6,7 +6,7 @@ tags: [Meditation]
 excerpt_separator: <!--more-->
 ---
 
-Ok. This really is a talk about uncomfortable silences. I’ve been subjecting myself to these silences for over 20 years; you could say I am a connoisseur of silences.
+Ok. This really is a talk about uncomfortable silences. I’ve been subjecting myself to these silences for over 20 years; you could say I am a connoisseur of silences.<!--more--> 
 
 Sitting without idly consuming is a creative moment. It is a moment I take a break from other people’s noise - a space where I can hear my own voice and yield to the fulfillment my human capacities.
 
@@ -14,7 +14,7 @@ Meditation isn’t just a series of uncomfortable silences that later yield to e
 
 We can feel that the support of gravity working well. Autumn has spontaneously arrived. Plenty of oxygen to breathe. You don’t have to do anything to deserve any of that support. It’s already present. Relax into the reality that you’re already being supported. Feeling supported opens up an opportunity to notice freshness.
 
-<!--more--> **_Freshness_** — I think, what we are looking for in our lives. And by freshness, I mean the direct experience of our life energy.
+**_Freshness_** — I think, what we are looking for in our lives. And by freshness, I mean the direct experience of our life energy.
 
 Compared to promises that pop culture meditation makes, just the simple practice of being aware, discomfort and all, is a hard sell.
 

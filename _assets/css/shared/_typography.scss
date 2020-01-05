@@ -57,28 +57,6 @@ $body: $font-stack-peter;
   text-shadow: none;
 }
 
-blockquote {
-  display: block;
-  border-left: 5px solid $darkgrey;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
-  position: relative;
-}
-
-blockquote:before {
-  color: $sky;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-
-blockquote p {
-  display: inline;
-}
-
 a {
   @include link-handler($black, $sky, $black, false, false, null);
   transition: 1.3s;
