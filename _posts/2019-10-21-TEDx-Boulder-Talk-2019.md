@@ -6,7 +6,7 @@ tags: [Meditation]
 excerpt_separator: <!--more-->
 ---
 
-Ok. This really is a talk about uncomfortable silences. I’ve been subjecting myself to these silences for over 20 years; you could say I am a connoisseur of silences.<!--more--> 
+Ok. This really is a talk about uncomfortable silences. I’ve been subjecting myself to these silences for over 20 years; you could say I am a connoisseur of silences.<!--more-->
 
 Sitting without idly consuming is a creative moment. It is a moment I take a break from other people’s noise - a space where I can hear my own voice and yield to the fulfillment my human capacities.
 
@@ -22,7 +22,8 @@ People spend a lot of time and money to dissociate, and for good reason. Histori
 
 When we look, we find that making the world non-threatening is not a sustainable strategy. Working with our mind is the more sustainable option. The relationship we have with our mind is challenging one. But it is the relationship.
 
->Meditators sometimes rely on artificial credentials that communicate that enlightenment will provide instantaneous omnipotence, or a sudden ability to transcend the messiness of their lives.  
+>Meditators sometimes rely on artificial credentials that communicate that enlightenment will provide instantaneous omnipotence, or a sudden ability to transcend the messiness of their lives.
+  
 Many people already have their minds made up that something is inherently missing and needs fixing.
 
 This is a formula supported by marketing spin. There is something wrong with us, we can fix it, and then we will have a special credential.
