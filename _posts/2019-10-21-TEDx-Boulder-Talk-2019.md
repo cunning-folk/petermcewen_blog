@@ -23,7 +23,7 @@ People spend a lot of time and money to dissociate, and for good reason. Histori
 When we look, we find that making the world non-threatening is not a sustainable strategy. Working with our mind is the more sustainable option. The relationship we have with our mind is challenging one. But it is the relationship.
 
 >Meditators sometimes rely on artificial credentials that communicate that enlightenment will provide instantaneous omnipotence, or a sudden ability to transcend the messiness of their lives.
-  
+    
 Many people already have their minds made up that something is inherently missing and needs fixing.
 
 This is a formula supported by marketing spin. There is something wrong with us, we can fix it, and then we will have a special credential.
