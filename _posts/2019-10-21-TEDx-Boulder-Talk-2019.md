@@ -10,6 +10,11 @@ Ok. This really is a talk about uncomfortable silences. I’ve been subjecting m
 
 Sitting without idly consuming is a creative moment. It is a moment I take a break from other people’s noise - a space where I can hear my own voice and yield to the fulfillment my human capacities.
 
+<figure>
+  <img src="{% asset headshot.jpg @path %}" alt="my alt text"/>
+  <figcaption>This is my caption text.</figcaption>
+</figure>
+
 Meditation isn’t just a series of uncomfortable silences that later yield to excitement. Meditation is an attention on that which supports us.
 
 We can feel that the support of gravity working well. Autumn has spontaneously arrived. Plenty of oxygen to breathe. You don’t have to do anything to deserve any of that support. It’s already present. Relax into the reality that you’re already being supported. Feeling supported opens up an opportunity to notice freshness.
@@ -23,7 +28,7 @@ People spend a lot of time and money to dissociate, and for good reason. Histori
 When we look, we find that making the world non-threatening is not a sustainable strategy. Working with our mind is the more sustainable option. The relationship we have with our mind is challenging one. But it is the relationship.
 
 >Meditators sometimes rely on artificial credentials that communicate that enlightenment will provide instantaneous omnipotence, or a sudden ability to transcend the messiness of their lives.
-    
+
 Many people already have their minds made up that something is inherently missing and needs fixing.
 
 This is a formula supported by marketing spin. There is something wrong with us, we can fix it, and then we will have a special credential.
