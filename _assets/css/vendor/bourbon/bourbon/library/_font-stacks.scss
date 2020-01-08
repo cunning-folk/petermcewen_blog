@@ -92,9 +92,26 @@
   src: asset_url("GT-Super-Display-Light.woff") format("woff");
 }
 
+////GT-Super-Text
+
 @font-face {
   font-family: GT-Super-Text-Book;
   src: asset_url("GT-Super-Text-Book.woff") format("woff");
+}
+
+@font-face {
+  font-family: GT-Super-Text-Book-Italic;
+  src: asset_url("GT-Super-Text-Book-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: GT-Super-Display-Medium;
+  src: asset_url("GT-Super-Display-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: GT-Super-Display-Medium-Italic;
+  src: asset_url("GT-Super-Display-Medium-Italic.woff") format("woff");
 }
 
 //////Font Stacks
@@ -119,21 +136,25 @@ $font-stack-peter-italic-bold: (
 //////Serif Font Stacks
 
 $font-stack-serif: (
+  "GT-Super-Text-Book",
   "UntitledSerif-Regular",
   serif,
 );
 
 $font-stack-serif-italic: (
+  "GT-Super-Text-Book-Italic",
   "UntitledSerif-RegularItalic",
   serif,
 );
 
 $font-stack-serif-bold: (
+  "GT-Super-Display-Medium",
   "UntitledSerif-Bold",
   serif,
 );
 
 $font-stack-serif-italic-bold: (
+  "GT-Super-Display-Medium-Italic",
   "UntitledSerif-BoldItalic",
   serif,
 );
