@@ -30,9 +30,8 @@ We can feel that the support of gravity working well. Autumn has spontaneously a
 
 <figure>
 <blockquote>
-    <p>Gutenberg’s ideal would have been to make type indistinguishable from formal writing. So the goal of typography at first had nothing to do with type or design: it had everything to do with saving time. Producing multiple copies of books faster than they could be written was the point of typography: no more and no less.</p>
+    <p>‘Doing nothing’ augmented with capitalism’s admonition to ‘be happy’ presents a very interesting cocktail: doing nothing turns into a pursuit. An effort to enjoy.</p>
 </blockquote>
-<figcaption><p>Fred Smeijers, <em><a href="http://typographica.org/on-typography/variable-fonts">Variable Fonts: the Future of Type</a></em>, pp.43</p></figcaption>
 </figure>
 
 Compared to promises that pop culture meditation makes, just the simple practice of being aware, discomfort and all, is a hard sell.
