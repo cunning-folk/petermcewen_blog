@@ -11,7 +11,7 @@ Ok. This really is a talk about uncomfortable silences. I’ve been subjecting m
 Sitting without idly consuming is a creative moment. It is a moment I take a break from other people’s noise - a space where I can hear my own voice and yield to the fulfillment my human capacities.
 
 <figure>
-  <img src="{% asset headshot.jpg @path %}" alt="my alt text"/>
+  <img src="{% asset uncomfortable.png @path %}" alt="my alt text"/>
   <figcaption>This is my caption text.</figcaption>
 </figure>
 
