@@ -42,7 +42,7 @@
 //   font-family: FoundersGrotCond-Medium;
 //   src: asset_url("FoundersGrotCond-Medium.woff") format("woff");
 // }
-// 
+//
 // @font-face {
 //   font-family: FoundersGrotCond-Semibold;
 //   src: asset_url("FoundersGrotCond-Semibold.woff") format("woff");
@@ -63,6 +63,11 @@
 @font-face {
   font-family: UntitledSerif-RegularItalic;
   src: asset_url("UntitledSerif-RegularItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: UntitledSerif-Medium;
+  src: asset_url("UntitledSerif-Medium.woff") format("woff");
 }
 
 @font-face {

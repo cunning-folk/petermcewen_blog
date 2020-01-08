@@ -75,16 +75,3 @@ img, svg {
   display: block;
   width: 100%;
 }
-
-figure {
-  margin: 20px 0 20px 0;
-  display: block;
-}
-
-figcaption {
-  display: flex;
-  justify-content: flex-end;
-  font-family: FoundersGrotMono-Regular, $font-stack-peter, sans-serif;
-  color: $blue;
-  margin-top: 10px;
-}

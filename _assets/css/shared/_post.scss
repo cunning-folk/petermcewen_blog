@@ -92,8 +92,29 @@ ul.post-list {
     font-size: 20px;
     display: inline;
     hyphens: none;
-    //text-decoration: underline;
     color: $blue;
+  }
+
+  figure {
+    margin: 20px 0 20px 0;
+    display: block;
+  }
+
+  figcaption p {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1rem;
+    font-family: UntitledSerif-Regular, $font-stack-serif, sans-serif;
+    color: $black;
+    margin-top: 10px;
+  }
+
+  figcaption p a {
+    font-family: UntitledSerif-Regular, $font-stack-serif, serif;
+    font-size: 1rem;
+    box-shadow: none;
+    color: $red;
+    border: none;
   }
 
   p {
