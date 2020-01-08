@@ -100,6 +100,13 @@ ul.post-list {
     display: inline;
     hyphens: none;
     color: $black;
+
+    b,
+    strong {
+      font-family: FoundersGrotMono-Medium, $font-stack-serif-bold, serif;
+      font-weight: 600;
+      letter-spacing: 0.02rem;
+    }
   }
 
   figure {

@@ -30,7 +30,7 @@ We can feel that the support of gravity working well. Autumn has spontaneously a
 
 <figure>
 <blockquote>
-    <p>‘Doing nothing’ augmented with capitalism’s admonition to ‘be happy’ presents a very interesting cocktail: doing nothing turns into a <em>pursuit</em>. <b>An effort to enjoy.</b></p>
+    <p>‘Doing nothing’ augmented with capitalism’s admonition to ‘be happy’ presents a very interesting cocktail: <b>doing nothing turns into a pursuit. An effort to enjoy.</b></p>
 </blockquote>
 </figure>
 
