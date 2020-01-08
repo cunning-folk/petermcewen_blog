@@ -19,10 +19,10 @@ Meditation isn’t just a series of uncomfortable silences that later yield to e
 
 <figure>
 <blockquote>
-    <p>[Gutenberg’s] ideal would have been to make type indistinguishable from formal writing. So the goal of typography at first had nothing to do with type or design: it had everything to do with saving time. Producing multiple copies of books faster than they could be written was the point of typography: no more and no less.</p>
+    <p>Gutenberg’s ideal would have been to make type indistinguishable from formal writing. So the goal of typography at first had nothing to do with type or design: it had everything to do with saving time. Producing multiple copies of books faster than they could be written was the point of typography: no more and no less.</p>
   </blockquote>
   <figcaption><p>Fred Smeijers, <em><a href="http://typographica.org/on-typography/variable-fonts">Variable Fonts: the Future of (Web) Type</a></em>, pp.43</p></figcaption>
-  </figure>
+</figure>
 
 We can feel that the support of gravity working well. Autumn has spontaneously arrived. Plenty of oxygen to breathe. You don’t have to do anything to deserve any of that support. It’s already present. Relax into the reality that you’re already being supported. Feeling supported opens up an opportunity to notice freshness.
 
@@ -33,8 +33,6 @@ Compared to promises that pop culture meditation makes, just the simple practice
 People spend a lot of time and money to dissociate, and for good reason. Historically speaking, life on this planet has been a disturbing trial for most organisms.
 
 When we look, we find that making the world non-threatening is not a sustainable strategy. Working with our mind is the more sustainable option. The relationship we have with our mind is challenging one. But it is the relationship.
-
->Meditators sometimes rely on artificial credentials that communicate that enlightenment will provide instantaneous omnipotence, or a sudden ability to transcend the messiness of their lives.
 
 Many people already have their minds made up that something is inherently missing and needs fixing.
 
