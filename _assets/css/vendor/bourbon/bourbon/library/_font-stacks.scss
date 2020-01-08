@@ -92,6 +92,11 @@
   src: asset_url("GT-Super-Display-Light.woff") format("woff");
 }
 
+@font-face {
+  font-family: GT-Super-Text-Book;
+  src: asset_url("GT-Super-Text-Book.woff") format("woff");
+}
+
 //////Font Stacks
 
 $font-stack-peter: (
