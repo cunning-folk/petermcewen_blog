@@ -117,6 +117,10 @@ ul.post-list {
     border: none;
   }
 
+  figcaption em, i {
+    font-family: $font-stack-serif-italic, serif;
+  }
+
   p {
     @include type-normal(true);
     font-family: UntitledSerif-Regular, $font-stack-serif, serif;
