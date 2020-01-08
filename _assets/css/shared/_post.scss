@@ -15,7 +15,7 @@ ul.post-list {
 
 .post_title {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 .post-list-header {
@@ -53,7 +53,7 @@ ul.post-list {
   }
 
   .tags {
-    font-family: FoundersGrotCond-Medium, $font-stack-peter, sans-serif;
+    font-family: FoundersGrotCond-Semibold, $font-stack-peter, sans-serif;
     font-size: 1rem;
     color: $black;
     margin: 0;
