@@ -104,7 +104,7 @@ ul.post-list {
     display: flex;
     justify-content: flex-end;
     font-size: 1rem;
-    font-family: FoundersGrot-Medium, $font-stack-peter, sans-serif;
+    font-family: GT-Super-Display-Medium, $font-stack-serif, sans-serif;
     color: $red;
     margin-top: 10px;
   }
@@ -112,16 +112,18 @@ ul.post-list {
   figcaption p {
     display: flex;
     justify-content: flex-end;
-    font-size: 1rem;
-    font-family: UntitledSerif-Regular, $font-stack-serif, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.05rem;
+    font-family: GT-Super-Display-Medium, $font-stack-serif-bold, sans-serif;
     color: $black;
     margin-top: 10px;
   }
 
   figcaption p a {
-    font-family: UntitledSerif-RegularItalic, $font-stack-serif-italic, serif;
-    font-size: 1rem;
+    font-family: GT-Super-Display-Medium-Italic, $font-stack-serif-italic-bold, serif;
+    font-size: 0.8rem;
     font-style: italic;
+    letter-spacing: 0.08rem;
     box-shadow: none;
     color: $red;
     border: none;
