@@ -72,7 +72,7 @@ ul.post-list {
   blockquote {
     display: block;
     border-left: 5px solid $darkgrey;
-    margin: 1.5em 10px 1.5em 10px;
+    margin: 1.5em 10px 10px 10px;
     padding: 0.5em 10px;
     quotes: "\201C""\201D""\2018""\2019";
     position: relative;
@@ -102,7 +102,7 @@ ul.post-list {
 
   figcaption {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     font-size: 0.8rem;
     font-family: GT-Super-Display-Medium, $font-stack-serif, sans-serif;
     color: $black;
@@ -110,8 +110,8 @@ ul.post-list {
   }
 
   figcaption p {
-    display: flex;
-    justify-content: flex-end;
+    //display: flex;
+    //justify-content: flex-end;
     font-size: 0.8rem;
     letter-spacing: 0.05rem;
     font-family: GT-Super-Display-Medium, $font-stack-serif-bold, sans-serif;
