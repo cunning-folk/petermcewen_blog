@@ -129,7 +129,7 @@ ul.post-list {
 
   p {
     @include type-normal(true);
-    font-family: GT-Super-Text-Regular, $font-stack-serif, serif;
+    font-family: GT-Super-Text-Book, $font-stack-serif, serif;
     color: $black;
     text-rendering: optimizeLegibility;
     line-height: 1.5rem;

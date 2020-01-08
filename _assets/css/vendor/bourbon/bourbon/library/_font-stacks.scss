@@ -80,11 +80,30 @@
   src: asset_url("UntitledSerif-BoldItalic.woff") format("woff");
 }
 
-/////GT-Super
+/////GT-Super-Text
 @font-face {
   font-family: GT-Super-Text-Regular;
-  src: asset_url("GT-Super-Text-Regular.WOFF") format("woff");
+  src: asset_url("GT-Super-Text-Regular.woff") format("woff");
 }
+
+@font-face {
+  font-family: GT-Super-Text-Book;
+  src: asset_url("GT-Super-Text-Book.woff") format("woff");
+}
+
+////GT-Super-Display
+
+@font-face {
+  font-family: GT-Super-Display-Regular;
+  src: asset_url("GT-Super-Display-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: GT-Super-Display-Light;
+  src: asset_url("GT-Super-Display-Light.woff") format("woff");
+}
+
+//////Font Stacks
 
 $font-stack-peter: (
   "FoundersGrotText-Regular",
