@@ -27,7 +27,7 @@ ul.post-list {
   display: flex;
   width: 100%;
   align-items: baseline;
-  font-family: FoundersGrotMono-regular, $font-stack-serif-italic, sans-serif;
+  font-family: FoundersGrotMono-regular, $font-stack-peter, sans-serif;
   font-size: 0.8rem;
   margin: 5px 0 15px 0;
 }
@@ -103,7 +103,7 @@ ul.post-list {
 
     b,
     strong {
-      font-family: FoundersGrotMono-Medium, $font-stack-serif-bold, serif;
+      font-family: FoundersGrotMono-Medium, $font-stack-peter-bold, sans-serif;
       font-weight: 600;
       letter-spacing: 0.02rem;
     }
