@@ -1,6 +1,7 @@
 ---
 layout: post
 author: Peter McEwen
+title: TEDx Boulder Talk 2019
 css_hook: post
 tags: [Meditation]
 excerpt_separator: <!--more-->
