@@ -100,6 +100,15 @@ ul.post-list {
     display: block;
   }
 
+  figcaption {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1rem;
+    font-family: FoundersGrot-Medium, $font-stack-peter, sans-serif;
+    color: $red;
+    margin-top: 10px;
+  }
+
   figcaption p {
     display: flex;
     justify-content: flex-end;
