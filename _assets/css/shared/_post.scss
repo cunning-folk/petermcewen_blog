@@ -110,15 +110,12 @@ ul.post-list {
   }
 
   figcaption p a {
-    font-family: UntitledSerif-Regular, $font-stack-serif, serif;
+    font-family: UntitledSerif-RegularItalic, $font-stack-serif-italic, serif;
     font-size: 1rem;
+    font-style: italic;
     box-shadow: none;
     color: $red;
     border: none;
-  }
-
-  figcaption em, i {
-    font-family: $font-stack-serif-italic, serif;
   }
 
   p {
