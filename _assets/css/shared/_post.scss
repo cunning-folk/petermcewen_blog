@@ -87,6 +87,11 @@ ul.post-list {
     vertical-align: -0.4em;
   }
 
+  blockquote:after {
+    visibility: hidden;
+    content: close-quote;
+  }
+
   blockquote p {
     font-family: FoundersGrotMono-regular, $font-stack-peter, sans-serif;
     font-size: 24px;
