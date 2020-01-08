@@ -80,6 +80,12 @@
   src: asset_url("UntitledSerif-BoldItalic.woff") format("woff");
 }
 
+/////GT-Super
+@font-face {
+  font-family: GT-Super-Text-Regular;
+  src: asset_url("GT-Super-Text-Regular.WOFF") format("woff");
+}
+
 $font-stack-peter: (
   "FoundersGrotText-Regular",
   "Helvetica Neue",
