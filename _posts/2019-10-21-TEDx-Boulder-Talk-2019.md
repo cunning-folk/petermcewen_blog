@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Peter McEwen
-title: Stop Meditating. Be Present. pt I
+title: TEDx Boulder - Stop Meditating. Be Present. pt I
 css_hook: post
 tags: [Meditation]
 excerpt_separator: <!--more-->
@@ -20,14 +20,14 @@ Meditation isn’t just a series of uncomfortable silences that later yield to e
 
 <figure>
 <blockquote>
-    <p>Gutenberg’s ideal would have been to make type indistinguishable from formal writing. So the goal of typography at first had nothing to do with type or design: it had everything to do with saving time. Producing multiple copies of books faster than they could be written was the point of typography: no more and no less.</p>
+    <p>When we look, we find that making the world non-threatening is not a sustainable strategy. Working with our mind is the more sustainable option. The relationship we have with our mind is challenging one. But it is the relationship.</p>
   </blockquote>
   <figcaption><p>Fred Smeijers, <em><a href="http://typographica.org/on-typography/variable-fonts">Variable Fonts: the Future of (Web) Type</a></em>, pp.43</p></figcaption>
 </figure>
 
 We can feel that the support of gravity working well. Autumn has spontaneously arrived. Plenty of oxygen to breathe. You don’t have to do anything to deserve any of that support. It’s already present. Relax into the reality that you’re already being supported. Feeling supported opens up an opportunity to notice freshness.
 
-**_Freshness_** — I think, what we are looking for in our lives. And by freshness, I mean the direct experience of our life energy.
+**_Freshness_** — I think, what we are looking for in our lives. By freshness, I mean the direct experience of our life energy.
 
 Compared to promises that pop culture meditation makes, just the simple practice of being aware, discomfort and all, is a hard sell.
 

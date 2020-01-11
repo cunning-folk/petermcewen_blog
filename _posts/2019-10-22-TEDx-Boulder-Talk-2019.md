@@ -1,20 +1,21 @@
 ---
 layout: post
 author: Peter McEwen
-title: Stop Meditating. Be Present. pt II
+title: TEDx Boulder - Stop Meditating. Be Present. pt II
 css_hook: post
-tags: [Meditation]
+tags: Meditation 
 excerpt_separator: <!--more-->
 ---
 
-We want to live our best life, but who is telling us that? Who tells us how to do that? There seems to be a vacuum in how the west culturally frames meditation – a vacuum that marketers and app companies are happy to fill. The accompanying marketing often preys on our deep feelings of deficit. Pop culture’s ad messaging helps us find evidence of our shortcomings.
+We want to live our best life, but who is telling us that? Who tells us how to do that? There seems to be a vacuum in how the west culturally frames meditation – a vacuum that marketers and app companies are happy to fill. <!--more--> The accompanying marketing often preys on our deep feelings of deficit. Pop culture’s ad messaging helps us find evidence of our shortcomings.
 
 Sometimes we see hundreds of targeted ads in one browsing session. These are rough waters for an organism that has a brain that is shaped by language.
 
 <figure>
 <blockquote>
-    <p>‘Doing nothing’ augmented with capitalism’s admonition to ‘be happy’ presents a very interesting cocktail: <b>doing nothing turns into a pursuit. An effort to enjoy.</b></p>
-</blockquote>
+    <p>‘Doing nothing’ augmented with capitalism’s admonition to ‘be happy’ presents a very interesting cocktail: <b>doing nothing turns into a pursuit.</b> An effort to enjoy.</p>
+  </blockquote>
+  <figcaption><p>Fred Smeijers, <em><a href="http://typographica.org/on-typography/variable-fonts">Variable Fonts: the Future of (Web) Type</a></em>, pp.43</p></figcaption>
 </figure>
 
 And as we all know, our attention has become equivalent to dollar signs. The more primitive the messaging, the more compelling the message seems.
