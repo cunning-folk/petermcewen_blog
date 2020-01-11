@@ -7,7 +7,7 @@ tags: [Meditation]
 excerpt_separator: <!--more-->
 ---
 
-We recover to participation in what is already happening. We might discover that this field of present experience is a source of healing, problem solving and kindness.
+We recover to participation in what is already happening. We might discover that this field of present experience is a source of healing, problem solving and kindness. <!--more-->
 
 We will also find disturbance in the present. Intense life energy. We tend to avoid disturbance at all costs. As children, this was a very intelligent strategy. But now we are grown ups and we can extend our capacity to experience intensity and still behave with kindness and wakefulness. In fact, planetary health is demanding this effort to engage compassionately.
 
