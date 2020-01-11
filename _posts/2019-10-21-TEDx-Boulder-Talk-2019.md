@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Peter McEwen
-title: TEDx Boulder 2019
+title: Stop Meditating and Be Present pt I // TEDx Boulder 2019
 css_hook: post
 tags: [Meditation]
 excerpt_separator: <!--more-->
