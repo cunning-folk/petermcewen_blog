@@ -4,6 +4,7 @@ author: Peter McEwen
 title: Stop Meditating. Be Present. pt III
 css_hook: post
 tags: [Meditation]
+excerpt_separator: <!--more-->
 ---
 
 To cultivate this attentional superpower,  it’s essential to understand that this effort goes against our biology much of the time. Our biology is not going anywhere. Fear and anxiety have been on this planet far longer than humans. We can't transcend our biology, but we can integrate it with our human capabilities.
