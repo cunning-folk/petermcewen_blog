@@ -29,14 +29,14 @@ We not only need to ‘take hold of our minds’ but also grow our willingness t
 
 From this vantage point, tolerating uncertainty and intensity can be construed as a superpower. We’re responsible for the health of the inner realm. We alone are responsible for waking up, growing up and showing up.
 
-To cultivate this attentional superpower,  it’s essential to understand that this effort goes against our biology much of the time. Our biology is not going anywhere. Fear and anxiety have been on this planet far longer than humans. We can't transcend our biology, but we can integrate it with our human capabilities.<!--more-->
-
 <figure>
 <blockquote>
-    <p>It takes real fierceness to move against the tide of survival-level threat we often experience. We must challenge fear and panic by staying embodied and asking ourselves, ‘Is there a real threat in this moment?’</p>
+    <p>It takes real fierceness to move against the tide of survival-level threat we often experience. We can challenge fear and panic by staying embodied and asking ourselves, ‘Is there a real threat in this moment?’</p>
   </blockquote>
   <figcaption><p>Fred Smeijers, <em><a href="http://typographica.org/on-typography/variable-fonts">Variable Fonts: the Future of (Web) Type</a></em>, pp.43</p></figcaption>
 </figure>
+
+To cultivate this attentional superpower,  it’s essential to understand that this effort goes against our biology much of the time. Our biology is not going anywhere. Fear and anxiety have been on this planet far longer than humans. We can't transcend our biology, but we can integrate it with our human capabilities.
 
 It takes real fierceness to move against the tide of survival-level threat we often experience. We must challenge fear and panic by staying embodied and asking ourselves, ‘Is there a real threat in this moment?’
 
