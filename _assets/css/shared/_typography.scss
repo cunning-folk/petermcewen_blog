@@ -163,7 +163,7 @@ li {
 h4 {
   @include type-big;
   font-size: 1.6rem;
-  font-family: FoundersGrotMono-Medium, $font-stack-peter, sans-serif;
+  font-family: FoundersGrot-Medium, FoundersGrotMono-Medium, $font-stack-peter, sans-serif;
   font-weight: 400;
   color: $black;
   display: inline;
