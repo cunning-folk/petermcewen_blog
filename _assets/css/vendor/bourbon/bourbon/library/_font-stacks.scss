@@ -43,12 +43,7 @@
   src: asset_url("Founders-Mono/FoundersGrotMono-Bold.woff") format("woff");
 }
 
-////Founders
-@font-face {
-  font-family: FoundersGrot-Regular;
-  src: asset_url("Founders-Grot/FoundersGrot-Regular.woff") format("woff");
-}
-
+////Founders Text
 @font-face {
   font-family: FoundersGrot-Medium;
   src: asset_url("Founders-Text/FoundersGrotText-Medium.woff") format("woff");
@@ -57,6 +52,12 @@
 @font-face {
   font-family: FoundersGrot-MediumItalic;
   src: asset_url("Founders-Text/FoundersGrotText-MediumItalic.woff") format("woff");
+}
+
+////Founders
+@font-face {
+  font-family: FoundersGrot-Regular;
+  src: asset_url("Founders-Grot/FoundersGrot-Regular.woff") format("woff");
 }
 
 @font-face {
