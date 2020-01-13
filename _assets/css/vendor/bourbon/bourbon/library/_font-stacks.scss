@@ -142,6 +142,60 @@
   src: asset_url("GT-Super/GT-Super-Display-Medium-Italic.woff") format("woff");
 }
 
+////Tiempos
+
+@font-face {
+  font-family: tiempos-text--regular;
+  src: asset_url("Tiempos/tiempos-text--regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: tiempos-text--regular-italic;
+  src: asset_url("Tiempos/tiempos-text--regular-italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: tiempos-text--medium;
+  src: asset_url("Tiempos/tiempos-text--medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: tiempos-text--medium-italic;
+  src: asset_url("Tiempos/tiempos-text--medium-italic.woff") format("woff");
+}
+
+///Tiempos fine
+
+@font-face {
+  font-family: tiempos-fine--medium;
+  src: asset_url("Tiempos/tiempos-fine--medium.woff") format("woff");
+}
+//////Tiempos Font Stacks
+
+$tiempos: (
+  "tiempos-text--regular",
+  "Georgia",
+  serif,
+);
+
+$tiempos-italic: (
+  "tiempos-text--regular-italic",
+  "Georgia",
+  serif,
+);
+
+$tiempos-bold: (
+  "tiempos-text--medium",
+  "Georgia",
+  serif,
+);
+
+$tiempos-bold-italic: (
+  "tiempos-text--medium-italic",
+  "Georgia",
+  serif,
+);
+
 //////Heldane Font Stacks
 
 $heldane: (

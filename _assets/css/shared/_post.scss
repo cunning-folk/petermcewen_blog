@@ -56,14 +56,14 @@ ul.post-list {
   .tags {
     font-family: FoundersGrotCond-Semibold, $font-stack-peter, sans-serif;
     font-size: 1rem;
-    color: $black;
+    color: $sky;
     margin: 0;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
   }
 
   .date {
-    font-family: $heldane, GT-Super-Text-Book, $font-stack-serif, serif;
+    font-family: tiempos-fine--medium, GT-Super-Text-Book, $font-stack-serif, serif;
     font-size: 0.7rem;
     letter-spacing: 0.09rem;
     margin-left: 5px;
@@ -119,7 +119,7 @@ ul.post-list {
     display: flex;
     justify-content: flex-end;
     font-size: 0.8rem;
-    font-family: $heldane-bold, GT-Super-Display-Medium, $font-stack-serif, sans-serif;
+    font-family: $tiempos-bold, GT-Super-Display-Medium, $font-stack-serif, sans-serif;
     color: $black;
     margin-top: 5px;
   }
@@ -127,13 +127,13 @@ ul.post-list {
   figcaption p {
     font-size: 0.8rem;
     letter-spacing: 0.05rem;
-    font-family: $heldane-bold, GT-Super-Display-Medium, $font-stack-serif-bold, sans-serif;
+    font-family: $tiempos-bold, GT-Super-Display-Medium, $font-stack-serif-bold, sans-serif;
     color: $black;
     margin-top: 10px;
   }
 
   figcaption p a {
-    font-family: $heldane-bold-italic, GT-Super-Display-Medium-Italic, $font-stack-serif-italic-bold, serif;
+    font-family: $tiempos-bold-italic, $heldane-bold-italic, GT-Super-Display-Medium-Italic, $font-stack-serif-italic-bold, serif;
     font-size: 0.8rem;
     font-style: italic;
     letter-spacing: 0.08rem;
@@ -144,17 +144,17 @@ ul.post-list {
 
   p {
     @include type-normal(true);
-    font-family: $heldane, GT-Super-Text-Book, $font-stack-serif, serif;
+    font-family: $tiempos, $font-stack-serif, serif;
     color: $black;
     text-rendering: optimizeLegibility;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
 
     @media screen and (min-width: 600px) {
-      font-size: 19px;
+      font-size: 1rem;
       line-height: 1.5rem;
 
       &:last-child {
@@ -165,14 +165,14 @@ ul.post-list {
 
     b,
     strong {
-      font-family: $heldane-bold, $font-stack-serif-bold;
+      font-family: $tiempos-bold, $font-stack-serif-bold;
       font-weight: 600;
       letter-spacing: 0.02rem;
     }
 
     em,
     i {
-      font-family: $heldane-italic, $font-stack-serif-italic;
+      font-family: $tiempos-italic, $font-stack-serif-italic;
       font-style: normal;
       letter-spacing: 0.02rem;
     }
@@ -181,7 +181,7 @@ ul.post-list {
     em strong,
     i b,
     strong em {
-      font-family: $heldane-bold-italic, $font-stack-serif-italic-bold;
+      font-family: $tiempos-bold-italic, $font-stack-serif-italic-bold;
       font-style: normal;
       letter-spacing: 0.04rem;
     }
