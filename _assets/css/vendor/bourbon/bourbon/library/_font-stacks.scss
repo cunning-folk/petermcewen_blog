@@ -8,13 +8,8 @@
 }
 
 @font-face {
-  font-family: heldane-text--bold;
-  src: asset_url("Heldane/heldane-text--bold.woff") format("woff");
-}
-
-@font-face {
-  font-family: heldane-text--medium;
-  src: asset_url("Heldane/heldane-text--medium.woff") format("woff");
+  font-family: heldane-text--regular-italic;
+  src: asset_url("Heldane/heldane-text--regular-italic.woff") format("woff");
 }
 
 @font-face {
@@ -99,6 +94,11 @@
 }
 
 @font-face {
+  font-family: UntitledSerif-Medium;
+  src: asset_url("Untitled/UntitledSerif-MediumItalic.woff") format("woff");
+}
+
+@font-face {
   font-family: UntitledSerif-Bold;
   src: asset_url("Untitled/UntitledSerif-Bold.woff") format("woff");
 }
@@ -142,7 +142,34 @@
   src: asset_url("GT-Super/GT-Super-Display-Medium-Italic.woff") format("woff");
 }
 
-//////Font Stacks
+//////Heldane Font Stacks
+
+$heldane: (
+  "heldane-text--regular",
+  "Georgia",
+  serif,
+);
+
+$heldane-italic: (
+  "heldane-text--regular-italic",
+  "Georgia",
+  serif,
+);
+
+$heldane-bold: (
+  "heldane-display--medium",
+  "Georgia",
+  serif,
+);
+
+$heldane-bold-italic: (
+  "heldane-display--medium-italic",
+  "Georgia",
+  serif,
+);
+
+
+//////Font Stacks Founders
 
 $font-stack-peter: (
   "FoundersGrot-Regular",
@@ -167,32 +194,35 @@ $font-stack-peter-italic-bold: (
   sans-serif,
 );
 
-//////Heldane Font Stacks
+///Untitled
 
-$heldane: (
+$untitled: (
+  "UntitledSerif-Regular"
   "heldane-text--regular"
   "Georgia"
   serif,
 );
 
-$heldane-italic: (
-  "heldane-text--regular-italic"
+$untitled-italic: (
+  "UntitledSerif-Regular"
+  "heldane-text--regular"
   "Georgia"
   serif,
 );
 
-$heldane-bold-italic: (
-  "heldane-text--medium-italic"
+$untitled-bold: (
+  "UntitledSerif-Medium"
+  "heldane-text--regular"
   "Georgia"
   serif,
 );
 
-$heldane-bold: (
-  "heldane-display--medium"
+$untitled-italic-bold: (
+  "UntitledSerif-MediumItalic"
+  "heldane-text--regular"
   "Georgia"
   serif,
 );
-
 
 //////Serif Font Stacks
 
