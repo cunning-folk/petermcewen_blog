@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+///Heldane
+
+@font-face {
+  font-family: heldane-text--regular;
+  src: asset_url("Heldane/heldane-text--regular.woff") format("woff");
+}
+
 /// FOUNDERS MONO
 @font-face {
   font-family: FoundersGrotMono-Regular;
@@ -84,34 +91,34 @@
 
 @font-face {
   font-family: GT-Super-Display-Regular;
-  src: asset_url("GT-Super-Display-Regular.woff") format("woff");
+  src: asset_url("GT-Super/GT-Super-Display-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: GT-Super-Display-Light;
-  src: asset_url("GT-Super-Display-Light.woff") format("woff");
+  src: asset_url("GT-Super/GT-Super-Display-Light.woff") format("woff");
 }
 
 ////GT-Super-Text
 
 @font-face {
   font-family: GT-Super-Text-Book;
-  src: asset_url("GT-Super-Text-Book.woff") format("woff");
+  src: asset_url("GT-Super/GT-Super-Text-Book.woff") format("woff");
 }
 
 @font-face {
   font-family: GT-Super-Text-Book-Italic;
-  src: asset_url("GT-Super-Text-Book-Italic.woff") format("woff");
+  src: asset_url("GT-Super/GT-Super-Text-Book-Italic.woff") format("woff");
 }
 
 @font-face {
   font-family: GT-Super-Display-Medium;
-  src: asset_url("GT-Super-Display-Medium.woff") format("woff");
+  src: asset_url("GT-Super/GT-Super-Display-Medium.woff") format("woff");
 }
 
 @font-face {
   font-family: GT-Super-Display-Medium-Italic;
-  src: asset_url("GT-Super-Display-Medium-Italic.woff") format("woff");
+  src: asset_url("GT-Super/GT-Super-Display-Medium-Italic.woff") format("woff");
 }
 
 //////Font Stacks
