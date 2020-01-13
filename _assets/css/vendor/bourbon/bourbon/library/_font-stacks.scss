@@ -7,6 +7,16 @@
   src: asset_url("Heldane/heldane-text--regular.woff") format("woff");
 }
 
+@font-face {
+  font-family: heldane-text--bold;
+  src: asset_url("Heldane/heldane-text--bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: heldane-text--medium;
+  src: asset_url("Heldane/heldane-text--medium.woff") format("woff");
+}
+
 /// FOUNDERS MONO
 @font-face {
   font-family: FoundersGrotMono-Regular;
