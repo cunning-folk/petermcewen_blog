@@ -17,6 +17,16 @@
   src: asset_url("Heldane/heldane-text--medium.woff") format("woff");
 }
 
+@font-face {
+  font-family: heldane-display--medium;
+  src: asset_url("Heldane/heldane-display--medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: heldane-display--medium-italic;
+  src: asset_url("Heldane/heldane-display--medium-italic.woff") format("woff");
+}
+
 /// FOUNDERS MONO
 @font-face {
   font-family: FoundersGrotMono-Regular;
@@ -163,6 +173,26 @@ $heldane: (
   "Georgia"
   serif,
 );
+
+$heldane-italic: (
+  "heldane-text--regular-italic"
+  "Georgia"
+  serif,
+);
+
+$heldane-bold-italic: (
+  "heldane-text--medium-italic"
+  "Georgia"
+  serif,
+);
+
+$heldane-bold: (
+  "heldane-display--medium"
+  "Georgia"
+  serif,
+);
+
+
 //////Serif Font Stacks
 
 $font-stack-serif: (
