@@ -36,65 +36,65 @@
 ////Founders
 @font-face {
   font-family: FoundersGrot-Regular;
-  src: asset_url("FoundersGrot-Regular.woff") format("woff");
+  src: asset_url("Founders-Grot/FoundersGrot-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: FoundersGrot-Medium;
-  src: asset_url("FoundersGrotText-Medium.woff") format("woff");
+  src: asset_url("Founders-Text/FoundersGrotText-Medium.woff") format("woff");
 }
 
 @font-face {
   font-family: FoundersGrot-MediumItalic;
-  src: asset_url("FoundersGrotText-MediumItalic.woff") format("woff");
+  src: asset_url("Founders-Text/FoundersGrotText-MediumItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: FoundersGrot-Bold;
-  src: asset_url("FoundersGrot-Bold.woff") format("woff");
+  src: asset_url("Founders-Grot/FoundersGrot-Bold.woff") format("woff");
 }
 
 // //Founders Condensed
 @font-face {
   font-family: FoundersGrotCond-Medium;
-  src: asset_url("FoundersGrotCond-Medium.woff") format("woff");
+  src: asset_url("Founders-Cond/FoundersGrotCond-Medium.woff") format("woff");
 }
 //
 @font-face {
   font-family: FoundersGrotCond-Semibold;
-  src: asset_url("FoundersGrotCond-Semibold.woff") format("woff");
+  src: asset_url("Founders-Cond/FoundersGrotCond-Semibold.woff") format("woff");
 }
 //
 @font-face {
   font-family: FoundersGrotCond-Bold;
-  src: asset_url("FoundersGrotCond-Bold.woff") format("woff");
+  src: asset_url("Founders-Cond/FoundersGrotCond-Bold.woff") format("woff");
 }
 
 //Untitled//
 
 @font-face {
   font-family: UntitledSerif-Regular;
-  src: asset_url("UntitledSerif-Regular.woff") format("woff");
+  src: asset_url("Untitled/UntitledSerif-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: UntitledSerif-RegularItalic;
-  src: asset_url("UntitledSerif-RegularItalic.woff") format("woff");
+  src: asset_url("Untitled/UntitledSerif-RegularItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: UntitledSerif-Medium;
-  src: asset_url("UntitledSerif-Medium.woff") format("woff");
+  src: asset_url("Untitled/UntitledSerif-Medium.woff") format("woff");
 }
 
 @font-face {
   font-family: UntitledSerif-Bold;
-  src: asset_url("UntitledSerif-Bold.woff") format("woff");
+  src: asset_url("Untitled/UntitledSerif-Bold.woff") format("woff");
 }
 
 @font-face {
   font-family: UntitledSerif-BoldItalic;
-  src: asset_url("UntitledSerif-BoldItalic.woff") format("woff");
+  src: asset_url("Untitled/UntitledSerif-BoldItalic.woff") format("woff");
 }
 
 ////GT-Super-Display
@@ -134,7 +134,7 @@
 //////Font Stacks
 
 $font-stack-peter: (
-  "FoundersGrotText-Regular",
+  "FoundersGrot-Regular",
   "Helvetica Neue",
   "Helvetica",
   sans-serif,
