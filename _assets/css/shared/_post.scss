@@ -165,14 +165,14 @@ ul.post-list {
 
     b,
     strong {
-      font-family: $tiempos-bold, $font-stack-serif-bold;
+      font-family: $tiempos-bold;
       font-weight: 600;
       letter-spacing: 0.02rem;
     }
 
     em,
     i {
-      font-family: $tiempos-italic, $font-stack-serif-italic;
+      font-family: $tiempos-italic;
       font-style: normal;
       letter-spacing: 0.02rem;
     }
@@ -181,7 +181,7 @@ ul.post-list {
     em strong,
     i b,
     strong em {
-      font-family: $tiempos-bold-italic, $font-stack-serif-italic-bold;
+      font-family: $tiempos-bold-italic;
       font-style: normal;
       letter-spacing: 0.04rem;
     }
