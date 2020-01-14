@@ -1,16 +1,16 @@
-body.post p {
+.about p {
   @include type-normal(true);
   font-family: $founders, sans-serif;
   color: $black;
   text-rendering: optimizeLegibility;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5rem;
   word-wrap: break-word;
   overflow-wrap: break-word;
   hyphens: auto;
 
   @media screen and (min-width: 600px) {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5rem;
 
     &:last-child {
