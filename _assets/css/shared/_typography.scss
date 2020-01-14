@@ -1,5 +1,5 @@
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ typography defaults
-$body: $font-stack-peter;
+$body: $founders;
 @mixin type-size($size: 12, $lineHeight: 1.1, $margin: false) {
   @if $margin {
     margin-top: 0;
@@ -66,7 +66,7 @@ a {
   b i,
   em strong,
   i b {
-    font-family: $font-stack-peter-italic-bold, sans-serif;
+    font-family: $founders-italic-bold, sans-serif;
     font-style: normal;
     letter-spacing: 0.03rem;
   }
@@ -78,9 +78,9 @@ a:hover {
 
 h1 {
   @include type-big(true);
-  font-family: UntitledSerif-Bold, serif;
+  font-family: FoundersGrot-Medium, sans-serif;
   font-weight: 400;
-  letter-spacing: 1rem;
+  letter-spacing: 0.3rem;
   -webkit-font-smoothing: subpixel-antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -109,11 +109,11 @@ h2:before {
 
 .line {
   margin: 10px 0 15px 0;
-  border-top: 1px solid $darkgrey;
+  border-top: 2px solid $grey;
 }
 
 .post_list-header {
-  border-top: 5px solid $darkgrey;
+  border-top: 5px solid $lightgrey;
   height: 0;
   margin-top: 10px;
 }
@@ -122,7 +122,7 @@ h2:before {
   font-family: FoundersGrotMono-regular, sans-serif;
   font-size: 1.1em;
   color: $green;
-  background: $grey;
+  background: $lightgrey;
   display: table;
   position: relative;
   padding: 0 1em;
@@ -163,7 +163,7 @@ li {
 h4 {
   @include type-big;
   font-size: 1.6rem;
-  font-family: FoundersGrot-Medium, FoundersGrotMono-Medium, $font-stack-peter, sans-serif;
+  font-family: FoundersGrot-Medium, $founders, sans-serif;
   font-weight: 400;
   color: $black;
   display: inline;
@@ -179,7 +179,7 @@ h4 a:hover {
 
 p {
   @include type-normal(true);
-  font-family: $tiempos, $font-stack-peter, serif;
+  font-family: $tiempos, serif;
   max-width: 38em;
   color: $black;
 
@@ -207,7 +207,7 @@ b,
 strong {
   font-family: $tiempos-bold, sans-serif;
   font-weight: 700;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.04rem;
 }
 
 em,

@@ -1,0 +1,44 @@
+body.post p {
+  @include type-normal(true);
+  font-family: $founders, sans-serif;
+  color: $black;
+  text-rendering: optimizeLegibility;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+
+  @media screen and (min-width: 600px) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+      -webkit-font-smoothing: subpixel-antialiased;
+    }
+  }
+
+  b,
+  strong {
+    font-family: $founders-bold;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+  }
+
+  em,
+  i {
+    font-family: $founders-italic;
+    font-style: normal;
+    letter-spacing: 0.02rem;
+  }
+
+  b i,
+  em strong,
+  i b,
+  strong em {
+    font-family: $founders-italic-bold;
+    font-style: normal;
+    letter-spacing: 0.04rem;
+  }
+}

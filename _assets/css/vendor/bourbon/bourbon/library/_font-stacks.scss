@@ -170,6 +170,12 @@
   font-family: tiempos-fine--medium;
   src: asset_url("Tiempos/tiempos-fine--medium.woff") format("woff");
 }
+
+@font-face {
+  font-family: tiempos-fine--medium-italic;
+  src: asset_url("Tiempos/tiempos-fine--medium-italic.woff") format("woff");
+}
+
 //////Tiempos Font Stacks
 
 $tiempos: (
@@ -224,25 +230,25 @@ $heldane-bold-italic: (
 
 //////Font Stacks Founders
 
-$font-stack-peter: (
+$founders: (
   "FoundersGrot-Regular",
   "Helvetica Neue",
   "Helvetica",
   sans-serif,
 );
 
-$font-stack-peter-bold: (
+$founders-bold: (
   "FoundersGrot-Medium",
   "FoundersGrotMono-Medium",
   sans-serif,
 );
 
-$font-stack-peter-italic: (
+$founders-italic: (
   "FoundersGrotText-RegularItalic",
   sans-serif,
 );
 
-$font-stack-peter-italic-bold: (
+$founders-italic-bold: (
   "FoundersGrotText-MediumItalic",
   sans-serif,
 );
