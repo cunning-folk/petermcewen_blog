@@ -4,7 +4,7 @@ author: Peter McEwen
 title: Stop Meditating. Be Present. pt II
 css_hook: post
 tags: Meditation
-excerpt_separator: <!--more-->
+excerpt: Doing nothing augmented by capitalism’s admonition to be happy presents a very interesting cocktail, doing nothing turns into a pursuit. An effort to enjoy.
 ---
 
 We want to live our best life, but who is telling us that? Who tells us how to do that? There seems to be a vacuum in how the west culturally frames meditation – a vacuum that marketers and app companies are happy to fill. <!--more--> The accompanying marketing often preys on our deep feelings of deficit. Pop culture’s ad messaging helps us find evidence of our shortcomings.
