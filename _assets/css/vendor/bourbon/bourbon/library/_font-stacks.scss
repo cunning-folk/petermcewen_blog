@@ -39,6 +39,12 @@
 }
 
 ////Founders Text
+
+@font-face {
+  font-family: FoundersGrotText-Regular;
+  src: asset_url("Founders-Text/FoundersGrotText-Regular.woff") format("woff");
+}
+
 @font-face {
   font-family: FoundersGrot-Medium;
   src: asset_url("Founders-Text/FoundersGrotText-Medium.woff") format("woff");
@@ -50,6 +56,12 @@
 }
 
 ////Founders
+
+@font-face {
+  font-family: FoundersGrot-Light;
+  src: asset_url("Founders-Grot/FoundersGrot-Light.woff") format("woff");
+}
+
 @font-face {
   font-family: FoundersGrot-Regular;
   src: asset_url("Founders-Grot/FoundersGrot-Regular.woff") format("woff");
@@ -60,7 +72,7 @@
   src: asset_url("Founders-Grot/FoundersGrot-Bold.woff") format("woff");
 }
 
-// //Founders Condensed
+////Founders Condensed
 @font-face {
   font-family: FoundersGrotCond-Medium;
   src: asset_url("Founders-Cond/FoundersGrotCond-Medium.woff") format("woff");
