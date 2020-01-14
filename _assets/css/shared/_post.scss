@@ -153,9 +153,9 @@ ul.post-list {
     overflow-wrap: break-word;
     hyphens: auto;
 
-    @media screen and (min-width: 600px) {
+    @media screen and (max-width: 600px) {
       font-size: 1rem;
-      line-height: 1.7rem;
+      line-height: 1.5rem;
 
       &:last-child {
         margin-bottom: 0;
