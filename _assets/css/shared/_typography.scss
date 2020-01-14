@@ -163,7 +163,7 @@ li {
 h4 {
   @include type-big;
   font-size: 1.8rem;
-  font-family: heldane-display--medium, FoundersGrot-Medium, $founders, sans-serif;
+  font-family: FoundersGrot-Medium, heldane-display--medium, $founders, sans-serif;
   font-weight: 400;
   letter-spacing: 0.03rem;
   color: $black;
