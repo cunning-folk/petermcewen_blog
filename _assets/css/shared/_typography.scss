@@ -60,7 +60,7 @@ $body: $founders;
 a {
   @include link-handler($black, $sky, $black, false, false, null);
   transition: 1.3s;
-  box-shadow: inset 0 -6px 0 $sky;
+  box-shadow: inset 0 -5px 0 $sky;
 
   & strong em,
   b i,
