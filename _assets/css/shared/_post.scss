@@ -28,7 +28,7 @@ ul.post-list {
   width: 100%;
   align-items: baseline;
   font-family: FoundersGrotMono-regular, $founders, sans-serif;
-  color: $blue;
+  color: $black;
   font-size: 0.8rem;
   margin: 5px 0 15px 0;
 }
@@ -40,7 +40,6 @@ ul.post-list {
 
   h1 {
     @include type-big(true);
-    //font-size: 2rem;
     font-family: FoundersGrot-Medium, $founders, sans-serif;
     font-weight: 400;
     letter-spacing: 0.1rem;
@@ -56,14 +55,14 @@ ul.post-list {
   .tags {
     font-family: FoundersGrotCond-Semibold, $founders, sans-serif;
     font-size: 1rem;
-    color: $blue;
+    color: $pink;
     margin: 0;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
   }
 
   .date {
-    font-family: tiempos-fine--medium, $font-stack-serif, serif;
+    font-family: $tiempos-italic, serif;
     font-size: 0.7rem;
     letter-spacing: 0.09rem;
     margin-left: 5px;

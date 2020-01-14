@@ -273,17 +273,22 @@ $founders: (
 
 $founders-bold: (
   "FoundersGrot-Medium",
-  "FoundersGrotMono-Medium",
+  "Helvetica Neue",
+  "Helvetica",
   sans-serif,
 );
 
 $founders-italic: (
   "FoundersGrotText-RegularItalic",
+  "Helvetica Neue",
+  "Helvetica",
   sans-serif,
 );
 
 $founders-italic-bold: (
   "FoundersGrotText-MediumItalic",
+  "Helvetica Neue",
+  "Helvetica",
   sans-serif,
 );
 
@@ -317,28 +322,28 @@ $untitled-italic-bold: (
   serif,
 );
 
-//////Serif Font Stacks
+////Serif Font Stacks
 
 $font-stack-serif: (
-  "GT-Super-Text-Book",
-  "UntitledSerif-Regular",
+  "tiempos-text--regular",
+  "Georgia",
   serif,
 );
 
 $font-stack-serif-italic: (
-  "GT-Super-Text-Book-Italic",
-  "UntitledSerif-RegularItalic",
+  "tiempos-text--regular-italic",
+  "Georgia",
   serif,
 );
 
 $font-stack-serif-bold: (
-  "GT-Super-Display-Medium",
-  "UntitledSerif-Bold",
+  "$tiempos-bold",
+  "Georgia",
   serif,
 );
 
 $font-stack-serif-italic-bold: (
-  "GT-Super-Display-Medium-Italic",
-  "UntitledSerif-BoldItalic",
+  "$tiempos-bold-italic",
+  "Georgia",
   serif,
 );
