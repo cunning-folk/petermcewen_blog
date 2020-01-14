@@ -22,6 +22,11 @@
   src: asset_url("Heldane/heldane-display--medium-italic.woff") format("woff");
 }
 
+@font-face {
+  font-family: heldane-display--bold;
+  src: asset_url("Heldane/heldane-display--bold.woff") format("woff");
+}
+
 /// FOUNDERS MONO
 @font-face {
   font-family: FoundersGrotMono-Regular;
