@@ -113,7 +113,7 @@ h2:before {
 }
 
 .post_list-header {
-  border-top: 5px solid $lightgrey;
+  border-top: 5px solid $bggrey;
   height: 0;
   margin-top: 10px;
 }
@@ -122,7 +122,7 @@ h2:before {
   font-family: FoundersGrotMono-regular, sans-serif;
   font-size: 1.1em;
   color: $green;
-  background: $lightgrey;
+  background: $bggrey;
   display: table;
   position: relative;
   padding: 0 1em;
@@ -142,7 +142,7 @@ h2:before {
 
 h3 {
   @include type-medium;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-family: FoundersGrotMono-Medium, sans-serif;
   color: $blue;
   -webkit-font-smoothing: subpixel-antialiased;

@@ -1,5 +1,5 @@
 
-**The Earthling**
+### The Earthling
 
 ![It Me!]({% asset headshot.jpg @path %})
 
@@ -7,7 +7,7 @@ Peter is a design director and [editorial photographer](https://petermcewen.phot
 
 Despite all this, Peter still finds time for the very important practice of [doing nothing](https://thefield.us).
 
-**Design Practice**
+### Design Practice
 
 Peter has helped enterprise and startup organizations discover and articulate their design voice as a design manager, strategic partner, brand designer, and creative director.
 
