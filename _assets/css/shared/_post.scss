@@ -40,7 +40,7 @@ ul.post-list {
 
   h1 {
     @include type-big(true);
-    font-family: FoundersGrot-Medium, heldane-display--medium, $founders, sans-serif;
+    font-family: heldane-display--bold, FoundersGrot-Medium, heldane-display--medium, $founders, sans-serif;
     font-weight: 400;
     letter-spacing: 0.07rem;
     text-rendering: optimizeLegibility;
@@ -104,7 +104,7 @@ ul.post-list {
 
     b,
     strong {
-      font-family: FoundersGrotMono-Medium, $founders-bold, sans-serif;
+      font-family: GT-Alpina-Bold, FoundersGrotMono-Medium, $founders-bold, sans-serif;
       font-weight: 600;
       letter-spacing: 0.02rem;
     }
@@ -144,10 +144,10 @@ ul.post-list {
 
   p {
     @include type-normal(true);
-    font-family: $tiempos, $font-stack-serif, serif;
+    font-family: heldane-text--regular, $tiempos, $font-stack-serif, serif;
     color: $black;
     text-rendering: optimizeLegibility;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
