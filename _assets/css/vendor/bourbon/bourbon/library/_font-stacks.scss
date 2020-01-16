@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+//////Alpina Font Stacks
+
+$alpina-light: (
+  "GT-Alpina-Light"
+  "Georgia",
+  serif,
+);
+
+$alpina-regular: (
+  "GT-Alpina-Regular"
+  "Georgia",
+  serif,
+);
+
 ///Alipina
 @font-face {
   font-family: GT-Alpina-Thin;
@@ -24,33 +38,6 @@
 @font-face {
   font-family: GT-Alpina-Bold;
   src: asset_url("Alpina/GT-Alpina-Bold.woff2") format("woff");
-}
-
-///Alpina fine
-
-@font-face {
-  font-family: GT-Alpina-Fine-Thin;
-  src: asset_url("Fine/GT-Alpina-Fine-Thin.woff2") format("woff");
-}
-
-@font-face {
-  font-family: GT-Alpina-Fine-Light;
-  src: asset_url("Fine/GT-Alpina-Fine-Light.woff2") format("woff");
-}
-
-@font-face {
-  font-family: GT-Alpina-Fine-Regular;
-  src: asset_url("Fine/GT-Alpina-Fine-Regular.woff2") format("woff");
-}
-
-@font-face {
-  font-family: GT-Alpina-Fine-Medium;
-  src: asset_url("Fine/GT-Alpina-Fine-Medium.woff2") format("woff");
-}
-
-@font-face {
-  font-family: GT-Alpina-Fine-Bold;
-  src: asset_url("Fine/GT-Alpina-Fine-Bold.woff2") format("woff");
 }
 
 //Alpina Typewriter
@@ -78,33 +65,6 @@
 @font-face {
   font-family: GT-Alpina-Typewriter-Bold;
   src: asset_url("Typewriter/GT-Alpina-Typewriter-Bold.woff2") format("woff");
-}
-
-//Alpina Extended
-
-@font-face {
-  font-family: GT-Alpina-Extended-Thin;
-  src: asset_url("Extended/GT-Alpina-Extended-Thin.woff2") format("woff");
-}
-
-@font-face {
-  font-family: GT-Alpina-Extended-Regular;
-  src: asset_url("Extended/GT-Alpina-Extended-Regular.woff2") format("woff");
-}
-
-@font-face {
-  font-family: GT-Alpina-Extended-Medium;
-  src: asset_url("Extended/GT-Alpina-Extended-Medium.woff2") format("woff");
-}
-
-@font-face {
-  font-family: GT-Alpina-Extended-Light;
-  src: asset_url("Extended/GT-Alpina-Extended-Light.woff2") format("woff");
-}
-
-@font-face {
-  font-family: GT-Alpina-Extended-Bold;
-  src: asset_url("Extended/GT-Alpina-Extended-Bold.woff2") format("woff");
 }
 
 ///Heldane

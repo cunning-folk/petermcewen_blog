@@ -180,7 +180,7 @@ h4 a:hover {
 
 p {
   @include type-normal(true);
-  font-family: $tiempos, serif;
+  font-family: $alpina-regular, $alpina-light, serif;
   max-width: 38em;
   color: $black;
 
