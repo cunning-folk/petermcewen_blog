@@ -34,6 +34,10 @@
   align-content: center;
   align-items: stretch;
   margin: 0 10px 0 10px;
+
+  @media only screen and (max-width: 600px) {
+    margin: 0 6px 0 6px;
+  }
 }
 
 .nav_top a {

@@ -40,7 +40,7 @@ ul.post-list {
 
   h1 {
     @include type-big(true);
-    font-family: FoundersGrot-Medium, heldane-display--medium, $founders, sans-serif;
+    font-family: $founders-bold, heldane-display--medium, $founders, sans-serif;
     font-weight: 400;
     letter-spacing: 0.07rem;
     text-rendering: optimizeLegibility;
