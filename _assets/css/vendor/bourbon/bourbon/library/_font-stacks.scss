@@ -20,8 +20,14 @@ $alpina-medium: (
   serif,
 );
 
+$alpina-light-italic: (
+  "GT-Alpina-Light-Italic-Italic",
+  "Georgia",
+  serif,
+);
+
 $alpina-regular-italic: (
-  "GT-Alpina-Regular-Italic-Italic",
+  "GT-Alpina-Regular-Italic",
   "Georgia",
   serif,
 );
@@ -31,6 +37,7 @@ $alpina-medium-italic: (
   "Georgia",
   serif,
 );
+
 ///Alipina
 @font-face {
   font-family: GT-Alpina-Thin;

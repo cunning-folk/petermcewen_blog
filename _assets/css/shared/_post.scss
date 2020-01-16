@@ -40,7 +40,7 @@ ul.post-list {
 
   h1 {
     @include type-big(true);
-    font-family: $heldane-bold, FoundersGrot-Medium, heldane-display--medium, $founders, sans-serif;
+    font-family: FoundersGrot-Medium, heldane-display--medium, $founders, sans-serif;
     font-weight: 400;
     letter-spacing: 0.07rem;
     text-rendering: optimizeLegibility;
@@ -65,7 +65,7 @@ ul.post-list {
   .date {
     font-family: $alpina-regular-italic, $tiempos-italic, serif;
     font-size: 0.7rem;
-    letter-spacing: 0.09rem;
+    letter-spacing: 0.07rem;
     margin-left: 5px;
     text-transform: uppercase;
   }
@@ -136,7 +136,7 @@ ul.post-list {
     font-family: $alpina-medium, $tiempos-bold-italic, $heldane-bold-italic, $font-stack-serif-italic-bold, serif;
     font-size: 0.8rem;
     font-style: italic;
-    letter-spacing: 0.08rem;
+    letter-spacing: 0.04rem;
     box-shadow: none;
     color: $red;
     border: none;
@@ -148,13 +148,12 @@ ul.post-list {
     color: $black;
     text-rendering: optimizeLegibility;
     font-size: 1.1rem;
-    line-height: 1.5rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
 
     @media screen and (max-width: 600px) {
-      font-family: $alpina-light, $font-stack-serif, serif;
+      font-family: $alpina-regular, $font-stack-serif, serif;
       font-size: 1.1rem;
       line-height: 1.5rem;
 
@@ -173,7 +172,7 @@ ul.post-list {
 
     em,
     i {
-      font-family: $alpina-regular-italic;
+      font-family: $alpina-light-italic;
       font-style: normal;
       letter-spacing: 0.02rem;
     }

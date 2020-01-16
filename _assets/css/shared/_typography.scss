@@ -41,13 +41,13 @@ $body: $founders;
 }
 // specific type styles
 @mixin type-big($margin: false) {
-  @include type-size(34, 1.25, $margin);
+  @include type-size(34, 1.5, $margin);
 }
 @mixin type-medium($margin: false) {
-  @include type-size(14, 1.25, $margin);
+  @include type-size(14, 1.5, $margin);
 }
 @mixin type-normal($margin: false) {
-  @include type-size(16, 1.25, $margin);
+  @include type-size(16, 1.5, $margin);
 }
 
 ::selection {
@@ -163,9 +163,9 @@ li {
 h4 {
   @include type-big;
   font-size: 1.8rem;
-  font-family: $heldane-bold, FoundersGrot-Medium, $font-stack-serif-bold, sans-serif;
+  font-family: $founders-bold, $heldane-bold, FoundersGrot-Medium, $font-stack-serif-bold, sans-serif;
   font-weight: 400;
-  letter-spacing: 0.03rem;
+  letter-spacing: 0.02rem;
   color: $black;
   display: inline;
   margin: 0;
