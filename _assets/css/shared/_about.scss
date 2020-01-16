@@ -3,13 +3,13 @@
   font-family: FoundersGrotText-Regular, $founders, sans-serif;
   color: $black;
   font-size: 1rem;
-  line-height: 1.3rem;
+  line-height: 1.4rem;
   word-wrap: break-word;
   overflow-wrap: break-word;
   hyphens: auto;
   text-rendering: optimizeLegibility;
 
-  @media screen and (min-width: 600px) {
+  @media screen and (max-width: 600px) {
     font-size: 1rem;
     line-height: 1.3rem;
 
