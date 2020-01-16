@@ -56,10 +56,29 @@
 //Alpina Extended
 
 @font-face {
+  font-family: GT-Alpina-Extended-Thin;
+  src: asset_url("Extended/GT-Alpina-Extended-Thin.woff2") format("woff");
+}
+
+@font-face {
+  font-family: GT-Alpina-Extended-Regular;
+  src: asset_url("Extended/GT-Alpina-Extended-Regular.woff2") format("woff");
+}
+
+@font-face {
+  font-family: GT-Alpina-Extended-Medium;
+  src: asset_url("Extended/GT-Alpina-Extended-Medium.woff2") format("woff");
+}
+
+@font-face {
+  font-family: GT-Alpina-Extended-Light;
+  src: asset_url("Extended/GT-Alpina-Extended-Light.woff2") format("woff");
+}
+
+@font-face {
   font-family: GT-Alpina-Extended-Bold;
   src: asset_url("Extended/GT-Alpina-Extended-Bold.woff2") format("woff");
 }
-
 
 ///Heldane
 
