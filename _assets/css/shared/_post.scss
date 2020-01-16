@@ -104,7 +104,7 @@ ul.post-list {
 
     b,
     strong {
-      font-family: GT-Alpina-Bold, FoundersGrotMono-Medium, $founders-bold, sans-serif;
+      font-family: FoundersGrotMono-Medium, $founders-bold, sans-serif;
       font-weight: 600;
       letter-spacing: 0.02rem;
     }
@@ -144,17 +144,18 @@ ul.post-list {
 
   p {
     @include type-normal(true);
-    font-family: GT-Alpina-Light, $alpina-regular, $font-stack-serif, serif;
+    font-family: $alpina-regular, $font-stack-serif, serif;
     color: $black;
     text-rendering: optimizeLegibility;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
 
     @media screen and (max-width: 600px) {
-      font-size: 1rem;
+      font-family: $alpina-light, $font-stack-serif, serif;
+      font-size: 1.1rem;
       line-height: 1.5rem;
 
       &:last-child {

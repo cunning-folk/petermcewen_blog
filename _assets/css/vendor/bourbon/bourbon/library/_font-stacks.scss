@@ -3,13 +3,19 @@
 //////Alpina Font Stacks
 
 $alpina-light: (
-  "GT-Alpina-Light"
+  "GT-Alpina-Light",
   "Georgia",
   serif,
 );
 
 $alpina-regular: (
-  "GT-Alpina-Regular"
+  "GT-Alpina-Regular",
+  "Georgia",
+  serif,
+);
+
+$alpina-medium: (
+  "GT-Alpina-Medium",
   "Georgia",
   serif,
 );
@@ -38,6 +44,31 @@ $alpina-regular: (
 @font-face {
   font-family: GT-Alpina-Bold;
   src: asset_url("Alpina/GT-Alpina-Bold.woff2") format("woff");
+}
+
+@font-face {
+  font-family: GT-Alpina-Thin-Italic;
+  src: asset_url("Alpina/GT-Alpina-Thin-Italic.woff2") format("woff");
+}
+
+@font-face {
+  font-family: GT-Alpina-Light-Italic;
+  src: asset_url("Alpina/GT-Alpina-Light-Italic.woff2") format("woff");
+}
+
+@font-face {
+  font-family: GT-Alpina-Regular-Italic;
+  src: asset_url("Alpina/GT-Alpina-Regular-Italic.woff2") format("woff");
+}
+
+@font-face {
+  font-family: GT-Alpina-Medium-Italic;
+  src: asset_url("Alpina/GT-Alpina-Medium-Italic.woff2") format("woff");
+}
+
+@font-face {
+  font-family: GT-Alpina-Bold-Italic;
+  src: asset_url("Alpina/GT-Alpina-Bold-Italic.woff2") format("woff");
 }
 
 //Alpina Typewriter
