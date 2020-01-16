@@ -147,14 +147,14 @@ ul.post-list {
     font-family: heldane-text--regular, $tiempos, $font-stack-serif, serif;
     color: $black;
     text-rendering: optimizeLegibility;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.5rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
 
     @media screen and (max-width: 600px) {
-      font-size: 1rem;
+      font-size: 1.1rem;
       line-height: 1.5rem;
 
       &:last-child {
