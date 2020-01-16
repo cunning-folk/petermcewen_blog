@@ -180,7 +180,7 @@ h4 a:hover {
 
 p {
   @include type-normal(true);
-  font-family: $alpina-light, serif;
+  font-family: $alpina-regular, serif;
   max-width: 38em;
   color: $black;
 
@@ -198,7 +198,7 @@ p {
   em,
   i {
     font-style: italic;
-    font-family: $tiempos-italic, sans-serif;
+    font-family: $alpina-regular-italic, $tiempos-italic, sans-serif;
     letter-spacing: -0.04em;
     -webkit-font-smoothing: subpixel-antialiased;
   }
@@ -206,13 +206,13 @@ p {
 
 b,
 strong {
-  font-family: $tiempos-bold, sans-serif;
+  font-family: $alpina-medium, $tiempos-bold, sans-serif;
   font-weight: 700;
   letter-spacing: 0.04rem;
 }
 
 em,
 i {
-  font-family: $tiempos-bold-italic;
+  font-family: $alpina-medium-italic, $tiempos-bold-italic;
   font-style: normal;
 }
