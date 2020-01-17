@@ -163,10 +163,9 @@ li {
 h4 {
   @include type-big;
   font-size: 1.8rem;
-  font-family: GT-Alpina-Fine-Regular-Italic, $founders-bold, $heldane-bold, FoundersGrot-Medium, $font-stack-serif-bold, sans-serif;
+  font-family: GT-Alpina-Fine-Regular-Italic, $heldane-bold, $font-stack-serif-bold, serif;
   font-weight: 400;
   letter-spacing: 0.02rem;
-  color: $black;
   display: inline;
   margin: 0;
   padding: 0;
@@ -182,7 +181,7 @@ p {
   @include type-normal(true);
   font-family: $alpina-regular, serif;
   max-width: 38em;
-  color: $black;
+  color: $darkgrey;
 
   @media screen and (max-width: 600px) {
     font-size: 17px;

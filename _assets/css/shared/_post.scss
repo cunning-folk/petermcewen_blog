@@ -29,7 +29,7 @@ ul.post-list {
   width: 100%;
   align-items: baseline;
   font-family: FoundersGrotMono-regular, $founders, sans-serif;
-  color: $black;
+  color: $blue;
   font-size: 0.8rem;
   margin: 2px 0 15px 0;
 }
@@ -64,10 +64,11 @@ ul.post-list {
   }
 
   .date {
-    font-family: $alpina-regular-italic, serif;
+    font-family: GT-Alpina-Medium-Italic, serif;
     font-size: 0.7rem;
     letter-spacing: 0.07rem;
     margin: 0 0 0 8px;
+    color: $darkgrey;
     text-transform: uppercase;
   }
 
@@ -145,7 +146,7 @@ ul.post-list {
 
   p {
     @include type-normal(true);
-    font-family: $alpina-regular, $font-stack-serif, serif;
+    font-family: GT-Alpina-Light, $alpina-regular, $font-stack-serif, serif;
     color: $black;
     text-rendering: optimizeLegibility;
     font-size: 1.1rem;
