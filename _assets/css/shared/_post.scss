@@ -16,6 +16,7 @@ ul.post-list {
 .post_title {
   display: flex;
   align-items: baseline;
+  margin: 0;
 }
 
 .post-list-header {
@@ -30,7 +31,7 @@ ul.post-list {
   font-family: FoundersGrotMono-regular, $founders, sans-serif;
   color: $black;
   font-size: 0.8rem;
-  margin: 5px 0 15px 0;
+  margin: 2px 0 15px 0;
 }
 
 .post {
@@ -44,7 +45,7 @@ ul.post-list {
     font-weight: 400;
     letter-spacing: 0.07rem;
     text-rendering: optimizeLegibility;
-    margin: 10px 0 15px 0;
+    margin: 5px 0 5px 0;
     -webkit-font-smoothing: subpixel-antialiased;
     font-feature-settings: "kern" 1, "liga" 1;
 
@@ -66,7 +67,7 @@ ul.post-list {
     font-family: $alpina-regular-italic, serif;
     font-size: 0.7rem;
     letter-spacing: 0.07rem;
-    margin-left: 5px;
+    margin: 0 0 0 8px;
     text-transform: uppercase;
   }
 
