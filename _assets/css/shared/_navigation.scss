@@ -112,9 +112,9 @@
   cursor: default;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+@media only screen and (max-width: 600px) {
   .footer {
-    min-height: calc(20% - 10px);
+    min-height: calc(9% - 10px);
   }
 
   .nav ul {
