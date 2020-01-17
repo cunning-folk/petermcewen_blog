@@ -114,13 +114,17 @@
 
 @media only screen and (max-width: 600px) {
   .footer {
-    min-height: calc(9% - 10px);
+    margin-bottom: 0;
+  }
+
+  .nav {
+    margin-bottom: 30px;
   }
 
   .nav ul {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
     text-align: center;
   }
