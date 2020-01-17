@@ -40,7 +40,7 @@ ul.post-list {
 
   h1 {
     @include type-big(true);
-    font-family: $founders-bold, heldane-display--medium, $founders, sans-serif;
+    font-family: $founders-bold, heldane-display--medium, sans-serif;
     font-weight: 400;
     letter-spacing: 0.07rem;
     text-rendering: optimizeLegibility;
@@ -63,7 +63,7 @@ ul.post-list {
   }
 
   .date {
-    font-family: $alpina-regular-italic, $tiempos-italic, serif;
+    font-family: $alpina-regular-italic, serif;
     font-size: 0.7rem;
     letter-spacing: 0.07rem;
     margin-left: 5px;
@@ -119,7 +119,7 @@ ul.post-list {
     display: flex;
     justify-content: flex-end;
     font-size: 0.8rem;
-    font-family: $alpina-medium, $tiempos-bold, $font-stack-serif-bold, sans-serif;
+    font-family: $alpina-medium, $font-stack-serif-bold, sans-serif;
     color: $black;
     margin-top: 5px;
   }
@@ -127,13 +127,13 @@ ul.post-list {
   figcaption p {
     font-size: 0.8rem;
     letter-spacing: 0.05rem;
-    font-family: $alpina-medium, $tiempos-bold, $font-stack-serif-bold, sans-serif;
+    font-family: $alpina-medium, $font-stack-serif-bold, sans-serif;
     color: $black;
     margin-top: 10px;
   }
 
   figcaption p a {
-    font-family: $alpina-medium, $tiempos-bold-italic, $heldane-bold-italic, $font-stack-serif-italic-bold, serif;
+    font-family: $alpina-medium, $font-stack-serif-italic-bold, serif;
     font-size: 0.8rem;
     font-style: italic;
     letter-spacing: 0.04rem;
