@@ -10,7 +10,7 @@
   .bunny {
     width: 6%;
 
-    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: portrait) {
+    @media screen and (max-width: 600px) {
       width: 14%;
     }
   }
@@ -35,7 +35,7 @@
   align-items: stretch;
   margin: 0 10px 0 10px;
 
-  @media only screen and (max-width: 600px) {
+  @media screen and (max-width: 540px) {
     margin: 0;
     width: 70px;
   }
