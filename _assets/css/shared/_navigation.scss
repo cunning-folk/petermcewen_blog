@@ -10,14 +10,14 @@
   .bunny {
     width: 6%;
 
-    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (orientation: portrait) {
+    @media only screen and (max-width: 600px) {
       width: 14%;
     }
   }
 }
 
 .nav_top ul {
-  font-family: FoundersGrot-Regular, $founders, sans-serif;
+  font-family: FoundersGrot-Medium, $founders, sans-serif;
   padding: 8px 0 0;
   margin: 0;
   list-style: none;
