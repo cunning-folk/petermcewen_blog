@@ -1,0 +1,50 @@
+.subscribe h1 {
+  font-family: GT-Alpina-Typewriter-Medium-Italic, sans-serif;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+.subscribe p {
+  @include type-normal(true);
+  font-family: FoundersGrotText-Regular, $founders, sans-serif;
+  color: $black;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  text-rendering: optimizeLegibility;
+
+  @media screen and (max-width: 600px) {
+    font-size: 1rem;
+    line-height: 1.3rem;
+
+    &:last-child {
+      margin-bottom: 0;
+      -webkit-font-smoothing: subpixel-antialiased;
+    }
+  }
+
+  b,
+  strong {
+    font-family: $founders-bold;
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+  }
+
+  em,
+  i {
+    font-family: $founders-italic;
+    font-style: normal;
+    letter-spacing: 0.02rem;
+  }
+
+  b i,
+  em strong,
+  i b,
+  strong em {
+    font-family: $founders-italic-bold;
+    font-style: normal;
+    letter-spacing: 0.04rem;
+  }
+}

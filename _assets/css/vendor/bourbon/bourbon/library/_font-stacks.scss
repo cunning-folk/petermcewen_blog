@@ -166,6 +166,11 @@ $alpina-medium-italic: (
 }
 
 @font-face {
+  font-family: GT-Alpina-Typewriter-Medium-Italic;
+  src: asset_url("Typewriter/GT-Alpina-Typewriter-Medium-Italic.woff2") format("woff");
+}
+
+@font-face {
   font-family: GT-Alpina-Typewriter-Bold;
   src: asset_url("Typewriter/GT-Alpina-Typewriter-Bold.woff2") format("woff");
 }

@@ -1,5 +1,4 @@
-
-**Find Your Mind**
+# A newsletter about finding your mind 
 
 Peter is a design director and [editorial photographer](https://petermcewen.photos) who constructs design systems and brand identity work. Peter also teaches product design and brand design at [ATLAS Institute at the University of Colorado Boulder](https://www.colorado.edu/atlas/projects).
 
