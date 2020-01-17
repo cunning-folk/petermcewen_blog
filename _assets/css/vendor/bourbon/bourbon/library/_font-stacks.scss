@@ -38,7 +38,7 @@ $alpina-medium-italic: (
   serif,
 );
 
-///Alipina
+///Alpina
 @font-face {
   font-family: GT-Alpina-Thin;
   src: asset_url("Alpina/GT-Alpina-Thin.woff2") format("woff");
@@ -87,6 +87,30 @@ $alpina-medium-italic: (
 @font-face {
   font-family: GT-Alpina-Bold-Italic;
   src: asset_url("Alpina/GT-Alpina-Bold-Italic.woff2") format("woff");
+}
+
+///Alpina Extended
+
+@font-face {
+  font-family: GT-Alpina-Extended-Regular-Italic;
+  src: asset_url("Extended/GT-Alpina-Extended-Regular-Italic.woff2") format("woff");
+}
+
+///Alpina-light
+
+@font-face {
+  font-family: GT-Alpina-Fine-Regular;
+  src: asset_url("Fine/GT-Alpina-Fine-Regular.woff2") format("woff");
+}
+
+@font-face {
+  font-family: GT-Alpina-Fine-Regular-Italic;
+  src: asset_url("Fine/GT-Alpina-Fine-Regular-Italic.woff2") format("woff");
+}
+
+@font-face {
+  font-family: GT-Alpina-Fine-Light-Italic;
+  src: asset_url("Fine/GT-Alpina-Fine-Light-Italic.woff2") format("woff");
 }
 
 //Alpina Typewriter
