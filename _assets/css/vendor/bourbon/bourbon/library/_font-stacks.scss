@@ -21,7 +21,7 @@ $alpina-medium: (
 );
 
 $alpina-light-italic: (
-  "GT-Alpina-Light-Italic-Italic",
+  "GT-Alpina-Light-Italic",
   "Georgia",
   serif,
 );
@@ -97,7 +97,6 @@ $alpina-medium-italic: (
 }
 
 ///Alpina-Fine
-
 
 @font-face {
   font-family: GT-Alpina-Fine-Light-Italic;
@@ -199,6 +198,7 @@ $alpina-medium-italic: (
 }
 
 /// FOUNDERS MONO
+
 @font-face {
   font-family: FoundersGrotMono-Regular;
   src: asset_url("Founders-Mono/FoundersGrotMono-Regular.woff") format("woff");
@@ -213,6 +213,29 @@ $alpina-medium-italic: (
   font-family: FoundersGrotMono-Bold;
   src: asset_url("Founders-Mono/FoundersGrotMono-Bold.woff") format("woff");
 }
+
+///Founders MONO
+
+$founders-mono: (
+  "FoundersGrotMono-Regular",
+  "Helvetica Neue",
+  "Helvetica",
+  sans-serif,
+);
+
+$founders-mono-medium: (
+  "FoundersGrotMono-Medium",
+  "Helvetica Neue",
+  "Helvetica",
+  sans-serif,
+);
+
+$founders-mono-bold: (
+  "FoundersGrotMono-Bold",
+  "Helvetica Neue",
+  "Helvetica",
+  sans-serif,
+);
 
 ////Founders Text
 
@@ -308,28 +331,6 @@ $alpina-medium-italic: (
   src: asset_url("GT-Super/GT-Super-Display-Light.woff") format("woff");
 }
 
-////GT-Super-Text
-
-@font-face {
-  font-family: GT-Super-Text-Book;
-  src: asset_url("GT-Super/GT-Super-Text-Book.woff") format("woff");
-}
-
-@font-face {
-  font-family: GT-Super-Text-Book-Italic;
-  src: asset_url("GT-Super/GT-Super-Text-Book-Italic.woff") format("woff");
-}
-
-@font-face {
-  font-family: GT-Super-Display-Medium;
-  src: asset_url("GT-Super/GT-Super-Display-Medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: GT-Super-Display-Medium-Italic;
-  src: asset_url("GT-Super/GT-Super-Display-Medium-Italic.woff") format("woff");
-}
-
 ////Tiempos
 
 @font-face {
@@ -416,28 +417,6 @@ $heldane-bold-italic: (
   serif,
 );
 
-///Founders MONO
-
-$founders-mono: (
-  "FoundersGrotMono-Regular",
-  "Helvetica Neue",
-  "Helvetica",
-  sans-serif,
-);
-
-$founders-mono-medium: (
-  "FoundersGrotMono-Medium",
-  "Helvetica Neue",
-  "Helvetica",
-  sans-serif,
-);
-
-$founders-mono-bold: (
-  "FoundersGrotMono-Bold",
-  "Helvetica Neue",
-  "Helvetica",
-  sans-serif,
-);
 //////Font Stacks Founders
 
 $founders: (

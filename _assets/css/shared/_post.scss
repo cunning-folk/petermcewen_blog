@@ -146,7 +146,7 @@ ul.post-list {
 
   p {
     @include type-normal(true);
-    font-family: GT-Alpina-Light, $alpina-regular, $font-stack-serif, serif;
+    font-family: $alpina-regular, $font-stack-serif, serif;
     color: $black;
     text-rendering: optimizeLegibility;
     font-size: 1.1rem;
@@ -155,9 +155,9 @@ ul.post-list {
     hyphens: auto;
 
     @media screen and (max-width: 600px) {
-      font-family: $alpina-regular, $font-stack-serif, serif;
-      font-size: 1.1rem;
-      line-height: 1.5rem;
+      font-family: $alpina-light, $alpina-regular, $font-stack-serif, serif;
+      font-size: 1.2rem;
+      line-height: 1.6rem;
 
       &:last-child {
         margin-bottom: 0;

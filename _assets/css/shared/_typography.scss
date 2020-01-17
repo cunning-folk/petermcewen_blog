@@ -179,7 +179,7 @@ h4 a:hover {
 
 p {
   @include type-normal(true);
-  font-family: $alpina-regular, serif;
+  font-family: $alpina-light, $alpina-regular, serif;
   max-width: 38em;
   color: $darkgrey;
 
