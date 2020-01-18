@@ -1,7 +1,11 @@
 .subscribe h1 {
-  font-family: GT-Alpina-Typewriter-Medium-Italic, sans-serif;
-  font-size: 3rem;
-  line-height: 3.5rem;
+  font-family: GT-GT-Alpina-Bold-Italic, GT-Alpina-Typewriter-Medium-Italic, sans-serif;
+  font-size: 3.8rem;
+  line-height: 5rem;
+  color: $red;
+  text-align: center;
+  padding: 0 20px 0 20px;
+  letter-spacing: 0.3rem;
 }
 
 .subscribe p {
