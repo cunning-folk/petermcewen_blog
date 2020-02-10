@@ -215,3 +215,20 @@ i {
   font-family: $alpina-medium-italic, $tiempos-bold-italic;
   font-style: normal;
 }
+
+.form-description p {
+  font-family: FoundersGrotMono-regular, $founders, sans-serif;
+  font-size: 0.8rem;
+  padding: 10px 10px 10px 10px;
+  margin: 0 0 0 0;
+  text-align: center;
+
+  b,
+  strong {
+    font-family: FoundersGrotMono-Medium, $founders, sans-serif;
+    font-size: 0.8rem;
+    color: $red;
+    letter-spacing: 0.05rem;
+    font-weight: 600;
+  }
+}
