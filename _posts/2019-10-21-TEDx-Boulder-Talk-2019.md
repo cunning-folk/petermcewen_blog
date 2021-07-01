@@ -22,7 +22,7 @@ Meditation isn’t just a series of uncomfortable silences that later yield to e
 <blockquote>
     <p>When we look, we find that making the world non-threatening is not a sustainable strategy. Working with our mind is the more sustainable option. The relationship we have with our mind is challenging one. But it is the relationship.</p>
   </blockquote>
-  <figcaption><p>Peter McEwen<em><a href="hhttps://www.ted.com/talks/peter_mcewen_stop_meditating_and_start_being_present">Stop Meditating and Start Being Present</a></em></p></figcaption>
+  <figcaption><p>Peter McEwen <em><a href="hhttps://www.ted.com/talks/peter_mcewen_stop_meditating_and_start_being_present">Stop Meditating and Start Being Present</a></em></p></figcaption>
 </figure>
 
 When we look, we find that making the world non-threatening is not a sustainable strategy. Working with our mind is the more sustainable option. The relationship we have with our mind is challenging one. But it is *the* relationship. 
