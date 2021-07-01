@@ -7,11 +7,15 @@ tags: [Meditation]
 excerpt_separator: <!--more-->
 ---
 
-I possess knowledge of the ultimate productivity hack. I know, that’s a grand statement.
+I know this is a grand statement, but I possess knowledge of the ultimate productivity hack.
 
-Well, here goes: Return to the sensation level of your experience.<!--more-->
+Here goes: _Return to the sensation level of your embodied experience._<!--more-->
 
-That’s it. Over and over, turn your attention to the sensations in your body. Particularly the lively sensations in the abdomen and the throb of the vascular system. Since thinking mind is fluid and elastic, using it as a focal point for attention is unnecessarily challenging. Awareness of bodily sensation seems to be the most reliable location for our attention to return to.
+That’s it.
+
+Over and over, turn your attention to the sensations in your body. Particularly the lively sensations in the abdomen and the throb of the vascular system.
+
+Since thinking mind is fluid and elastic, using it as a focal point for attention is a real challenge! Awareness of bodily sensation however, might be the most reliable location for our attention.
 
 Human awareness is the wellspring of creativity and emotional balance. Creativity arises from mystery and seems to return to that same mysterious place. Whether we are enjoying inner peace or the survival-level triggering of the limbic system—awareness is always operating and our body is pulsing with energy.
 
