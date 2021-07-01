@@ -3,7 +3,7 @@ layout: post
 author: Peter McEwen
 title: Sensational Productivity
 css_hook: post
-tags: [Meditation]
+tags: [Productivity]
 excerpt_separator: <!--more-->
 ---
 
