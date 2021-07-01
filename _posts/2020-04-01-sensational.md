@@ -7,13 +7,9 @@ tags: [Meditation]
 excerpt_separator: <!--more-->
 ---
 
-I possess knowledge of the ultimate productivity hack.
+I possess knowledge of the ultimate productivity hack. I know, that’s a grand statement.
 
-I know, that’s a grand statement.
-
-Well, here goes:
-
-Return to the sensation level of your experience.
+Well, here goes: Return to the sensation level of your experience.<!--more-->
 
 That’s it. Over and over, turn your attention to the sensations in your body. Particularly the lively sensations in the abdomen and the throb of the vascular system. Since thinking mind is fluid and elastic, using it as a focal point for attention is unnecessarily challenging. Awareness of bodily sensation seems to be the most reliable location for our attention to return to.
 
