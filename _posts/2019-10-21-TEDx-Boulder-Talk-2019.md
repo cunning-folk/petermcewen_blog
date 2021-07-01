@@ -81,15 +81,30 @@ And as we all know, our attention has become equivalent to dollar signs. The mor
 
 _An effort to enjoy._
 
+<figure>
+  <img src="{% asset ted_slides/11.jpeg @path %}" alt="my alt text"/>
+  <figcaption>Don't ya hate that?</figcaption>
+</figure>
+
 There seems to be something fundamentally incompatible about this formula - are we doing nothing or are we creating new cultural vistas? The answer is not black and white. The answer, like everything on our planet, is complex.
 
 The ad world eschews complexity in deference to reaching a broad audience. I think the ad world defines meditation as preventative medicine. I think a more accurate framing is that it is a practice that aides in our recovery and restoration.
+
+<figure>
+  <img src="{% asset ted_slides/12.jpeg @path %}" alt="my alt text"/>
+  <figcaption>Don't ya hate that?</figcaption>
+</figure>
 
 The question is: what is it we are recovering to?
 
 **We recover to full participation in our immediate experience.**
 
 We recover to participation in what is already happening. We might discover that this field of present experience is a source of healing, problem solving, and kindness.
+
+<figure>
+  <img src="{% asset ted_slides/13.jpeg @path %}" alt="my alt text"/>
+  <figcaption>Don't ya hate that?</figcaption>
+</figure>
 
 <!--more-->
 
@@ -100,6 +115,11 @@ In fact, planetary health is demanding this effort to engage compassionately.
 This mind renders as unconstructed experience. Devoid of location. The mind’s sparkling and vivid refractions are juxtaposed onto our lives.
 
 We may find that it is not the world we’re afraid of, our own mind is the source of the scaries.
+
+<figure>
+  <img src="{% asset ted_slides/15.jpeg @path %}" alt="my alt text"/>
+  <figcaption>Don't ya hate that?</figcaption>
+</figure>
 
 Even so, this moment is 100% fresh. Even our resistance can only be experienced in a fresh moment. The fresh moment provides *precision*.
 
@@ -122,9 +142,19 @@ From this vantage point, tolerating uncertainty and intensity can be construed a
   <figcaption><p>Fred Smeijers, <em><a href="http://typographica.org/on-typography/variable-fonts">Variable Fonts: the Future of (Web) Type</a></em>, pp.43</p></figcaption>
 </figure>
 
+<figure>
+  <img src="{% asset ted_slides/18.jpeg @path %}" alt="my alt text"/>
+  <figcaption>Don't ya hate that?</figcaption>
+</figure>
+
 t takes real fierceness to move against the tide of survival-level threat we often experience. We must challenge fear and panic by staying embodied and asking ourselves, ‘Is there a real threat in this moment?.’ To cultivate this attentional superpower, it is essential to understand that this effort goes against our biological makeups much of the time. Our mammalian biological organization is not going anywhere. Fear and anxiety have been on this planet far longer than humans. We can’t transcend our biology, but we can integrate it with our human capabilities.
 
 This is the royal practice of integration, of integrating the animal and the imaginal.
+
+<figure>
+  <img src="{% asset ted_slides/21.jpeg @path %}" alt="my alt text"/>
+  <figcaption>Don't ya hate that?</figcaption>
+</figure>
 
 Final critique… Often meditators appropriate cultural habits at the expense of being present.
 
@@ -140,6 +170,11 @@ On the positive side, working with your mind gives you the confidence to fully p
 
 Meditation supports the confidence that our lives are workable, that emotion is workable, and the recognition that anxious feelings arise in myriad forms whether there is a ‘real’ threat, or not.
 
+<figure>
+  <img src="{% asset ted_slides/25.jpeg @path %}" alt="my alt text"/>
+  <figcaption>Don't ya hate that?</figcaption>
+</figure>
+
 At the very least, meditation reveals that we may have conflicting feelings about dissolving chronic patterns of unhappiness and struggle. **We may start to see our problems as a form of entertainment.**
 
 Viewed through the vantage point of freshness, we are presented with a choice. We can choose to indulge survival-level drama, or note that there is no immediate threat.
@@ -147,6 +182,11 @@ Viewed through the vantage point of freshness, we are presented with a choice. W
 Why meditate? Because awakening out of a trance is an incredible attainment.
 
 If something feels like it is missing, maybe what is really missing is full participation in your experience.
+
+<figure>
+  <img src="{% asset ted_slides/24.jpeg @path %}" alt="my alt text"/>
+  <figcaption>Don't ya hate that?</figcaption>
+</figure>
 
 Maybe the fantasies of peace and the cessation of anxiety that marketers shill are what fuel our feeling of deficit.
 
@@ -159,3 +199,8 @@ It is something we can notice right here, right now.
 Use your anxiousness, your fear, your self-critique as a prompt to remember the freshness of experience.
 
 Catch yourself in the act of using a meditation formula and instead simply _return to the present moment_.
+
+<figure>
+  <img src="{% asset ted_slides/26.jpeg @path %}" alt="my alt text"/>
+  <figcaption>Don't ya hate that?</figcaption>
+</figure>
