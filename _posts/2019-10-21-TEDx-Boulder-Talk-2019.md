@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Peter McEwen
-title: Stop Meditating. Be Present. 
+title: Stop Meditating. Be Present.
 css_hook: post
 tags: [Meditation]
 excerpt_separator: <!--more-->
@@ -12,7 +12,7 @@ Ok. This really is a talk about uncomfortable silences. I’ve been subjecting m
 Sitting without idly consuming is a creative moment. It is a moment I take a break from other people’s noise - a space where I can hear my own voice and yield to the fulfillment my human capacities.
 
 <figure>
-  <img src="{% asset ted_slides/TEDx-Deck.003.jpeg @path %}" alt="my alt text"/>
+  <img src="{% asset ted_slides/1.jpeg @path %}" alt="my alt text"/>
   <figcaption>Don't ya hate that?</figcaption>
 </figure>
 
@@ -22,7 +22,7 @@ Meditation isn’t just a series of uncomfortable silences that later yield to e
 <blockquote>
     <p>When we look, we find that making the world non-threatening is not a sustainable strategy. Working with our mind is the more sustainable option. The relationship we have with our mind is challenging one. But it is the relationship.</p>
   </blockquote>
-  <figcaption><p>Fred Smeijers, <em><a href="http://typographica.org/on-typography/variable-fonts">Variable Fonts: the Future of (Web) Type</a></em>, pp.43</p></figcaption>
+  <figcaption><p>Peter McEwen<em><a href="hhttps://www.ted.com/talks/peter_mcewen_stop_meditating_and_start_being_present">Stop Meditating and Start Being Present</a></em></p></figcaption>
 </figure>
 
 When we look, we find that making the world non-threatening is not a sustainable strategy. Working with our mind is the more sustainable option. The relationship we have with our mind is challenging one. But it is *the* relationship. 
