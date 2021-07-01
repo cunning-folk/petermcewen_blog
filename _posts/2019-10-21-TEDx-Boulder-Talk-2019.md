@@ -139,7 +139,7 @@ From this vantage point, tolerating uncertainty and intensity can be construed a
 <blockquote>
     <p>It takes real fierceness to move against the tide of survival-level threat we often experience. We can challenge fear and panic by staying embodied and asking ourselves, ‘Is there a real threat in this moment?’</p>
   </blockquote>
-  <figcaption><p>Fred Smeijers, <em><a href="http://typographica.org/on-typography/variable-fonts">Variable Fonts: the Future of (Web) Type</a></em>, pp.43</p></figcaption>
+  <figcaption><p>Peter McEwen <em><a href="hhttps://www.ted.com/talks/peter_mcewen_stop_meditating_and_start_being_present">Stop Meditating and Start Being Present</a></em></p></figcaption>
 </figure>
 
 <figure>
