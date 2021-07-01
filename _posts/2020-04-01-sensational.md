@@ -3,9 +3,10 @@ layout: post
 author: Peter McEwen
 title: Sensational Productivity
 css_hook: post
-tags: [Productivity]
+tags: [Meditation]
 excerpt_separator: <!--more-->
 ---
+
 I possess knowledge of the ultimate productivity hack.
 
 I know, that’s a grand statement.
