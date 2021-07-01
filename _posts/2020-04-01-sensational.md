@@ -13,13 +13,20 @@ Here goes: _Return to the sensation level of your embodied experience._<!--more-
 
 That’s it.
 
-Over and over, turn your attention to the sensations in your body. Particularly the lively sensations in the abdomen and the throb of the vascular system.
+Over and over, turn your attention to the sensations in your body. Attune to the lively sensations in the abdomen and the throb of the vascular system.
 
-Since thinking mind is fluid and elastic, using it as a focal point for attention is a real challenge! Awareness of bodily sensation however, might be the most reliable location for our attention.
+The human thinking mind is fluid and elastic so using it as a focal point to rest attention can be a real challenge! Awareness of bodily sensation, however, might be the most reliable location for attention.
 
-Human awareness is the wellspring of creativity and emotional balance. Creativity arises from mystery and seems to return to that same mysterious place. Whether we are enjoying inner peace or the survival-level triggering of the limbic system—awareness is always operating and our body is pulsing with energy.
+Human awareness is the wellspring of creativity and emotional balance. Creativity arises from mystery and seems to return to that same mysterious place. Whether we are enjoying inner peace or the survival-level triggering of the limbic system, awareness is always operating and our body is always pulsing with energy.
 
-When we focus awareness at the sensation level of our experience, there is no evidence of a problem. Sensations are not interpretations. Sensation is the direct cognition of the dynamic field of life energy. Returning to physical sensation may initially feel awkward since we are more intuitively drawn to the field of mental impressions. However, using counter-instinctual practices will offset the instinct that got us procrastinating in the first place!
+When we focus awareness at the sensation level of our experience, there is no evidence of a problem. Sensations offer no interpretations nor do our sensations offer an evaluation of our personal worth. Sensation is the direct experience of the dynamic field of life energy.
+
+Returning to physical sensation may initially feel awkward. Typically we are more intuitively drawn to the field of our fleeting mental impressions.Those beautiful phantasms that offer quick interpretations of complex phenomena. Thinking and fantasy can offer amazing solutions in some contexts but more often they provide generic and survival-level feedback that promotes preserving our limits and grounding our mission in a linguistic framework.
+
+One of the shortcomings of internal verbal and visual explorations is that they can distract us from the task at hand. If the thinking issues forth a red flag that danger is about, then we can get consumed by identity dramas or meandering efforts to escape from vaporous spasms of anxiousness.
+
+counter-instinctual practices will offset the instinct that got us procrastinat
+ing in the first place!
 
 Human beings are host to contradictory feelings about almost everything. When we feel distracted or unproductive, we immediately become aggressive toward that impression. We then concretize our distaste for our human frailties via convenient explanations. Narratives that seem to accurately account for why we feel the way we do. By the time we reach adulthood, we employ a spectrum of stories and habits that distract us from the personal disturbance of being a human being.
 
