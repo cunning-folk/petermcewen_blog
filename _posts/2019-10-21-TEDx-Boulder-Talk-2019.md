@@ -29,23 +29,53 @@ When we look, we find that making the world non-threatening is not a sustainable
 
 We can feel that the support of gravity working well. Autumn has spontaneously arrived. Plenty of oxygen to breathe. You don’t have to do anything to deserve any of that support. It’s already present. Relax into the reality that you’re already being supported. Feeling supported opens up an opportunity to notice **freshness**.
 
+<figure>
+  <img src="{% asset ted_slides/2.jpeg @path %}" alt="my alt text"/>
+  <figcaption>Don't ya hate that?</figcaption>
+</figure>
+
 **_Freshness_** — I think, what we are looking for in our lives. By freshness, I mean the direct experience of our life energy.
 
 Compared to promises that pop culture meditation makes, just the simple practice of being aware, discomfort and all, is a hard sell.
 
 People spend a lot of time and money to dissociate, and for good reason. Historically speaking, life on this planet has been a disturbing trial for most organisms.
 
+<figure>
+  <img src="{% asset ted_slides/5.jpeg @path %}" alt="my alt text"/>
+  <figcaption>Don't ya hate that?</figcaption>
+</figure>
+
 Many people already have their minds made up that something is inherently missing and needs fixing.
 
 The notion that humans are inherently broken is a formula supported by marketing spin. There is something wrong with us, we can fix it, and then we will have a special credential.
 
+<figure>
+  <img src="{% asset ted_slides/3.jpeg @path %}" alt="my alt text"/>
+  <figcaption>Don't ya hate that?</figcaption>
+</figure>
+
 This formula results in the adoption of a fantasy of invulnerability.
 
+<figure>
+  <img src="{% asset ted_slides/8.jpeg @path %}" alt="my alt text"/>
+  <figcaption>Don't ya hate that?</figcaption>
+</figure>
+
 We want to live our best life, but who is telling us that? Who tells us how to do that? There seems to be a vacuum in how the west culturally frames meditation – a vacuum that marketers and app companies are happy to fill. 
+
+<figure>
+  <img src="{% asset ted_slides/6.jpeg @path %}" alt="my alt text"/>
+  <figcaption>Don't ya hate that?</figcaption>
+</figure>
 
 The accompanying marketing message often preys on our deep feelings of deficit. **Pop culture’s advertising messages helps us find evidence of our shortcomings.**
 
 And as we all know, our attention has become equivalent to dollar signs. The more primitive the messaging, the more compelling the message feels. Sometimes we see hundreds of targeted ads in one browsing session. These are rough waters for an organism that has a brain that is shaped by language.
+
+<figure>
+  <img src="{% asset ted_slides/10.jpeg @path %}" alt="my alt text"/>
+  <figcaption>Don't ya hate that?</figcaption>
+</figure>
 
 ‘Doing nothing’ augmented with capitalism’s admonition to ‘be happy’ presents a very interesting cocktail: **doing nothing turns into a pursuit.** 
 
