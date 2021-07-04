@@ -153,6 +153,7 @@ ul.post-list {
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
+    letter-spacing: 0.03rem;
 
     @media screen and (max-width: 600px) {
       font-family: $alpina-light, $font-stack-serif, serif;
