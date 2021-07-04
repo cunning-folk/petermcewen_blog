@@ -31,7 +31,7 @@ We can feel that the support of gravity working well. Autumn has spontaneously a
 
 <figure>
   <img src="{% asset ted_slides/2.jpeg @path %}" alt="my alt text"/>
-  <figcaption>Don't ya hate that?</figcaption>
+  <figcaption>Gimme Freshness</figcaption>
 </figure>
 
 **_Freshness_** — I think, what we are looking for in our lives. By freshness, I mean the direct experience of our life energy.
@@ -42,7 +42,7 @@ People spend a lot of time and money to dissociate, and for good reason. Histori
 
 <figure>
   <img src="{% asset ted_slides/5.jpeg @path %}" alt="my alt text"/>
-  <figcaption>Don't ya hate that?</figcaption>
+  <figcaption>Life has been a rough journey on Planet Earth</figcaption>
 </figure>
 
 Many people already have their minds made up that something is inherently missing and needs fixing.
@@ -51,21 +51,21 @@ The notion that humans are inherently broken is a formula supported by marketing
 
 <figure>
   <img src="{% asset ted_slides/3.jpeg @path %}" alt="my alt text"/>
-  <figcaption>Don't ya hate that?</figcaption>
+  <figcaption>Pop culture and meditation form an unholy alliance.</figcaption>
 </figure>
 
 This formula results in the adoption of a fantasy of invulnerability.
 
 <figure>
   <img src="{% asset ted_slides/8.jpeg @path %}" alt="my alt text"/>
-  <figcaption>Don't ya hate that?</figcaption>
+  <figcaption>Live your best life, or else!</figcaption>
 </figure>
 
 We want to live our best life, but who is telling us that? Who tells us how to do that? There seems to be a vacuum in how the west culturally frames meditation – a vacuum that marketers and app companies are happy to fill. 
 
 <figure>
   <img src="{% asset ted_slides/6.jpeg @path %}" alt="my alt text"/>
-  <figcaption>Don't ya hate that?</figcaption>
+  <figcaption>Med cred.</figcaption>
 </figure>
 
 The accompanying marketing message often preys on our deep feelings of deficit. **Pop culture’s advertising messages helps us find evidence of our shortcomings.**
@@ -74,7 +74,7 @@ And as we all know, our attention has become equivalent to dollar signs. The mor
 
 <figure>
   <img src="{% asset ted_slides/10.jpeg @path %}" alt="my alt text"/>
-  <figcaption>Don't ya hate that?</figcaption>
+  <figcaption>A brain made of language.</figcaption>
 </figure>
 
 ‘Doing nothing’ augmented with capitalism’s admonition to ‘be happy’ presents a very interesting cocktail: **doing nothing turns into a pursuit.** 
@@ -83,7 +83,7 @@ _An effort to enjoy._
 
 <figure>
   <img src="{% asset ted_slides/11.jpeg @path %}" alt="my alt text"/>
-  <figcaption>Don't ya hate that?</figcaption>
+  <figcaption>Do nothing. Harder!</figcaption>
 </figure>
 
 There seems to be something fundamentally incompatible about this formula - are we doing nothing or are we creating new cultural vistas? The answer is not black and white. The answer, like everything on our planet, is complex.
@@ -92,7 +92,7 @@ The ad world eschews complexity in deference to reaching a broad audience. I thi
 
 <figure>
   <img src="{% asset ted_slides/12.jpeg @path %}" alt="my alt text"/>
-  <figcaption>Don't ya hate that?</figcaption>
+  <figcaption>We can metabolize disturbance.</figcaption>
 </figure>
 
 The question is: what is it we are recovering to?
@@ -103,7 +103,7 @@ We recover to participation in what is already happening. We might discover that
 
 <figure>
   <img src="{% asset ted_slides/13.jpeg @path %}" alt="my alt text"/>
-  <figcaption>Don't ya hate that?</figcaption>
+  <figcaption>Recover and restore to a natural state.</figcaption>
 </figure>
 
 <!--more-->
@@ -118,7 +118,7 @@ We may find that it is not the world we’re afraid of, our own mind is the sour
 
 <figure>
   <img src="{% asset ted_slides/15.jpeg @path %}" alt="my alt text"/>
-  <figcaption>Don't ya hate that?</figcaption>
+  <figcaption>Sometimes the real threat is our relationship to our mind.</figcaption>
 </figure>
 
 Even so, this moment is 100% fresh. Even our resistance can only be experienced in a fresh moment. The fresh moment provides *precision*.
@@ -144,7 +144,7 @@ From this vantage point, tolerating uncertainty and intensity can be construed a
 
 <figure>
   <img src="{% asset ted_slides/18.jpeg @path %}" alt="my alt text"/>
-  <figcaption>Don't ya hate that?</figcaption>
+  <figcaption>Tolerating and metabolizing intensity is a human superpower.</figcaption>
 </figure>
 
 t takes real fierceness to move against the tide of survival-level threat we often experience. We must challenge fear and panic by staying embodied and asking ourselves, ‘Is there a real threat in this moment?.’ To cultivate this attentional superpower, it is essential to understand that this effort goes against our biological makeups much of the time. Our mammalian biological organization is not going anywhere. Fear and anxiety have been on this planet far longer than humans. We can’t transcend our biology, but we can integrate it with our human capabilities.
@@ -153,7 +153,7 @@ This is the royal practice of integration, of integrating the animal and the ima
 
 <figure>
   <img src="{% asset ted_slides/21.jpeg @path %}" alt="my alt text"/>
-  <figcaption>Don't ya hate that?</figcaption>
+  <figcaption>Integrate the animal and the imaginal.</figcaption>
 </figure>
 
 Final critique… Often meditators appropriate cultural habits at the expense of being present.
@@ -172,7 +172,7 @@ Meditation supports the confidence that our lives are workable, that emotion is 
 
 <figure>
   <img src="{% asset ted_slides/25.jpeg @path %}" alt="my alt text"/>
-  <figcaption>Don't ya hate that?</figcaption>
+  <figcaption>Are problems a form of distraction and entertainment?</figcaption>
 </figure>
 
 At the very least, meditation reveals that we may have conflicting feelings about dissolving chronic patterns of unhappiness and struggle. **We may start to see our problems as a form of entertainment.**
@@ -185,7 +185,7 @@ If something feels like it is missing, maybe what is really missing is full part
 
 <figure>
   <img src="{% asset ted_slides/24.jpeg @path %}" alt="my alt text"/>
-  <figcaption>Don't ya hate that?</figcaption>
+  <figcaption>Confidence in our ability to fully participate in our immediate experience.</figcaption>
 </figure>
 
 Maybe the fantasies of peace and the cessation of anxiety that marketers shill are what fuel our feeling of deficit.
@@ -202,5 +202,5 @@ Catch yourself in the act of using a meditation formula and instead simply _retu
 
 <figure>
   <img src="{% asset ted_slides/26.jpeg @path %}" alt="my alt text"/>
-  <figcaption>Don't ya hate that?</figcaption>
+  <figcaption>Why meditate? Because awakening out of a trance is an incredible attainment.</figcaption>
 </figure>
